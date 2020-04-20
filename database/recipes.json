@@ -1,0 +1,340 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "category": "vegetarian",
+      "name": "Zupa grzybowa z suszonych grzybów",
+      "image": "",
+      "short-desc": "Kremowa i aromatyczna zupa z suszonych grzybów (borowików i/lub podgrzybków). Z dodatkiem warzyw oraz śmietanki. Dobra na każdą okazję, idealna na Święta. Swoją zupę podawałam z grzankami z chleba (aby zbyt szybko się nie namoczyły, należy je dobrze wysuszyć w piekarniku).",
+      "need": "suszone grzyby, bulion warzywny lub mięsny, olej roślinny, cebula, marchewka, ziemniani, tymianek, cząber, majeranek, natka pietruszki, śmietanka30%",
+      "long-desc": {
+        "prepare": "Suszone grzyby opłukać pod bieżącą chłodną wodą, włożyć do miski, zalać bulionem i odstawić na noc do namoczenia.\nDo większego garnka wlać oliwę i zeszklić pokrojoną w kosteczkę cebulę.\nNastępnie dodać obraną i startą na tarce marchewkę i podsmażać przez ok. 2 minuty.\nDodać obrane i pokrojone w kostkę ziemniaki oraz zioła. Mieszając co chwilę podsmażać przez minutę.\nWlać namoczone grzyby wraz z bulionem. Zagotować na dużym ogniu. Doprawić solą i pieprzem (ok. pół łyżeczki).\nPo zagotowaniu zmniejszyć ogień i gotować pod przykryciem przez ok. 20 minut (do miękkości składników).\nOdstawić z ognia i zmiksować z dodatkiem oderwanych listków natki pietruszki oraz śmietanki.\nZupę można zawekować (wlać gorącą do słoików) i po ostudzeniu przechować przez kilka dni w lodówce. Lub też od razu podawać z grzankami (chleb pokroić w małą kosteczkę, rozłożyć na blaszce i suszyć w piekarniku nagrzanym do 160 stopni C, aż będzie chrupiący). ",
+        "ingredients": "70 g grzybów suszonych (borowików i/lub podgrzybków)\n1,5 litra bulionu (np. grzybowy, warzywny, mięsny)\n1 łyżka oleju roślinnego\n1 cebula\n1 marchewka\n2 ziemniaki\nzioła: po 1 łyżeczce tymianku, cząbru i majeranku\npęczek natki pietruszki\n250 ml śmietanki 30%\ndo podania: grzaneczki z chleba"
+      }
+    },
+    {
+      "id": 2,
+      "category": "vegetarian",
+      "name": "Zupa boczniakowa z ciecieżycą",
+      "short-desc": "Na piątkowy obiad poleca się pyszna zupa z boczniaków, z cebulką i marchewką oraz pożywną i zdrową ciecierzycą. To dobry pomysł na użycie grzybów boczniaków. Jeśli polubiliście kiedyś prezentowane FLACZKI Z BOCZNIAKÓW, to musicie też spróbować tej zupy. Można ją zrobić w wersji wegańskiej używając bulionu warzywnego lub też jeśli wolimy mięsnego-warzywnego wywaru. ",
+      "need": "oliwa, cebula, czosenk, marchewska, boczniaki, majeranek, zioła prowansalskie, papryka słodka mielona, papryka ostra mielona, suszony imbir, gałka muszkatołowa, masło, ciecierzyca, bulion warzywny lub mięsny, przecier pomidorowy",
+      "long-desc": {
+        "prepare": "W szerokim garnku na 1 łyżce oliwy podsmażyć pokrojoną w kosteczkę cebulę. Dodać starty czosnek oraz obraną i startą na tarce marchewkę. Często mieszając podsmażać przez ok. 3 minuty.\nDodać opłukane i pokrojone na kawałeczki boczniaki (same kapelusze, bez nóżek) oraz przyprawy i masło. Mieszając smażyć przez ok. 5 minut. Dodać ciecierzycę (całą zawartość puszki) i mieszając smażyć przez minutę.\nWlać bulion i zagotować. Doprawić w razie potrzeby solą i pieprzem. Gotować przez ok. 15 minut. Na koniec dodać przecier pomidorowy i jeszcze przez minutę pogotować.",
+        "ingredients": "1 łyżka oliwy\n1/2 cebuli\n1 ząbek czosnku\n1 marchewka\n250 g boczniaków\npo 1 łyżeczce majeranku, ziół prowansalskich, papryki słodkiej\npo 1/3 łyżeczki ostrej papryki, suszonego imbiru i gałki muszkatołowej\n1 łyżka masła\n1 puszka ciecierzycy\n1 i 1/2 litra bulionu (mięsnego lub warzywnego)\n2/3 szklanki przecieru pomidorowego"
+      }
+    },
+    {
+      "id": 3,
+      "category": "vegetarian",
+      "name": "Zupa cebulowa z suszonymi grzybami",
+      "short-desc": "Idealna na jesień i zimę, rozgrzewająca i aromatyczna zupa cebulowa z dodatkiem suszonych grzybów. Podawana z grzankami z francuskiej bagietki zapieczonej z żółtym serem. Jako bazę do zupy można wykorzystać rosół lub bulion (drobiowy lub warzywny w razie konieczności). Zupę przygotujemy z ogólnie dostępnych składników.\n\n",
+      "need": "borowiki lub podgrzybki, cebula, masło, oliwa, tymianek, białe wino, buion warzywny lub mięsny",
+      "long-desc": {
+        "prepare": "Suszone grzyby zalać wrzątkiem i odstawić. Cebulę obrać, przekroić wzdłuż na pół i posiekać wzdłuż na piórka.\nW dużym i szerokim garnku roztopić masło z oliwą. Włożyć cebulę i smażyć na średnim ogniu przez ok. 25 minut, w międzyczasie często mieszając drewnianą łyżką, aż cebula będzie skarmelizowana (miękka i lekko brązowa). W trakcie smażenia dodać tymianek.\nZwiększyć ogień, wlać wino i zeskrobać z dna garnka drobne przyrumienienia. Gotować przez ok. 2 minuty, następnie dodać gorący bulion oraz namoczone grzyby wraz z wodą z moczenia i gotować na małym ogniu pod przykryciem przez ok. 25 minut (jeśli mamy, dodajemy też ugotowaną marchewkę z bulionu pokrojoną na plasterki). W trakcie gotowania doprawić solą i świeżo zmielonym czarnym pieprzem.\nZupę cebulową podawać z grzankami serowymi z bagietki (bagietkę pokroić na kromki, posypać tartym serem i zapiekać pod grillem w piekarniku do zrumienienia, ok. 3 min.) oraz natką pietruszki.",
+        "ingredients": "10 g suszonych borowików lub podgrzybków\n1 szklanka wrzątku\n500 g cebuli\n1,5 łyżki masła\n1,5 łyżki oliwy\n1/2 łyżeczki suszonego tymianku\n125 ml białego wytrawnego wina\n1 litr bulionu (drobiowy, warzywny, rosół)"
+      }
+    },
+    {
+      "id": 4,
+      "category": "vegetarian",
+      "name": "Curry wegetariańskie z batatami, kalafiorem i orzechami nerkowca",
+      "short-desc": "Roślinne curry z kalafiorem i batatami (słodkimi ziemniakami) oraz pomidorami. Świetnym uzupełnieniem będą orzechy nerkowca, nie tylko tylko jako dodatek smakowy ale i podnoszący wartości odżywcze dania (są bogate m.in. w białko). Do podania idealnie sprawdzi się ryż. ",
+      "need": "cebula, olej roślinny, czosnek, imbir, kumin, papryka ostra, kurkuma, kolendra, pomidory krojone, bataty, kalafior, mleczko kokosowe, orzechy nerkowca, ryż, kolendra",
+      "long-desc": {
+        "prepare": "Cebulę obrać, przekroić na pół, następnie pokroić na cienkie półplasterki. Rozgrzać olej w woku lub garnku, dodać cebulę i od czasu do czasu mieszając zeszklić ją, ok. 5 minut.\nDodać obrany i starty czosnek oraz obrany i starty imbir (bez włókien). Mieszając smażyć przez 1 minutę. Dodać przyprawy, wymieszać i chwilę razem podsmażać, aż uwolni się aromat.\nDodać pomidory oraz wodę i zagotować. W międzyczasie dodać obrane i pokrojone w kosteczkę bataty oraz doprawić solą oraz pieprzem. Po zagotowaniu gotować przez 30 minut bez przykrycia.\nPodzielić kalafiora na małe różyczki i dodać do potrawy. Wlać mleko kokosowe, wymieszać, przykryć pokrywą i gotować przez ok. 10 minut.\nW międzyczasie uprażyć orzechy na suchej patelni. Curry podawać z ryżem, orzechami i kolendrą.",
+        "ingredients": "1 średnia cebula\n1 łyżka oleju roślinnego\n2 ząbki czosnku\n3 cm kawałek imbiru\nprzyprawy: 2 łyżeczki mielonego kminu rzymskiego, 1 łyżeczka ostrej papryki, 2 łyżeczki kurkumy, 1 łyżeczka mielonej kolendry\n1 puszka krojonych pomidorów\n1 szklanka wody\n500 g batatów\n300 g kalafiora\n250 ml mleka kokosowego\n70 g orzechów nerkowca\nryż, ok. 100 g (1 torebka)\nświeża kolendra"
+      }
+    },
+    {
+      "id":5 ,
+      "category": "vegetarian",
+      "name": "Pasztet sojowy",
+      "short-desc": "To przepis dla tych, którzy uwielbiają warzywne pasty i pasztety. Dla tych, którzy kupują takie sojowe paszteciki, ale w końcu chcieliby przygotować swój, domowy. Zbliża się zima i święta, więc taki przepis na pewno się przyda :)\n\nSkładniki i przygotowanie są proste, natomiast jak zwykle w przypadku strączków, należy je dobę wcześniej namoczyć w wodzie, potem dokładnie ugotować. Z pozostałych dodatków do pasztetu użyłam marchewki, pietruszki, trochę pomidorów oraz aromatyczne przyprawy.",
+      "need": "soja, marchewka, pietruszka, czerstwa kajzerka, mało lub oliwa, sól, pieprz, majeranek, gałka muszkatołowa, kumin, imbir, koncentrat pomidorowy, jajka",
+      "long-desc": {
+        "prepare": "Na około 24 godziny przed pieczeniem pasztetu namoczyć soję: wsypać do garnka, zalać zimną wodą ok. 10 cm ponad poziom soi i odstawić do namoczenia.\nNastępnego dnia odcedzić, wlać nową wodę (w ilości ok. 5 cm ponad poziom soi) i zagotować. Zmniejszyć ogień i gotować pod przykryciem przez około 3 godziny do miękkości. Pod koniec posolić.\nPo tym czasie dodać do garnka obraną i startą na tarce o większych oczkach marchewkę oraz pietruszkę. Gotować jeszcze przez ok. 10 minut (tym razem już bez przykrycia aby pozbyć się reszty wody). Może pozostać kilka łyżek wywaru.\nOdstawić z ognia, dodać przyprawy i ostudzić bez przykrycia. Dodać połamaną bułkę i powciskać ją w środek soi. Odstawić do następnego dnia jeśli mamy czas lub kontynuować przygotowania po namoczeniu się bułki (ok. 20 minut) i całkowitym ostudzeniu składników.\nCałość zmielić w melakserze lub maszynce do mielenia, z dodatkiem masła lub oliwy oraz koncentratu pomidorowego. Masę doprawić solą i pieprzem.\nPod koniec zmiksować z żółtkami. Białka ubić na sztywno i dokładnie połączyć z masą.\nPrzełożyć do formy keksowej wyścielonej papierem do pieczenia. Piec bez przykrycia w piekarniku nagrzanym do 180 stopni C przez ok. 45 minut. Wyjąć, ostudzić, włożyć do lodówki na całą noc.",
+        "ingredients": "500 g suchej soi\n1 marchewka\n1 pietruszka\n1 bułka kajzerka (czerstwa)\n2 łyżki masła lub oliwy\nsól, pieprz, 1 łyżeczka majeranku, po 1/2 łyżeczki gałki muszkatołowej, kuminu (kminu rzymskiego) i imbiru\n1 łyżka koncentratu pomidorowego\n3 jajka"
+      }
+    },
+    {
+      "id":6 ,
+      "category": "vegetarian",
+      "name": " Naleśniki ruskie",
+      "short-desc": "Naleśniki z farszem jak do pierogów ruskich czy do kotletów ruskich :-) Pomysł ich przygotowania podsunęła mi Czytelniczka. Sama nigdy nie robiłam ich w domu, więc chętnie skorzystałam z takiej inspiracji. Naleśniki zwijamy jak krokiety, podsmażamy i podajemy np. ze smażoną cebulką i boczkiem oraz kleksem gęstej śmietany.",
+      "need": "naleśniki, ziemniaki, twaróg, cebula, sól, pieprz ziołowy lub czarny, masło lub olej roślinny",
+      "long-desc": {
+        "prepare": "Usmażyć NALEŚNIKI. Ziemniaki po ugotowaniu od razu rozgnieść dokładnie praską i ostudzić (można też użyć takich ziemniaków puree z poprzedniego dnia).\nTwaróg włożyć do miski i rozgnieść praską. Dodać ziemniaki, oraz zeszkloną na łyżce tłuszczu pokrojoną w kosteczkę cebulę. Doprawić solą, pieprzem ziołowym lub czarnym i wyrobić dłonią lub praską łącząc składniki w jednolitą masę.\nSmarować otrzymanym nadzieniem naleśniki i składać jak krokiety. Podsmażyć na tłuszczu i podawać np. z sosem grzybowym, pieczarkowym lub z podsmażonym boczkiem i gęstą śmietaną. Posypać natką pietruszki.",
+        "ingredients": "6 NALEŚNIKÓW\n250 g ugotowanych ziemniaków\n250 g twarogu\n1/2 cebuli\nsól, pieprz, pieprz ziołowy lub czarny mielony\nmasło lub olej roślinny"
+      }
+    },
+    {
+      "id":7 ,
+      "category": "vegetarian",
+      "name": "Sałatka z mango i avocado",
+      "short-desc": "Sałatka, która nie tylko smakuje ale i wygląda! Żywe kolory cieszą oko, aż chce się jeść :-) Zielone awokado, żółte mango i czerwony granat. Ułożone na rukoli, z kawałkami orzechów włoskich i serem z niebieską pleśnią (np. gorgonzolą czy roquefortem, ale można dać też camembert lub brie), polane prostym winegretem.\n\nProsto i pysznie, ale pamiętajmy, że - jak zawsze w kuchni - kluczowa jest dobra jakość składników, które używamy. Jeśli kupione mango i awokado będą dojrzałe w punkt, to cała sałatka będzie też naprawdę wyśmienita!\n\n",
+      "need": "rukola, mango, ser brie lub z niebieską pleśnią, orzechy włoskie, granat, oliwa, sok z cytryny, syrop klonowy",
+      "long-desc": {
+        "prepare": "Umytą i osuszoną rukolę ułożyć w salaterkach. Dodać obrane i pokrojone w kostkę mango, awokado oraz ser.\nDodać połamane orzechy włoskie i wyłuskane ziarna granatu. Wymieszać składniki sosu, doprawić odrobiną soli i świeżo zmielonym pieprzem. Polać po sałatce i podawać.",
+        "ingredients": "2 garście rukoli\n1 mango\n1 awokado\n100 g sera z niebieską pleśnią lub brie, camembert\n1/2 szklanki orzechów włoskich\n1/3 granatu\nsos: 2 łyżki oliwy z pierwszego tłoczenia, po 1 łyżeczce soku z cytryny i syropu klonowego"
+      }
+    },
+
+
+    {
+      "id":8 ,
+      "category": "fish",
+      "name": "Zupa z dorszem i kalafiorem",
+      "short-desc": "Lekka zupa z pysznymi i pożywnymi składnikami: dorszem i kalafiorem. Dobry wybór dla osób poszukujących dań fit. W sezonie letnim zamiast pomidorów z puszki można użyć świeżych (obranych, bez nasion).",
+      "need": "oliwa, masło, cebula, czosnek, bulion, kalafior, pomidory, filety z dorsza, garam masali lub ostra papryka, i kumin, słodka papryka, kurkuma, oregano",
+      "long-desc": {
+        "prepare": "W garnku na oliwie poddusić pokrojoną w kosteczkę cebulę i obrany ząbek czosnku (w całości). Do zeszklonej cebuli dodać masło oraz bulion, zagotować.\nDodać pokrojonego w kostkę kalafiora i gotować przez ok. 5 minut. Dodać zmiksowane obrane pomidory z puszki oraz przyprawy, doprawić solą i pieprzem. Gotować przez ok. 5 minut.\nDodać pokrojonego w kostkę dorsza i gotować na mniejszym ogniu przez ok. 3 minuty. Opcjonalnie można dodać posiekane listki bazylii oraz sos worcestershire.",
+        "ingredients": "1 łyżka oliwy\n1 łyżka masła\n1 cebula\n1 ząbek czosnku\n2 litry bulionu (lub wody z eko kostką)\n1/3 kalafiora\n1 puszka pomidorów*\nok. 200 g filetów dorsza\nprzyprawy**: 1/2 łyżeczki garam masali lub po szczypcie ostrej papryki i kminu rzymskiego oraz po 1/2 łyżeczki słodkiej papryki, kurkumy i oregano\nopcjonalnie: 1 łyżeczka sosu worcestershire oraz świeża bazylia"
+      }
+    },
+    {
+      "id":9 ,
+      "category": "fish",
+      "name": "Sałatka z tuńczykiem i pomidorem",
+      "short-desc": "Szybka, lekka i pożywna, a do tego pyszna! Prosta sałatka z tuńczykiem, którą zrobimy dosłownie w kilka minut. Wystarczy tylko skompletować w sklepie potrzebne składniki i mieć je pod ręką gdy najdzie nas głód, np. po treningu czy spacerze. Taka sałatka to zawsze dużo lepszy i zdrowszy wybór od kanapek czy gotowych przekąsek!",
+      "need": "roszponka, pomidor, cebula, mozarella, tuńczyk, oliwki, oliwa, oregano, sól, pieprz",
+      "long-desc": {
+        "prepare": "Pomidora umyć i pokroić na kawałki.\nW salaterce ułożyć roszponkę, pokrojonego w większe kawałki pomidora i drobno posiekaną cebulę. Doprawić solą.\nMozzarellę wyjąć z zalewy, podzielić na mniejsze części i ułożyć na sałatce. Dodać kawałki tuńczyka, po wierzchu posypać oliwkami.\nSałatkę skropić oliwą, doprawić suszonym oregano, solą i świeżo zmielonym pieprzem.",
+        "ingredients": "garść roszponki\n1 pomidor\n1/4 małej cebuli\n125 g mozzarelli (białej, w kulce, z zalewy)\n100 g tuńczyka w oliwie\nok. 10 czarnych oliwek\n1 łyżka oliwy extra vergine\n1/3 łyżeczki suszonego oregano\nsól i świeżo mielony pieprzs"
+      }
+    },
+    {
+      "id":10 ,
+      "category": "fish",
+      "name": "Dorsz ze szpinakiem i chrupiącą posypką",
+      "short-desc": "",
+      "need": "dorsz, czosnek, papryka mielona, oregano, kurkuma, pieprz, szpinak, śmietanka 30%, bułka tarta, oliwa, parmezan, mąka pszenna, cytryna, sól, pieprz",
+      "long-desc": {
+        "prepare": "Rybę opłukać i osuszyć. Skropić cytryną, doprawić solą, czarnym zmielonym pieprzem oraz jednym ząbkiem czosnku przeciśniętym przez praskę. Posypać z wierzchu przyprawami, następnie obtoczyć w mące pszennej.\nPrzygotować szpinak: na patelni roztopić łyżkę masła, dodać drugi ząbek czosnku przeciśnięty przez praskę i chwilę podsmażyć. Dodać liście szpinaku i mieszając smażyć aż zwiędnie, przez ok. 2 minuty. Dodać śmietankę, doprawić solą i pieprzem i zagotować. Po zagotowaniu dodać pół łyżeczki mąki ziemniaczanej i wymieszać. Szpinak rozdrobnić na mniejsze kawałeczki.\nRybę ułożyć na blaszce posmarowanej oliwą. Przykryć szpinakiem i posypać bułką tartą wymieszaną z oliwą i parmezanem. Wstawić do nagrzanego do 180 stopni C piekarnika, piec przez ok. 20 minut.",
+        "ingredients": "500 g polędwiczek z dorsza\n2 ząbki czosnku\nprzyprawy: po 1 łyżeczce mielonej papryki i oregano, po 1/3 łyżeczki kurkumy i białego pieprzu\n100 g szpinaku\n4 łyżki śmietanki 30%\n1/2 szklanki bułki tartej\n2 łyżki oliwy\n4 łyżki tartego parmezanu\noraz: mąka pszenna i ziemniaczana, cytryna, sól i pieprz"
+      }
+    },
+    {
+      "id":11 ,
+      "category": "fish",
+      "name": "Krewetki w sosie po luizjańsku",
+      "short-desc": "Przepis inspirowany daniem o nazwie New Orleans BBQ Shrimp. Popularne w Nowym Orleanie krewetki w pysznym sosie, który tak naprawdę niewiele ma wspólnego ze smakami kojarzonymi z potrawami z grilla (BBQ). Czuć w nim raczej nutę lekko kwaśną, cytrynową a intensywności dodaje sos Worcestershire. Sosu wychodzi całkiem sporo (dzięki dodatkowi bulionu), na pewno więcej niż w klasycznym przepisie na KREWETKI Z PATELNI (co zresztą jest niewątpliwą zaletą tego przepisu - któż bowiem nie lubi wymaczać chrupiącej bagietki w takim sosiku ;-)",
+      "need": "krewetki, olej roślinny, cebula, czosnek, masło, sos chilli, sos worcestershire, bulion, sok z cytryny, cukier, oregano, tymianek, papryka w proszku",
+      "long-desc": {
+        "prepare": "Krewetki rozmrozić jeśli były zamrożone i oczyścić jeśli jest potrzeba. \nNa większej patelni na łyżce oleju zeszklić pokrojoną w kosteczkę cebulę. Dodać przeciśnięty przez praskę czosnek i podsmażać przez ok. pół minuty.\nDodać 1 łyżkę masła, słodki sos chilli, sos worcestershire, bulion, sok z cytryny i cukier. Zagotować, następnie dodać przyprawy i gotować przez 2 minuty co chwilę mieszając drewnianą łyżką.\nDo sosu dodać krewetki i gotować przez ok. 1 minutę, doprawić szczyptą soli i pieprzem (przed posoleniem sprawdzić czy sos nie jest już wystarczająco słony). Przewrócić na drugą stronę i powtórzyć gotowanie przez 1 minutę.\nDodać pozostałą łyżkę masła, roztopić i wymieszać. Posypać posiekaną natką pietruszki i podawać z pokrojoną bagietką.",
+        "ingredients": "ok. 375 g krewetek\n1 łyżka oleju roślinnego\n1 mała cebulka\n2 ząbki czosnku\n2 łyżki masła\n2 łyżki słodkiego sosu chilli\n2 łyżki sosu worcestershire\n1/4 szklanki bulionu\n2 łyżki soku z cytryny\n1/2 łyżeczki cukru\nprzyprawy: po 1 łyżeczce suszonego oregano i tymianku, 2 łyżeczki papryki w proszku\ndo podania: bagietka, natka pietruszki"
+      }
+    },
+    {
+      "id":12 ,
+      "category": "fish",
+      "name": "Grzanki z avocado, łososiem wędzonym i jajkiem w koszulce",
+      "short-desc": "Pyszne grzanki z rukolą, łososiem wędzonym, awokado i jajkiem w koszulce. Trochę płatków chili na wierzch i gotowe! Pozostaje tylko znaleźć osobę, która z chęcią zrobi nam takie śniadanie ;-) Zamiast łososia wędzonego sprawdzi się także hummus.",
+      "need": "jajka, pieczywo, masło, rukola lub roszponka, łosoś wędzony, sok z cytryny, avocado, oliwa, sól, pieprz, płatki chilli",
+      "long-desc": {
+        "prepare": "JAJKA W KOSZULKACH\n(zobacz filmik poniżej) Do garnka wlać wodę na wysokość ok. 5 cm, dodać pół łyżeczki soli i łyżeczkę octu (opcjonalnie). Zagotować, zmniejszyć ogień do średniego i zamieszać łyżką robiąc wir wodny.\nJajko wbić do małej miseczki, i dopiero z miseczki wlać do wody w powstały wir. Gotować ok. 2,5 minuty aż białko będzie ścięte a żółtko pozostanie płynne. Wyłożyć na talerz łyżką cedzakową i powtórzyć z drugim jajkiem.\nGRZANKI\nPieczywo lekko opiec w tosterze, po przestudzeniu posmarować masłem i ułożyć rukolę oraz cząstki łososia wędzonego, skropić cytryną.\nAwokado umyć, przekroić wzdłuż na pół, wyjąć pestkę, obrać ze skórki. Pokroić na plasterki i skropić oliwą, położyć na grzankach, doprawić solą i pieprzem.\nNa wierzchu grzanek ułożyć jajka w koszulkach, posypać płatkami chili.",
+        "ingredients": "2 jajka\n2 kromki lekkiego pieczywa, np. ciabatty\nmasło do posmarowania\nmała garść rukoli lub roszponki\n50 g łososia wędzonego\n1 łyżeczka soku z cytryny\n1 awokado\n1 łyżeczka oliwy\nsól, pieprz\npłatki chili"
+      }
+    },
+    {
+      "id":13 ,
+      "category": "fish",
+      "name": "Łosoś pieczony z syropem klonowym",
+      "short-desc": "Pomysł rybę dla tych, którzy wolą ją raczej upiec niż smażyć, ale jednocześnie nie chcą aby była mdła i nijaka. Tutaj gęsty i intensywny smak sosu wystarcza do doprawienia zarówno ryby jak i kaszy gryczanej, która jest świetnym dodatkiem do tego dania. Składniki marynaty jak i sosu do łososia to oczywiście syrop klonowy, ale oprócz niego jeszcze dajemy ocet balsamiczny i sos sojowy. Te dwa ostatnie składniki sprawiają, że sos ma ciemny kolor. Idealnym dodatkiem do kaszy gryczanej i łososia w syropie klonowym - choć może to zaskakiwać - będzie nasza rodzima kiszona kapusta. ",
+      "need": "łosoś, syrop klonowy, sos sojowy, ocet balsamiczny, sok z cytryny, oliwa, sól, pieprz, papryka ostra mielona, papryka wędzona w proszku, kasza gryczana",
+      "long-desc": {
+        "prepare": "Odkroić skórkę z filetów, podzielić na mniejsze porcje, opłukać, włożyć do naczynia żaroodpornego i dodać wszystkie składniki oprócz kaszy gryczanej. Wymieszać i zostawić na minimum godzinę, ale lepiej na dłużej. W międzyczasie 1 - 2 razy przewrócić rybę.\nW międzyczasie ugotować kaszę gryczaną (można gotować nieco dłużej niż przewiduje instrukcja, aż kasza będzie napęczniała w woreczku i dość miękka).\nPiekarnik nagrzać do 200 stopni C. Wstawić naczynie z łososiem do piekarnika i piec przez ok. 17 minut.\nDo naczynia z łososiem włożyć ugotowaną kaszę. Można posypać natką lub bazylią. Podawać np. z surówką z kiszonej kapusty.",
+        "ingredients": "750 g filetów łososia\n5 łyżek syropu klonowego\n2 łyżki sosu sojowego (zwykłego)\n2 łyżki octu balsamicznego\n1 łyżka soku z cytryny\n1 łyżka oliwy\nsól, pieprz, 1/2 łyżeczki ostrej papryki, 1 łyżeczka wędzonej papryki w proszku lub słodkiej\n100 g kaszy gryczanej (1 woreczek)"
+      }
+    },
+    {
+      "id":14 ,
+      "category": "meat",
+      "name": "Stir-fry z wołowiną i brokułami",
+      "short-desc": "Kolejna propozycja na danie z woka. Tym razem wykonanie jest naprawdę błyskawiczne. Brokuła najpierw podsmażamy a potem podgotowujemy w woku, dolewając co jakiś czas łyżkę wody. Wołowinę kroimy na cieniutkie plasterki (będzie łatwiej gdy mięso najpierw włożymy na chwilę do zamrażarki) i krótko podsmażamy. Dolewamy sos, zagotowujemy, dodajemy brokuła i gotowe!",
+      "need": "wołowina, brokuł, olej, czosnek, imbir, cukier, sos sojowy, olej sezamowy, pieprz, mąka ziemniaczana, ryż",
+      "long-desc": {
+        "prepare": "Wołowinę włożyć wcześniej na ok. pół godziny do zamrażarki (mocno schłodzone będzie się lepiej kroiło).\nPrzygotować dodatki: ugotować ryż i uprażyć sezam na suchej patelni. Brokuła umyć i pokroić na małe różyczki.\nImbir i czosnek obrać i zetrzeć na drobnej tarce. Wymieszać w miseczce z pozostałymi składniki sosu, odstawić.\nRozgrzać wok lub głęboką patelnię, dodać 1/2 łyżki oleju. Włożyć brokuła, doprawić szczyptą soli i co chwilę mieszając smażyć przez 1 - 2 minuty. Następnie dolewać co chwilę po kilka łyżek wody i \"gotować\" w ten sposób brokuła przez ok. 7 minut. Zdjąć z patelni i odłożyć na talerz.\nWyjąć mięso z zamrażarki i pokroić je na cieniutkie paseczki.\nDo tej samej patelni dodać łyżkę oleju. Gdy będzie gorący włożyć mięso i smażyć przez 1 minutę na dużym ogniu. Przewrócić na drugą stronę i powtórzyć smażenie.\nWlać sos i zagotować. Gotować przez 2 - 3 minuty, dodać brokuły i wymieszać. Podawać z ugotowanym ryżem posypując sezamem.",
+        "ingredients": "200 g wołowiny (polędwicy lub antrykotu, rozbratla)\n1/2 brokuła\nolej do smażenia (np. kokosowy)\nSOS\n3 ząbki czosnku\n2 cm kawałek imbiru\n2 łyżki cukru\n5 łyżek sosu sojowego\n150 ml wody\n2 łyżki oleju sezamowego\n2 szczypty białego pieprzu (lub czarnego)\n2 łyżeczki skrobi (mąki ziemniaczanej)\nDO PODANIA\n100 g (1 torebka) ryżu\nbiały sezam"
+      }
+    },
+    {
+      "id":15 ,
+      "category": "meat",
+      "name": "Indyk gotowany w sosie ze śmietaną i marchewką",
+      "short-desc": "Danie, króre często pojawia się w naszym rodzinnym menu. Filety z indyka gotowane w lekkim sosie śmietankowym z dodatkiem koperku lub natki oraz marchewki. Do podania np. ugotowane ziemniaki lub kasza oraz sezonowa surówka. Polecam!",
+      "need": "filet z indyka, czosnek, bulion, oliwa, cebula, marchewka, papryka w proszku, zioła prowansalskie, śmietanka 30%, mąka pszenna i ziemniaczana, natka pietruszki lub koperku",
+      "long-desc": {
+        "prepare": "Filety rozbić nieco tłuczkiem, doprawić solą, pieprzem oraz obranym i przeciśniętym przez praskę czosnkiem.\nPrzygotować patelnię z oliwą oraz garnek (szeroki, duży) i zagotować w nim bulion lub wodę z sosem sojowym.\nNa patelni obsmażać z dwóch stron kolejno plastry indyka (krótko, do lekkiego zrumienienia się mięsa) i wkładać w gotujący się bulion.\nNa koniec na tę samą patelnię włożyć pokrojoną w kosteczkę cebulę i zeszklić ją, dodać obraną i startą na tarce marchewkę i mieszając smażyć przez ok. 3 minuty, przełożyć do garnka z mięsem.\nDoprawić w razie potrzeby solą oraz pieprzem, dodać paprykę w proszku i zioła prowansalskie. Gotować pod przykryciem przez ok. 30 minut, w międzyczasie 2 razy przełożyć mięso na inną stronę.\nZmniejszyć ogień do minimum, dodać śmietankę i wymieszać. Następnie zagęścić mieszanką mąki pszennej i ziemniaczanej, dodawaną bezpośrednio przez sitko.\nWymieszać i na nieco większym ogniu zagotować. Gotować przez ok. 3 minuty, pod koniec dodać natkę lub koperek.",
+        "ingredients": "600 g filetu z indyka (plastry)\n3 ząbki czosnku\n3 szklanki bulionu (lub wody z 3 łyżkami sosu sojowego)\n2 łyżki oliwy\n1 cebula\n1 mała marchewka\n1/2 łyżeczki papryki w proszku\n1 łyżeczka ziół prowansalskich\n125 ml śmietanki 30%\npo ok. 1,5 łyżeczki mąki pszennej i ziemniaczanej\n1 łyżka posiekanej natki lub koperku"
+      }
+    },
+
+    {
+      "id":16 ,
+      "category": "meat",
+      "name": "Kurczak z 40 ząbkami czosnku",
+      "short-desc": "To popularny w tradycyjnej kuchni francuskiej przepis na gotowanego w całości kurczaka. Kurczaka najpierw obsmaża się na złoty kolor z dwóch stron, następnie kładzie na 40 nieobranych ząbkach czosnku i gotuje pod przykryciem aż mięso będzie miękkie. Kurczak w ten sposób przygotowany (ja użyłam zagrodowego) jest naprawdę soczysty, delikatny i pyszny. Ugotowane ząbki czosnku z przyprawami przeciera się przez sitko i otrzymuje gęsty i aromatyczny sos. Czosnek ma tę właściwość, że jego ostry zapach ginie podczas długiego i powolnego gotowania.\n\nDla tych, którzy cenią sobie zdrowe i pełnowartościowe domowe posiłki. Następnego dnia z pozostałych kawałków mięsa kurczaka (jeśli takie będą) można przygotować prostą i pyszną ZAPIEKANKĘ MAKARONOWĄ.",
+      "need": "kurczak, oliwa lub olej, czosnek 40 ząbków, sól, pieprz, tymianek, natka pietruszki, liść laurowy, bulion, ryż do podania ",
+      "long-desc": {
+        "prepare": "Związać nogi kurczaka (jeśli kupiony kurczak jest już związany nitkami, należy je pozostawić).\nPrzygotować żaroodporny garnek (np. żeliwny, ceramiczny) lub naczynie z pokrywą, takie, które można stawiać na kuchence i gotować na ogniu. Może to też być garnek z grubym dnem, który pomieści całego kurczaka.\nRozgrzać w nim oliwę lub olej na średnim ogniu. Włożyć kurczaka i smażyć na złoty kolor przez ok. 8 minut. Następnie przewrócić na drugą stronę i powtórzyć smażenie. Jeśli soki pryskają, można przykryć pokrywą.\nWyjąć kurczaka z naczynia i odstawić na bok.\nNa dno tego samego naczynia włożyć nieobrane ząbki czosnku, na wierzchu położyć natkę pietruszki, dodać tymianek i liść laurowy.\nWłożyć kurczaka piersią do góry. Posypać solą i pieprzem. Przykryć naczynie i gotować na małym ogniu przez ok. 1 godzinę i 40 minut.\nPrzełożyć kurczaka na ogrzany półmisek i przykryć folią aluminiową błyszczącą stroną do dołu i odstawić na bok.\nNad miską umieścić sito, wyłożyć do niego pozostały z gotowania sok z dodatkami (bez liścia laurowego). Drewnianą łyżką przetrzeć wszystko przez sito, pozostawiając i wyrzucając resztki np. łupiny z czosnku.\nDo garnka po kurczaku wlać bulion i zagotować. Dodać przetarty gęsty sos czosnkowy, wymieszać i zagotować. Gotować bez przykrycia przez kilka minut aż sos będzie miał odpowiednią konsystencję. W razie potrzeby doprawić.\nKurczaka pokroić na porcje i polać sosem czosnkowym, posypać posiekaną świeżą natką pietruszki.",
+        "ingredients": "1 kurczak o wadze ok. 1,7 - 2 kg (użyłam zagrodowego)\n4 łyżki zwykłej oliwy lub oleju roślinnego\n40 nieobranych ząbków czosnku (ok. 3 - 4 główki)\n1 łyżeczka soli morskiej\n1/3 łyżeczki mielonego pieprzu\n1 łyżeczka suszonego tymianku (lub 2 gałązki świeżego)\n2 gałązki natki pietruszki + do podania\n1 liść laurowy\n100 ml bulionu (drobiowy, warzywny, rosół)\ndo podania np. ryż, pomidorki / CHIPSY Z JARMUŻU"
+      }
+    },
+
+    {
+      "id":17 ,
+      "category": "meat",
+      "name": "Zapiekanka makaronowa z pieczonym lub gotowanym kurczakiem",
+      "short-desc": "To świetny pomysł na wykorzystanie w potrawie pieczonego kurczaka. Sprawdzi się gdy mamy do wykorzystania np. mięso pozostałe z KURCZAKA Z 40 ZĄBKAMI CZOSNKU lub też mięso z pieczonego kurczaka. Oprócz kurczaka można też dodać podsmażone chorizo (dla \"podkręcenia\" smaku lub gdy mamy mało kurczaka). Dodatkowo dajemy pyszny sos pomidorowy i kawałeczki sera brie.",
+      "need": "makaron, oliwa, mięso pieczone z kurczaka, chorizo (opcjonalnie), cebula, czosnek, pomidory koktajlowe lub krojone z puszki, papryka słodka w proszku, papryka ostra w proszku, oregano, ser bire",
+      "long-desc": {
+        "prepare": "Makaron wrzucić na wrzątek i gotować zgodnie z instrukcją na opakowaniu, odcedzić, wymieszać z łyżeczką oliwy i wyłożyć do dużego naczynia żaroodpornego posmarowanego 1 łyżką oliwy.\nNa makaron wyłożyć pokrojone (upieczone wcześniej lub gotowane) mięso kurczaka.\nPiekarnik nagrzać do 180 stopni C.\nPrzygotować sos pomidorowy: do garnka wlać 2 łyżeczki oliwy, dodać pokrojoną w małą kosteczkę cebulę i zeszklić ją często mieszając. Dodać starty czosnek oraz pomidory i zagotować. Doprawić solą, pieprzem, szczyptą cukru oraz pozostałymi przyprawami. Gotować przez ok. 5 - 8 minut.\nJeśli używamy chorizo, należy je obrać z błonki, pokroić w kostkę i smażyć na małym ogniu na patelni przez kilka minut aż się wytopi. Połączyć razem z sosem pomidorowym.\nNa makaron z mięsem wyłożyć sos pomidorowy i posypać serem brie pokrojonym w kostkę. Skropić łyżką oliwy i posypać oregano.\nWstawić do piekarnika i piec przez 25 minut bez przykrycia.",
+        "ingredients": "250 g makaronu np. rigatoni\noliwa extra vergine\nok. 2 szklanki mięsa z pieczonego lub GOTOWANEGO KURCZAKA*\n150 g chorizo (opcjonalnie)**\n1/2 cebuli\n2 ząbki czosnku\n400 g pomidorów krojonych/siekanych z puszki\nprzyprawy: 1/2 łyżeczki papryki słodkiej, 1/3 łyżeczki ostrej papryki, 1 łyżeczka suszonego oregano + 1/2 łyżeczki do posypania\n200 g sera brie"
+      }
+    },
+
+    {
+      "id":18 ,
+      "category": "meat",
+      "name": "Grillowane filety z kurczaka z mozarellą i guacamole",
+      "short-desc": "Grillowane filety z kurczaka z mozzarellą i guacamole to efektowne i łatwe do przygotowania danie. Filety można podawać jako element obiadu lub ciepłą przekąskę, wszystko zależy od użytych dodatków. Najpierw grillujemy (lub smażymy na patelni) kurczaka, na koniec kładziemy na nim plasterki sera mozzarella, do roztopienia. Na wierzch dajemy salsę z awokado i pomidora z dodatkiem czerwonej cebuli i skrapiamy zagęszczonym octem balsamicznym.",
+      "need": "filety z kurczaka, oregano, czosnek, oliwa, mozarella plastry, avocado, pomidor, cebula, kolendra, ocet balsamiczny",
+      "long-desc": {
+        "prepare": "Filety z kurczaka opłukać, osuszyć, odciąć błonki i kostki. Pokroić na mniejsze filety wzdłuż i w poprzek, rozbić na równej grubości filety.\nDoprawić solą, pieprzem, oregano oraz startym czosnkiem. Następnie obtoczyć w 3 łyżkach oliwy. Odłożyć do zamarynowania na minimum ok. 30 minut (lub na całą noc do lodówki).\nW międzyczasie przygotować salsę na wierzch: awokado obrać i pokroić w kostkę. Dodać pokrojonego w kostkę pomidora, drobno posiekaną cebulę, doprawić solą, pieprzem i skropić łyżeczką oliwy. Posypać posiekaną kolendrą lub bazylią i wymieszać.\nRozgrzać patelnię grillową (lub zwykłą patelnię). Kłaść partiami kurczaka i smażyć przez około 3 minuty, aż mięso wysmaży się do połowy filetów. Wówczas przewrócić na drugą stronę i powtórzyć grillowanie przez kolejne 3 minuty.\nZmniejszyć ogień, przewrócić jeszcze raz filety i położyć na nich ser mozzarella. Podgrzewać jeszcze przez około pół minuty, aż ser się roztopi.\nWyłączyć ogień pod patelnią. Na wierzchu filetów położyć salsę pomidorową z awokado i skropić zagęszczonym octem balsamicznym.",
+        "ingredients": "500 g filetów z kurczaka\n2 łyżeczki oregano\n2 ząbki czosnku\noliwa\nok. 125 g sera mozzarella (plastry)\n1 awokado\n1 pomidor\n1/4 czerwonej cebuli\nliście świeżej kolendry lub bazylii\nzagęszczony ocet balsamiczny"
+      }
+    },
+    {
+      "id":19 ,
+      "category": "meat",
+      "name": "Cukinia faszerowana chilli con carne",
+      "short-desc": "Pyszne cukinie z szybkiem do zrobienia farszem mięsnym (z mielonego mięsa wołowego), z dodatkiem kukurydzy, fasoli i pomidorów. Zapiekane z serem i posypane świeżą surówką z pomidora, cebuli i kolendry. Pychota nie tylko dla fanów kuchni meksykańskiej",
+      "need": "cukinia, sól, pieprz, oliwa, wołowina mielona, cebula, czosnek, oregano, papryka mielona, kmin rzymski - kumin, chilli w proszku, fasola czarna lub czerwona, kukurydza, pomidory krojone, mozarella tarta",
+      "long-desc": {
+        "prepare": "Piekarnik nagrzać do 180 stopni C. Cukinie umyć, osuszyć, położyć na desce i przekroić wzdłuż na 2 połówki. Z każdej wydrążyć łyżeczką nieco miąższu tworząc wgłębienie. Wydrążony miąższ zachować.\nCukinie ułożyć rozcięciem do góry w naczyniu do zapiekania lub na blaszce. Doprawić solą, pieprzem i skroić łyżką oliwy. Wstawić do piekarnika i piec przez 15 minut.\nW międzyczasie przygotować farsz: na większą patelnię wlać 1 łyżkę oliwy i chwilę poddusić pokrojoną w kosteczkę cebulę. Dodać posiekany wydrążony miąższ cukinii i smażyć co chwilę mieszając przez ok. 5 minut.\nDodać przecinięty przez praskę czosnek. Po chwili włożyć mielone mięso i rozgniatając je drewnianą łyżką smażyć mieszając przez ok. 7 minut.\nDoprawić solą, pieprzem oraz resztą przypraw, wymieszać. Dodać odcedzoną kukurydzę, odcedzoną i przepłukaną fasolkę oraz pomidory (z puszki krojone lub świeży, obrany, pokrojony i pozbawiony nasion).\nSmażyć mieszając przez ok. 5 minut. Wyłożyć na podpieczoną cukinię i wstawić do piekarnika na 10 minut, 180 stopni C. Posypać serem i piec przez 5 minut.\nWyjąć z piekarnika, posypać posiekanym pomidorem z cebulą oraz świeżą kolendrą.",
+        "ingredients": "2 cukinie, każda po ok. 440 g\nsól, pieprz, 2 łyżki oliwy\n300 g mielonej wołowiny\n1/2 cebuli\n2 ząbki czosnku\nprzyprawy: sól, pieprz, po 1 łyżeczce oregano, papryki i kminu rzymskiego oraz szczypta chili\n1/2 szklanki czarnej ewentualnie czerwonej fasoli\n1/2 szklanki kukurydzy\n1/2 puszki krojonych pomidorów (lub 1 świeży pomidor)\n150 g tartej mozzarelli\ndo posypania: pokrojona 1/2 pomidora i 1/4 cebuli + świeża kolendra"
+      }
+    },
+    {
+      "id":20 ,
+      "category": "meat",
+      "name": "Kurczak z warzywami",
+      "short-desc": "Kurczak z warzywami - lekkie danie z filetów kurczaka gotowanych w sosie z papryką i cukinią.\n\n",
+      "need": "filety z kurczaka, cukinia, papryka żółta, papryka czerwona, czosnek, iliwa, masło, oregano, chilli w płatkach lub w proszku, bulion, koncentrat pomidorowy, natka pietruszki, mąka pszenna i ziemniaczana, pomidory koktajlowe opcjonalnie",
+      "long-desc": {
+        "prepare": "Filety oczyścić z kostek i błonek, pokroić wzdłuż na mniejsze porcje (każdy filet na 3 części). Doprawić solą i pieprzem.\nCukinię i papryki pokroić w kostkę. Cebulę w piórka. Czosnek obrać i zetrzeć.\nW większym garnku na łyżce oliwy poddusić cebulę, następnie dodać cukinię i papryki. Smażyć co chwilę mieszając przez ok. 5 minut. Odłożyć na talerz.\nDo tego samego garnka wlać dodatkową łyżkę oliwy i obsmażyć kurczaka z każdej strony, w sumie przez ok. 8 minut.\nDodać masło, starty czosnek oraz odłożone warzywa. Doprawić solą, pieprzem, oregano i ostrą papryczką. Wymieszać i podgrzać.\nWlać gorący bulion i zagotować. Przykryć i dusić przez ok. 15 minut aż mięso będzie miękkie i będzie się cząstkować.\nPod koniec dodać pokrojone pomidorki koktajlowe jeśli ich używamy oraz natkę i koncentrat pomidorowy.\nZagęścić obydwiema mąkami wsypywanymi do wywaru bezpośrednio przez sitko. Wymieszać i pogotować jeszcze 1 minutę.",
+        "ingredients": "2 pojedyncze filety z kurczaka (ok. 500 g)\n1 mała cukinia\n1 czerwona papryka\n1 żółta papryka\n1 cebula\n1 ząbek czosnku\n2 łyżki oliwy\n1 łyżk masła\n1/2 łyżeczki suszonego oregano\nszczypta chili w płatkach lub proszku\n1 szklanka bulionu\n1 łyżeczka koncentratu pomidorowego\n1 łyżka posiekanej natki pietruszki\npo 1/2 łyżeczce mąki pszennej i ziemniaczanej\nopcjonalnie 4 - 5 pomidorków koktajlowych"
+      }
+    },
+    {
+      "id":21 ,
+      "category": "meat",
+      "name": "Pulpeciki drobiowe z cukinią w sosie pomidorowym",
+      "short-desc": "Lekki obiad w stylu fit na lato. Delikatne, miękkie i soczyste pulpeciki z mielonej piersi kurczaka i cukinii, gotowane w sosie pomidorowym. Można podgrzewać w kolejnym dniu. Jako dodatek sprawdzi się makaron lub pieczywo np. bagietka. Dobry też będzie ryż lub kasza bulgur.\n\n",
+      "need": "cukinia, filet z kurczaka, czosnek, bułka tarta, jajko, oliwa, masło, bulion, pomidory krojone w puszcze lub świeże, koncentrat pomidorowy, oliwki czarne, parmezan lub grana padano, natka pietruszki, sól, pieprz, ostra papryka w proszku, oregano",
+      "long-desc": {
+        "prepare": "Cukinię umyć, osuszyć, przyciąć na końcach, zetrzeć na tarce. Umieścić w misce, dodać 2 łyżeczki soli i wymieszać. Odstawić na 15 minut.\nPo tym czasie cukinię dokładnie odcisnąć z wody i przełożyć do miski (można dodatkowo rozdrobnić ją w melakserze lub rozdrabniaczu. \nFilet kurczaka oczyścić z błonek i kostek, pokroić w kostkę i rozmiksować w rozdrabniaczu lub melakserze lub zmielić w maszynce. Od razu zmielić też czosnek lub przecisnąć przez praskę. Mięso z czosnkiem przełożyć do miski z cukinią.\nDodać 3 łyżki bułki tartej, jajko, 1/2 łyżeczki suszonego oregano, pieprz do smaku (soli nie trzeba bo cukinia była solona). Dokładnie wymieszać.\nUformować pulpeciki i obtoczyć je w bułce tartej. Rozgrzać patelnię z oliwą i włożyć pulpeciki, obsmażyć na złoty kolor z każdej strony, następnie odłożyć na talerz.\nNa tę samą patelnię wlać bulion i zagotować. Gotować przez ok. 3 minuty, następnie dodać krojone pomidory z puszki lub świeże (sparzone, obrane, pokrojone, bez nasion i soku z komór).\nDodać koncentrat pomidorowy, pozostałe 1/2 łyżeczki oregano, paprykę w proszku, sos worcestershire jeśli go używamy, doprawić solą i pieprzem. Gotować bez przykrycia przez ok. 5 minut, co chwilę mieszając.\nWłożyć w sos pulpeciki i gotować bez przykrycia przez kolejne 5 minut, w międzyczasie dodać czarne oliwki. Na koniec posypać parmezanem i udekorować natką.",
+        "ingredients": "500 g cukinii (2 nieduże sztuki)\n500 g filetu z kurczaka\n2 ząbki czosnku\n3 łyżki bułki tartej + do obtoczenia\n1 jajko\n2 łyżki oliwy i 1 łyżka masła\n1/2 szklanki bulionu\n400 g (1 puszka) krojonych pomidorów lub 400 g krojonych świeżych pomidorów bez skórek i nasion\n1 łyżka koncentratu pomidorowego\nopcjonalnie: 2 łyżeczki sosu worcestershire\n10 czarnych oliwek\n1/3 szklanki tartego parmezanu lub grana padano\nnatka pietruszki\nprzyprawy: sól, pieprz, 1/2 łyżeczki ostrej papryki w proszku, 1 łyżeczka suszonego oregano"
+      }
+    },
+    {
+      "id":22 ,
+      "category": "sweetie",
+      "name": "Makowa panienka",
+      "short-desc": "To makowy biszkopt przekładany masą budyniową i żurawiną, udekorowny polewą z białej czekolady. Idealne ciasto na świąteczny okres.\n\nJakie są zalety tego wypieku? Ciasto nie jest przesłodzone. Wychodzi go dość sporo, jest podzielne i utrzymuje świeżość bardzo długo, nawet do tygodnia czasu (w chłodniejszym miejscu). Można go też z powodzeniem mrozić.\n\nCiasto można też zrobić w wersji bezglutenowej, zastępując mąkę mielonymi migdałami. Ja dałam pół na pół mąki i migdałów.",
+      "need": "jajka, cukier, mąka lub mielone migdały, suchy mak. proszek do pieczenia, wiórka kokosowe, czarna herbata lub likier Cointreau, Malibu, Amaretto, przetwory z żurawiny lub porzeczki, malin, wiśni, mleko, budyń np. śmietankowy, cukier wanilinowy, cukier, masło, śmietanka 30%,biała czekolada, suszona żurawina",
+      "long-desc": {
+        "prepare": "BISZKOPT MAKOWY\nJajka ocieplić w temp. pokojowej. Piekarnik nagrzać do 180 stopni C. Przygotować prostokątną formę o wymiarach ok. 22 x 37 cm, dno wyłożyć papierem do pieczenia.\nOddzielić białka od żółtek. Białka ubić na sztywną pianę, potem stopniowo dodawać po łyżce cukier, cały czas dokładnie ubijając na puszystą masę. Następnie dodawać stopniowo żółtka, cały czas dokładnie i cierpliwie ubijając. \nOddzielnie wymieszać w misce suche składniki: mąkę lub mielone migdały, mak, proszek do pieczenia oraz wiórki kokosowe (wcześniej odłożyć 1/4 ilości wiórków na wierzch).\nDodawać stopniowo, po pół szklanki otrzymanej mieszanki do ubitych jajek, jednocześnie delikatnie mieszając szpatułką, aby piana jak najmniej opadła.\nPo dodaniu całej mieszanki wyłożyć ją do przygotowanej formy, wyrównać powierzchnię i wstawić do piekarnika.\nPiec przez ok. 20 minut do suchego patyczka. Wyjąć, ostudzić, przekroić poziomo na 2 blaty.\nNASĄCZENIE\nDolny blat nasączyć połową nasączenia i rozsmarować dżemem.\nMASA BUDYNIOWA\nUgotować budyń w mleku zgodnie z instrukcją na opakowaniu, czyli: odlać 1/2 szklanki mleka i wymieszać z proszkiem budyniowym. Resztę mleka porządnie zagotować z dodatkiem cukru wanilinowego oraz cukru.\nGdy mleko zacznie kipieć wlać rozmieszany w mleku budyń i energicznie wymieszać rózgą. Zagotować. Odstawić z ognia, przełożyć do czystej miski i całkowicie ostudzić.\nMasło pokroić w kostkę i ocieplić w temp. pokojowej. Ubić mikserem na puszysto, następnie cały czas ubijając dodawać w krótkich odstępach czasu, po 1 łyżce, ostudzony budyń.\nMasę wyłożyć na warstwie dżemu. Przykryć górnym blatem makowym i nasączyć go resztą nasączenia.\nDEKORACJA\nZagotować śmietankę, odstawić z ognia, dodać połamaną na kosteczki czekoladę i ciągle mieszając roztopić. Po przestudzeniu polać po cieście.\nPosypać pozostałymi wiórkami kokosowymi i udekorować namoczoną we wrzątku i osuszoną żurawiną.",
+        "ingredients": "BISZKOPT MAKOWY\n8 jajek\n100 g cukru\n200 g mąki lub mielonych migdałów (u mnie pół na pół)\n100 g suchego maku\n1 łyżeczka proszku do pieczenia\n100 g wiórek kokosowych\nNASĄCZENIE\n25 łyżek czarnej herbaty lub likieru Cointreau, Malibu, Amaretto (lub mieszanki herbaty z alkoholem)\nok. 300 g przetworów z żurawiny (lub z porzeczki, malin, wiśni)\nMASA BUDYNIOWA\n500 ml mleka\n1 op. budyniu np. śmietankowego\n1 cukier wanilinowy\n1/3 szklanki cukru\n200 g masła lub masła roślinnego\n\u200BORAZ\n40 ml śmietanki 30%\n100 g białej czekolady\n1/2 szklanki suszonej żurawiny"
+      }
+    },
+    {
+      "id":23 ,
+      "category": "sweetie",
+      "name": "Bomba tiramisu",
+      "short-desc": "Błyskawiczny deser bez pieczenia. Pyszny, nie za słodki, kawowo-czekoladowy. Biszkopty jak do tiramisu nasączone kawą i amaretto ułożone w formie kopuły i wypełnione czekoladową truflą wykonaną z mleka kokosowego, czekolady i oleju kokosowego.\n\nNiech nie zniechęca Was nietypowy kształt deseru, taka bomba jest bajecznie prosta i szybka do przygotowania. Deser szybko się schładza i sztywnieje (bez dodatku żelatyny) i pięknie się prezentuje. Polecam!",
+      "need": "biszkopty podłużne, zaparzona mocna kawa, likier amaretto, mleczko kokosowe lub śmietanka kremówka, cukier brązowy lub zwykły, gorzka czekolada, olej lub masło, białka",
+      "long-desc": {
+        "prepare": "BISZKOPT TIRAMISU\nBiszkopty maczać w mieszance kawy i likieru, wyłożyć nimi miskę (np. metalową, mniej więcej o średnicy 20 cm i wysokości 9 cm, pojemności ok. 1,5 litra). Wstawić do lodówki.\nNADZIENIE Z TRUFLI CZEKOLADOWEJ\nW rondelku lub w kąpieli wodnej podgrzać mleko kokosowe lub śmietankę razem z cukrem. Gdy będzie gorące odstawić z ognia, dodać połamaną na kosteczki czekoladę oraz olej kokosowy, mieszać do całkowitego rozpuszczenia i powstania gładkiej masy.\nW oddzielnej miseczce ubić na idealnie sztywną pianę białka, dodać do nich masę czekoladową i delikatnie zmiksować lub wymieszać trzepaczką (ubijaczką, rózgą) na gładką masę.\nWyłożyć do miski we wgłębienie z biszkoptów. Wstawić do lodówki na ok. 3 godziny.\nGdy mus będzie sztywny wyłożyć deser na paterę. Przed podaniem oprószyć kakao przez sitko.",
+        "ingredients": "BISZKOPT TIRAMISU\nok. 150 g podłużnych biszkoptów do tiramisu\n250 ml zaparzonej mocnej kawy (3 espresso)\n100 ml likieru amaretto\nkakao\nNADZIENIE Z TRUFLI CZEKOLADOWEJ\n150 ml mleka kokosowego lub śmietanki kremówki\n1 łyżka cukru brzozowego (ksylitolu) lub 2 łyżki zwykłego cukru\n200 g gorzkiej czekolady\n80 g oleju kokosowego lub masła\n2 białka"
+      }
+    },
+    {
+      "id":24 ,
+      "category": "sweetie",
+      "name": "Sernik z nutą pomarańczy",
+      "short-desc": "Delikatny i puszysty sernik z lekką nutą pomarańczową oraz polewą czekoladową. Wspaniała i niezmiennie pyszna kombinacja smaków! Sernik jest prosty do zrobienia, z prostych i ogólnie dostępnych składników, gotowy już po jednogodzinnym pieczeniu. W konsystencji jest zarazem wilgotny i sypki.",
+      "need": "masło, cukier puder, jajka, twaróg zmielony, śmietanka 30%, mąka ziemniaczana, pomarańcza, czekolada gorzka, śmietanka 30%",
+      "long-desc": {
+        "prepare": "Składniki na sernik wyjąć wcześniej z lodówki i ocieplić w temperaturze pokojowej. Oddzielić żółtka od białek.\nPrzygotować skórkę pomarańczową: pomarańczą dokładnie wyszorować, obrać ze skórki, ale tylko pomarańczową część, bez białej. Obraną skórkę pokroić w kosteczkę i włożyć do rondelka. Dodać cukier oraz 1/3 szklanki wody. Gotować do miękkości na małym ogniu przez ok. 10 minut co chwilę mieszając, uzupełniając w razie potrzeby wodę, aby skórka się nie przypalała.\nPrzygotować niedużą formę o wymiarach 21 x 26 cm lub tortownicę 26 cm. Wyłożyć ją papierem do pieczenia. Piekarnik nagrzać do 170 stopni C.\nMiękkie masło ubić na puszysto z dodatkiem cukru pudru (ok. 7 minut). Następnie stopniowo dodawać żółtka cały czas dokładnie ubijając masę.\nZmniejszyć obroty miksera do średnich, dodać zmielony ser i miksować do połączenia się składników.\nDodać śmietankę oraz mąkę ziemniaczaną i cały czas miksując połączyć składniki na jednolitą masę.\nNa koniec wymieszać szpatułką (delikatnie, ale dokładnie) z ubitymi na sztywno białkami oraz smażoną skórką pomarańczową (odłożyć 2 łyżki do dekoracji).\nMasę serową wyłożyć do przygotowanej formy, wyrównać powierzchnię i wstawić do nagrzanego piekarnika.\nPiec przez ok. 60 minut. Wyłączyć piekarnik i stopniowo wyjmować sernik (w przeciągu max. 10 minut), a następnie całowicie go ostudzić.\nPolewa: czekoladę połamać na kosteczki i rozpuścić w kąpieli wodnej z dodatkiem śmietanki. Polać po ostudzonym serniku i posypać odłożoną skórką.",
+        "ingredients": "200 g masła\n1 szklanka cukru pudru\n6 jajek\n1 kg zmielonego twarogu\n150 ml śmietanki 30%\n40 g mąki ziemniaczanej\nORAZ\n1 pomarańcza + 1/3 szklanki cukru (lub 100 g gotowej skórki kandyzowanej)\n100 g czekolady 52%\n60 ml śmietanki 30%"
+      }
+    },
+    {
+      "id":25 ,
+      "category": "sweetie",
+      "name": "Muffiny bananowe",
+      "short-desc": "Pyszne i banalne do przygotowania muffiny z bananami oraz orzechami. Można oczywiście wykorztstać przejrzałe banany lub całkiem świeże :) Jeśli ktoś jest uczulony na orzechy, to możesz spokojnie je pominąć. Zaletą muffinów jest to, że nie dodajemy tutaj zbyt dużej ilości tłuszczu czy cukru. ",
+      "need": "banany, olej roślinny, mleko, jajko, masło orzechowe(opcjonalnie), mąka, cukier trzcinowy lub biały, proszek do pieczenia, soda oczyszczona, przyprawa do szarlotki, orzechy włoskie lub pekan",
+      "long-desc": {
+        "prepare": "Piekarnik nagrzać do 180 stopni C (góra i dół). Formę na muffiny wyłożyć 12 papilotkami.\nBanany obrać i rozgnieść widelcem (można dodatkowo skropić sokiem z kawałka cytryny). Włożyć do miski.\nDodać olej roślinny, mleko, jajko oraz masło orzechowe i wszystko wymieszać rózgą.\nDo drugiej miski wsypać mąkę, dodać cukier, proszek do pieczenia, sodę oraz przyprawę.\nDodać posiekane orzechy (zachowując ok. 1/4 ilości do posypania na wierzch). Teraz wszystko dokładnie wymieszać łyżką.\nWymieszane sypkie składniki wsypać do miski z mokrymi składnikami i delikatnie oraz krótko wymieszać łyżką, tylko do pierwszego połączenia się składników (zaprzestać mieszania jak tylko zniknie sypka mąka).\nCiastem napełnić papilotki, posypać odłożonymi orzechami i piec przez ok. 30 minut. Wyjąć z piekarnika i przestudzić.",
+        "ingredients": "2 średnie banany\n1/2 szklanki (125 ml) oleju roślinnego\n1 szklanka (250 ml) mleka\n1 jajko\n1 łyżka masła orzechowego (opcjonalnie)\n2 szklanki (320 g) mąki\n2/3 szklanki (160 g) cukru trzcinowego lub białego\n1 łyżeczka proszku do pieczenia\n1 łyżeczka sody oczyszczonej\n1/2 łyżeczki przyprawy do szarlotki (lub 1/2 łyżeczki cynamonu + 1 łyżka cukru wanilinowego)\n125 g orzechów włoskich lub pekan"
+      }
+    },
+    {
+      "id":26 ,
+      "category": "sweetie",
+      "name": "Muffiny z jabłkami",
+      "short-desc": "Pyszne, klasyczne muffiny z tartymi jabłkami i cynamonem. Proste do wykonania i z podstawowych składników, które - jeśli mamy w spiżarce - możemy wzbogacić o mielone migdały i miód. Dodatki te znakomicie uzupełniają smak i konsystencję ciasta, ale bez nich babeczki oczywiście również się udadzą. Polecam na podwieczorek",
+      "need": "jabłka, masło, jajka, mleko, mąka, mielone migdały (można pominąć), cukier wanilinowy, cynamon, proszek do pieczenia, soda oczyszczona, cukier, miód",
+      "long-desc": {
+        "prepare": "Piekarnik nagrzać do 190 stopni C. Formę na muffiny wyłożyć 12 papilotkami. Jabłka obrać i zetrzeć na tarce o dużych oczkach.\nRoztopić masło w misce, wlać mleko, dodać jajka i roztrzepać trzepaczką na jednolitą masę.\nDo drugiej miski wsypać mąkę, mielone migdały, cukier wanilinowy, cynamon, proszek do pieczenia, sodę oraz cukier, dokładnie wymieszać.\nDo suchych składników dodać mokre składniki oraz tarte jabłka i miód jeśli go używamy, wymieszać (delikatnie łyżką, tylko do połączenia się składników).\nNałożyć równe porcje ciasta do papilotek, posypać siekanymi migdałami i wstawić do nagrzanego piekarnika. Piec przez 25 minut do suchego patyczka i zrumienionego wierzchu.",
+        "ingredients": "2 jabłka\n100 g masła\n2 jajka\n125 ml mleka\n250 g mąki\n50 g mielonych migdałów (można pominąć)\n1 łyżka cukru wanilinowego\n1 łyżeczka cynamonu\n1 łyżeczka proszku do pieczenia\n1 łyżeczka sody oczyszczonej\n150 g cukru (użyłam trzcinowego)\n2 łyżki miodu (lub 20 g dodatkowego cukru)\n20 g posiekanych migdałów do posypania po wierzchu (można pominąć)`"
+      }
+    },
+    {
+      "id":27 ,
+      "category": "sweetie",
+      "name": "Ciasteczka owsiane",
+      "short-desc": "Ciasteczka owsiane z ziarnami i pestkami (u mnie miks słonecznika, dyni i orzeszków pinii, ale można dodać tylko jeden rodzaj lub dowolną inną kombinację). Sprawdzą się na zdrową przekąskę np. dla dzieci. Idealne jako słodki dodatek do śniadaniówki, do szkoły czy pracy. Przygotowanie tych błyskawicznych ciasteczek polega na wymieszaniu składników i nałożeniu łyżką otrzymanej masy na blaszkę. Ciasteczka pięknie trzymają kształt a po upieczeniu są idealnie miękko-chrupkie.",
+      "need": "masło, płatki owsiane, mąka, cukier, proszek do pieczenia, ziarna (np. słonecznik, siemie lniane lub inne), jajka, miód (opcjonalnie)",
+      "long-desc": {
+        "prepare": "Masło roztopić. Do czystej miski wsypać płatki owsiane, mąkę, cukier, proszek do pieczenia i ziarna.\nWlać roztopione masło i wymieszać. Dodać jajka oraz miód jeśli używamy i wymieszać. Jeśli mamy czas, dobrze jest odstawić masę na ok. 1/2 - 1 godzinę.\nPiekarnik nagrzać do 180 stopni C. Blachę wyłożyć papierem do pieczenia. Nabierać łyżkę stołową masy i nakładać na blaszkę formując okręgi i delikatnie je płaszczając.\nPiec przez ok. 15 minut na złoty kolor.\nWSKAZÓWKI",
+        "ingredients": "100 g masła\n1 i 1/2 szklanki płatków owsianych górskich\n3 łyżki mąki\n4 łyżki cukru\n1 łyżeczka proszku do pieczenia\n2 łyżki ziaren*\n2 jajka\nopcjonalnie 1 łyżeczka miodu"
+      }
+    },
+    {
+      "id":28 ,
+      "category": "sweetie",
+      "name": "Malinowy budyń jaglany",
+      "short-desc": "Budyń przywołuje skojarzenia raczej z deserem a nie śniadaniem, ale jeśli jest to budyń jaglany to jak najbardziej sprawdzi się również jako posiłek na dobry początek dnia. W podstawowej wersji taki budyń to nic innego jak zmiksowana na gładki mus jaglanka (czyli kasza jaglana ugotowana w mleku). Do budyniu jaglanego świetnie pasują owoce (np. banan, truskawki, maliny). Możemy je podać na wierzch albo zmiksować, jak w dzisiejszym przepisie. Jesienią i zimą korzystamy oczywiście z mrożonych owoców, wystarczy niewielka ich ilość aby nadać całości odpowiedni kolor i smak!",
+      "need": "kasza jaglana, mleko, maliny świeże lub mrożone, syrop lub sok malinowy",
+      "long-desc": {
+        "prepare": "Do sitka wsypać kaszę jaglaną i wypłukać pod bieżącą wodą. Włożyć do rondelka, wlać mleko i zagotować pod przykryciem. Zmniejszyć ogień do minimum i gotować 15 minut nie otwierając garnka.\nUgotowaną kaszę zmiksować w blenderze (stojącym, kielichowym) na gładki mus z dodatkiem (rozmrożonych) malin oraz syropu malinowego. Jeśli budyń jest za gęsty można dodać więcej mleka. Podawać z dodatkowymi malinami i/lub syropem malinowym.",
+        "ingredients": "1/2 szklanki kaszy jaglanej\n2 szklanki mleka\nok. 1/2 szklanki malin (świeżych lub mrożonych)\n3 łyżki syropu/soku malinowego"
+      }
+    },
+    {
+      "id":29 ,
+      "category": "sweetie",
+      "name": "Brownie z fasoli",
+      "short-desc": "Ciasto w stylu brownie z tajemniczym składnikiem w postaci fasoli ;-) Brzmi niezbyt apetycznie? Na pewno żadna z osób, którą poczęstujesz brownie nie będzie wiedziała z czego jest zrobione. Sama zbyt długo zwlekałam z przygotowaniem tego ciasta i niepotrzebnie się martwiłam, że ciasto będzie niezjadliwe. Bezglutenowe, bez mąki, bez masła i białego cukru. Z małą ilością oleju kokosowego i naturalnym słodzikami: suszonymi daktylami, miodem i syropem klonowym. Po prostu magiczne ciasto bez wyrzutów sumienia.",
+      "need": " fasola czerwona, daktyle, kakao, miód, syrop klonowy, proszek do pieczenia, jajka, olej kokosowy, banany, śliwki suszone",
+      "long-desc": {
+        "prepare": "Fasolę odcedzić na sitku i przepłukać wodą, odsączyć. Włożyć do melaksera lub blendera i zacząć miksować z daktylami (bez pestek), kakao, miodem, syropem klonowym oraz proszkiem do pieczenia.\nDodać jajka i zmiksować na gładką masę, pod koniec dodając olej kokosowy i banany. Dodać posiekane suszone śliwki i wymieszać.\nOtrzymaną masę przelać do foremki o wymiarach dna ok. 20 x 23 cm i piec przez ok. 40 minut w 170 stopniach C. Wyjąć z piekarnika i ostudzić.\nCiasto opcjonalnie polać polewą czekoladową: do miseczki włożyć połamaną na kosteczki czekoladę, wlać mleko i roztopić w mikrofali lub kąpieli wodnej, wymieszać do uzyskania gładkiej konsystencji. Polać po cieście i udekorować pokrojonymi daktylami.\n POLEWA: \n100 g czekolady deserowej\n1/4 szklanki mleka roślinnego lub zwykłego\n4 daktyle lub suszone śliwki",
+        "ingredients": "2 puszki czerwonej fasoli (w sumie 500 g)\n10 daktyli\n5 łyżek kakao\n1 łyżka miodu\n4 łyżki syropu klonowego\n1 i 1/2 łyżeczki proszku do pieczenia\n4 jajka\n3 łyżki oleju kokosowego\n2 banany\n10 suszonych śliwek"
+      }
+    },
+    {
+      "id":30 ,
+      "category": "sweetie",
+      "name": "Kulki mocy",
+      "short-desc": "Ciasto w stylu brownie z tajemniczym składnikiem w postaci fasoli ;-) Brzmi niezbyt apetycznie? Na pewno żadna z osób, którą poczęstujesz brownie nie będzie wiedziała z czego jest zrobione. Sama zbyt długo zwlekałam z przygotowaniem tego ciasta i niepotrzebnie się martwiłam, że ciasto będzie niezjadliwe. Bezglutenowe, bez mąki, bez masła i białego cukru. Z małą ilością oleju kokosowego i naturalnym słodzikami: suszonymi daktylami, miodem i syropem klonowym. Po prostu magiczne ciasto bez wyrzutów sumienia.",
+      "need": "daktyle bez pestek, migdały mielone, wiórka kokosowe, nasiona chia, olej kokosowy, masło orzechowe",
+      "long-desc": {
+        "prepare": "Wszystkie składniki umieścić w melakserze/rozdrabniaczu/thermomixie i rozdrobnić na pastę z małymi cząstkami składników.\nUformować kulki wielkości orzecha włoskiego dociskając masę i wstawić do lodówki na kilka godzin, aby nabrały bardziej stałej konsystencji i się nie kruszyły.",
+        "ingredients": "1 szklanka daktylki bez pestek (miękkich)\n3/4 szklanki zmielonych migdałów\n1/2 szklanki wiórków kokosowych\n2 łyżki nasion chia (opcjonalnie)\n1 łyżka oleju kokosowego\n1 czubata łyżka masła orzechowego (np. z kawałkami orzechów)"
+      }
+    }
+  ]
+}
