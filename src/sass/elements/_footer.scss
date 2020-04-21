@@ -1,0 +1,39 @@
+.footer{
+  font-family: 'Courgette', cursive;
+  box-shadow: 1px  1px 10px $shadowColor;
+  .container{
+    display: flex;
+    justify-content: space-between;
+
+    .contact{
+      padding: 1.5em;
+      a{
+        &:focus{
+          outline: none;
+        }
+        img{
+          margin-right: 1em;
+        }
+      }
+      p{
+        margin-bottom: 1em;
+        font-size: 1.2em;
+        color: $footerAccent;
+      }
+      .mail{
+        display: flex;
+        align-items: center;
+        //flex-direction: column;
+        //justify-content: center;
+
+        span{
+          margin-left: 1em;
+          font-size: 0.75em;
+          color: $footerAccent;
+        }
+      }
+    }
+  }
+
+}
+

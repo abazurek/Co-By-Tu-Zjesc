@@ -7,12 +7,9 @@ import './../sass/style.scss';
 import Nav from "./Nav";
 import Recipes from "./Recipes";
 import Footer from "./Footer";
-
-function Recipe(props) {
-    console.log(props.match.params.category, props.match.params.subcategory);
-    return <h1>ddd</h1>
-}
-
+import ChooseRecipes from "./ChooseRecipes";
+import ChooseRecipe from "./ChooseRecipe";
+import ChooseCategory from "./ChooseCategory";
 
 
 function App() {
@@ -40,14 +37,17 @@ function App() {
 
     }
 
+
     return (
         <Router>
             <Nav recipes={recipes} categories={elements}/>
             <Switch>
                 <Route exact path="/">
-                    <Recipes recipes={recipes} categories={elements}/>
+                    <Recipes recipes={recipes} categories={elements} />
                 </Route>
-                <Route path="/recipes/:category/:subcategory" render={props => <Recipe {...props}></Recipe>}></Route>
+                <Route path="/recipes/:category/:subcategory" render={ props => <ChooseRecipes elem={props} recipes={recipes} />}/>
+                <Route path="/recipe/:name" render={ props => <ChooseRecipe elem={props} recipes={recipes} />}/>
+                <Route path="/category/:category" render={ props => <ChooseCategory elem={props} recipes={recipes} />}/>
             </Switch>
 
             <Footer/>

@@ -3,35 +3,27 @@ import {NavLink} from "react-router-dom";
 
 function Category({category, recipes}) {
 
-    const [option, setOption] = useState('');
-
     const table = [];
-
-    // const changeSelect = ({target}) => {
-    //     setOption((target.value));
-    //     window.scrollTo(recipes);
-    // };
 
 
     return (
         <>
-            <ul className='ulCategory'>{category}
-            <li></li>
+            <ul className='ulCategory'> <NavLink activeStyle={{fontWeight:'bolder'}} className='navLink' to={`/category/${category}`}> - {category} - </NavLink>
                 {recipes.map(function (recipe) {
                     if (!table.includes(recipe.subCategory) && recipe.category === category) {
                         table.push(recipe.subCategory);
-                        return (<><li key={recipe.name} value={recipe.name}>{recipe.subCategory}</li></>);
+
+                        return (<>
+                            <li key={recipe.name}>
+                                <NavLink activeStyle={{fontWeight:'bolder'}} className='navLink' to={`/recipes/${category}/${recipe.subCategory}`}>
+                                    {recipe.subCategory}
+                                </NavLink>
+                            </li>
+                        </>);
                     }
                 })}
             </ul>
 
-            <label className='labels'><span>{category}</span><br/>
-                <NavLink to={"/recipes/fish/zupa"}>Finish/zupa</NavLink>
-                <select >
-                    <option/>
-
-                </select>
-            </label>
         </>
 
     )

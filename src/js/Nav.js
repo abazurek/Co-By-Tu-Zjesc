@@ -7,7 +7,7 @@ import Category from "./Category";
 function Nav({recipes, categories}) {
 
     return (
-        <>
+        <header>
             <NavLink className='navLink' to='/'><h1 className='title container'> - - co by <span>tu</span> zjeść - - </h1></NavLink>
             <div className='nav-bar'>
                 <div className='nav container'>
@@ -16,7 +16,7 @@ function Nav({recipes, categories}) {
                     )}
                 </div>
             </div>
-        </>
+        </header>
     )
 }
 
