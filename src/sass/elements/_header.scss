@@ -1,0 +1,66 @@
+//.labels{
+//  display: flex;
+//  flex-direction: column;
+//}
+.nav-bar {
+  background-color: rgba(176, 198, 191, 0.5);
+
+  .nav {
+    display: flex;
+    justify-content: space-evenly;
+
+    .labels {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      span {
+        padding-top: 0.5em;
+        font-size: 3em;
+        font-weight: 500;
+      }
+
+      select {
+        border: none;
+        background: none;
+        width: 100%;
+        font-family: 'Sacramento', cursive;
+
+        &:hover{
+          cursor: pointer;
+        }
+
+
+
+        option {
+          background: none;
+          font-family: 'Sacramento', cursive;
+          font-size: 1.5em;
+          margin: 0.75em;
+          font-weight: 500;
+
+          &:active{
+            border: none;
+            background-color: rgba(176, 198, 191, 0.5) ;
+          }
+        }
+      }
+    }
+
+    margin: 2em auto;
+  }
+}
+
+.title {
+  font-size: 4.5em;
+  margin: 0.5em;
+  text-align: center;
+  font-weight: bolder;
+  color: gray;
+  text-transform: capitalize;
+  text-shadow: 2px 2px rgba(90, 87, 96, 0.45);
+
+  span {
+    color: lightcoral;
+  }
+}

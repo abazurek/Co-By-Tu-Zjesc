@@ -7,7 +7,7 @@ function Recipe({recipes, category}) {
             {recipes.map(function (recipe) {
                 if(category===recipe.category){
                     return(
-                        <div key={recipe.name}>
+                        <div className='recipe container' key={recipe.name}>
                             <div><img src={recipe.image} alt={recipe.name}/></div>
                             <div>
                                 <h3>{recipe.name}</h3>
