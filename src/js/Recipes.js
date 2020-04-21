@@ -1,12 +1,14 @@
-import React, {Component,useEffect,useState} from "react";
+import React from "react";
 
 import Recipe from "./Recipe";
+import SearchTitle from "./SearchTitle";
 
 function Recipes({recipes,categories}) {
 
 
     return(
         <>
+            <SearchTitle/>
           <h2 className='recipes-title container'> - Nasze przepisy - </h2>
             {categories.map( (element) => (
                 <>

@@ -1,5 +1,5 @@
-import React, {Component, useEffect, useState} from "react";
-import {HashRouter as Router, Route, Switch, NavLink, useParams} from "react-router-dom";
+import React from "react";
+import {NavLink} from "react-router-dom";
 
 
 import Category from "./Category";
@@ -8,7 +8,8 @@ function Nav({recipes, categories}) {
 
     return (
         <header>
-            <NavLink className='navLink' to='/'><h1 className='title container'> - - co by <span>tu</span> zjeść - - </h1></NavLink>
+            <NavLink className='navLink' to='/'><h1 className='title container'> - - co by <span>tu</span> zjeść - -
+            </h1></NavLink>
             <div className='nav-bar'>
                 <div className='nav container'>
                     {categories.map((element) =>
