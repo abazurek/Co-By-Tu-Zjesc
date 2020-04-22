@@ -2,6 +2,7 @@ import React from "react";
 
 import Recipe from "./Recipe";
 import SearchTitle from "./SearchTitle";
+import {NavLink} from "react-router-dom";
 
 function Recipes({recipes,categories}) {
 
@@ -13,7 +14,13 @@ function Recipes({recipes,categories}) {
             {categories.map( (element) => (
                 <>
                     <h3 className='category-name container' key={element}> - {element} - </h3>
-                    <Recipe  recipes={recipes} category={element}/>
+                    {recipes.map(function (recipe) {
+                        if(element===recipe.category){
+                            return(
+                                <Recipe recipe={recipe}/>
+                            )
+                        }
+                    })}
                 </>
             ))}
         </>

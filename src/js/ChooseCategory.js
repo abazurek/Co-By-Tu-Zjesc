@@ -9,8 +9,15 @@ function ChooseCategory({elem,recipes}) {
 
 
     return(recipes?
-        <> <SearchTitle/>
-        <Recipe recipes={recipes} category={urlName}/>
+        <>
+            {/*<SearchTitle/>*/}
+            {recipes.map(function (recipe) {
+                if(urlName===recipe.category){
+                    return(
+                        <Recipe recipe={recipe}/>
+                    )
+                }
+            })}
         </>
 
     : <span>Loading..</span>)

@@ -4,12 +4,10 @@ import {NavLink} from "react-router-dom";
 function SearchTitle() {
 
     const [data, setData] = useState('');
-    const [submitData, setSubmitData] = useState('');
 
     function submitForm(e) {
         e.preventDefault();
-        setSubmitData(data);
-        // setData('');
+
     }
 
     return (<>
