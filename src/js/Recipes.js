@@ -2,7 +2,7 @@ import React from "react";
 
 import Recipe from "./Recipe";
 import SearchTitle from "./SearchTitle";
-import {NavLink} from "react-router-dom";
+import SearchIngredients from "./SerachIngredients";
 
 function Recipes({recipes,categories}) {
 
@@ -10,6 +10,7 @@ function Recipes({recipes,categories}) {
     return(
         <>
             <SearchTitle/>
+            <SearchIngredients/>
           <h2 className='recipes-title container'> - Nasze przepisy - </h2>
             {categories.map( (element) => (
                 <>

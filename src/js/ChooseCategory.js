@@ -10,7 +10,7 @@ function ChooseCategory({elem,recipes}) {
 
     return(recipes?
         <>
-            {/*<SearchTitle/>*/}
+            {/*<SearchTitle />*/}
             {recipes.map(function (recipe) {
                 if(urlName===recipe.category){
                     return(

@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom";
 
 function SearchTitle() {
 
-    const [data, setData] = useState('');
+    const [title, setTitle] = useState('');
 
     function submitForm(e) {
         e.preventDefault();
@@ -15,10 +15,10 @@ function SearchTitle() {
                 <span>Wyszukaj danie po nazwie</span>
                 <form onSubmit={submitForm}>
                     <label>
-                        <input type='text' placeholder='Wpisz nazwę dania' value={data}
-                               onChange={({target}) => (setData(target.value))}/>
+                        <input type='text' placeholder='Wpisz nazwę dania' value={title}
+                               onChange={({target}) => (setTitle(target.value))}/>
                     </label>
-                    <NavLink to={`/search/${data}`}>
+                    <NavLink to={`/search/${title}`}>
                         <button type='submit'>Szukaj</button>
                     </NavLink>
                 </form>

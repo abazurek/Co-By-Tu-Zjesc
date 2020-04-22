@@ -4,8 +4,8 @@ import Recipe from "./Recipe";
 function SearchedRecipe({elem, recipes}) {
 
     const urlName = {...elem}.match.params.name;
+    // const urlCategory={...elem}.match.params.category;
 
-    // return ()
 
     const recipesTable = [];
 
@@ -14,6 +14,7 @@ function SearchedRecipe({elem, recipes}) {
             return(<span>Nie znaleziono przepisu</span>)
         }
     }
+
     return (
         recipes ? <>
                 {recipes.map((recipe) => {
@@ -32,6 +33,5 @@ function SearchedRecipe({elem, recipes}) {
 
 }
 
-// recipe.name.includes(urlName) ? <Recipe recipe={recipe}/> : <span>Nie znaleziono takiego przepisu</span>
 
 export default SearchedRecipe

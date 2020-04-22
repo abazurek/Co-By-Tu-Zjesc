@@ -10,7 +10,8 @@ import Footer from "./Footer";
 import ChooseRecipes from "./ChooseRecipes";
 import ChooseRecipe from "./ChooseRecipe";
 import ChooseCategory from "./ChooseCategory";
-import SearchedRecipe from "./Searched";
+import SearchedRecipe from "./SearchedRec";
+import SearchedIng from "./SearchedIng";
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
                 <Route path="/recipe/:name" render={props => <ChooseRecipe elem={props} recipes={recipes}/>}/>
                 <Route path="/category/:category" render={props => <ChooseCategory elem={props} recipes={recipes}/>}/>
                 <Route path="/search/:name" render={props => <SearchedRecipe elem={props} recipes={recipes}/>}/>
+                <Route path="/ingredients/:ingred" render={props => <SearchedIng elem={props} recipes={recipes}/>}/>
             </Switch>
 
             <Footer/>
