@@ -4,6 +4,7 @@ import {HashRouter as Router, Route, Switch} from "react-router-dom";
 
 import './../sass/style.scss';
 
+import Header from "./Header";
 import Nav from "./Nav";
 import Recipes from "./Recipes";
 import Footer from "./Footer";
@@ -45,6 +46,7 @@ function App() {
 
     return (
         <Router>
+            <Header/>
             <Nav recipes={recipes} categories={elements}/>
             <Switch>
                 <Route exact path="/">
