@@ -1,5 +1,6 @@
 import React from "react";
 import Recipe from "./Recipe";
+import SearchIngredients from "./SerachIngredients";
 
 function SearchedIng({elem, recipes}) {
 
@@ -10,11 +11,15 @@ function SearchedIng({elem, recipes}) {
 
     const recipesTable = [];
 
+
     function noRecipes() {
         if (recipesTable.length === 0) {
-            return (<span>Nie znaleziono przepisu z podanymi składnikami, spórbuj zapisać składniki inaczej
-                (porinny to być rzeczowniki napisane z małej litery
-                z przecinkiem i spacją pomiędzy), lub podać mniejszą ilość składników</span>)
+            return (<div className='container no-recipe'><span >Nie znaleziono przepisu z podanymi składnikami.</span>
+            <p>Spórbuj zapisać składniki inaczej
+                (powinny to być rzeczowniki napisane z małej litery
+                z przecinkiem i spacją pomiędzy), lub podać mniejszą ilość składników</p>
+            <SearchIngredients/>
+            </div>)
         }
     }
 
@@ -38,7 +43,6 @@ function SearchedIng({elem, recipes}) {
         });
 
     }
-
 
 
 

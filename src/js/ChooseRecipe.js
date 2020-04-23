@@ -19,8 +19,8 @@ function ChooseRecipe({elem,recipes }) {
             <div className=' recipe recipe-longVersion container' key={recipe.name}>
                 <h3 className='recipe-name'>{recipe.name}</h3>
                <img src={recipe.image} alt={recipe.name}/>
-                <div className='container'>
-                    <ul><strong>Składniki: </strong>{recipe.longDesc.ingredients.split('\n').map(item => <li>{item}</li>)}</ul>
+                <div  className='container'>
+                    <ul><strong>Składniki: </strong>{recipe.longDesc.ingredients.split('\n').map(item => <li key={item}>{item}</li>)}</ul>
                     <article className='longDesc'>
                         <strong>Przygotowanie: </strong>
                         <div className='prepareDesc'>{recipe.longDesc.prepare.split('\n').map(item => <p className='longDescParagraph'>{item}</p>)}</div>

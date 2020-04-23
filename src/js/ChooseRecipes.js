@@ -1,7 +1,6 @@
 import React from "react";
-import {NavLink} from "react-router-dom";
 import Recipe from "./Recipe";
-import SearchTitle from "./SearchTitle";
+// import SearchTitle from "./SearchTitle";
 
 function ChooseRecipes({elem,recipes }) {
 
@@ -27,9 +26,9 @@ function ChooseRecipes({elem,recipes }) {
         <>
             {/*<SearchTitle/>*/}
             <h2 className='recipes-title container'> - Nasze przepisy - </h2>
-            {tableCategory.map(title=><h3 className='category-name container' key={title}> - {title} - </h3>)}
+            {tableCategory.map(title=> <h3 className='category-name container' key={title}> - {title} - </h3>)}
             {tableRecipes.map(recipe=>(
-                <Recipe recipe={recipe} />
+                <Recipe key={recipe.name} recipe={recipe} />
             ))}
 
         </>

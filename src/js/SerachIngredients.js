@@ -12,7 +12,7 @@ function SearchIngredients() {
 
     return (<>
             <div className='container searchBox'>
-                <span>Wpisz składniki a znajdziemy danie dla Ciebie !</span>
+                <span> - Wpisz składniki a znajdziemy danie dla Ciebie ! - </span>
                 <p>Wypisuj składniki po przecinku, ze spacjami z małych liter np. (jajka, masło, olej)</p>
                 <form onSubmit={handleSubmit}>
                     <label>

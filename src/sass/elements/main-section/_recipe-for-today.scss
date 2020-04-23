@@ -1,0 +1,12 @@
+.for-today{
+  span{
+    font-size: 3em;
+
+
+  }
+  .recipe-for-today{
+    box-shadow: 7px 7px 30px $shadowColor, $shadowColor -7px 7px 30px, 7px -7px 30px;
+    padding: 0.2em 0;
+    margin: 1.7em auto 3em auto;
+  }
+}

@@ -1,5 +1,12 @@
 body {
-  font-family: 'Sacramento', cursive;
+  font-family: $font-base-landingPage;
+
+  #app{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
 }
 
 .container {
@@ -11,4 +18,9 @@ body {
 
 .navLink{
   text-decoration: none;
+}
+
+.loading{
+  font-size: 3em;
+  text-align: center;
 }

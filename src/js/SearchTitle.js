@@ -7,18 +7,17 @@ function SearchTitle() {
 
     function submitForm(e) {
         e.preventDefault();
-
     }
 
     return (<>
             <div className='container searchBox'>
-                <span>Wyszukaj danie po nazwie</span>
+                <span> - Wyszukaj danie po nazwie - </span>
                 <form onSubmit={submitForm}>
                     <label>
                         <input type='text' placeholder='Wpisz nazwę dania' value={title}
                                onChange={({target}) => (setTitle(target.value))}/>
                     </label>
-                    <NavLink to={`/search/${title}`}>
+                    <NavLink activeStyle={{boxShadow:'ox-shadow: 10px 10px 20px $shadowColor;'}} to={`/search/${title}`}>
                         <button type='submit'>Szukaj</button>
                     </NavLink>
                 </form>

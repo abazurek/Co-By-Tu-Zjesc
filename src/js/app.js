@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import ReactDOM from "react-dom";
-import {HashRouter as Router, Route, Switch, NavLink, useParams} from "react-router-dom";
+import {HashRouter as Router, Route, Switch} from "react-router-dom";
 
 import './../sass/style.scss';
 
@@ -34,10 +34,14 @@ function App() {
         recipes.forEach(function (recipe) {
             if (recipe.category !== lastCategory) {
                 elements.push(recipe.category)
+
             }
             lastCategory = recipe.category;
         });
     }
+    console.log(elements);
+
+
 
     return (
         <Router>

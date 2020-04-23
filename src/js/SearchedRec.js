@@ -1,5 +1,6 @@
 import React from "react";
 import Recipe from "./Recipe";
+import SearchTitle from "./SearchTitle";
 
 function SearchedRecipe({elem, recipes}) {
 
@@ -11,7 +12,11 @@ function SearchedRecipe({elem, recipes}) {
 
     function noRecipes() {
         if(recipesTable.length===0){
-            return(<span>Nie znaleziono przepisu</span>)
+            return(<div className='container no-recipe'>
+                <span>Nie znaleziono przepisu</span>
+                <p>Spróbuj wpisać krótszą frazę lub słowo z wielkiej/małej litery</p>
+                <SearchTitle/>
+            </div>)
         }
     }
 
@@ -26,7 +31,7 @@ function SearchedRecipe({elem, recipes}) {
                 {noRecipes()}
             </>
 
-            : <span>Loading...</span>
+            : <span className='loading container'>Loading...</span>
 
 
     )

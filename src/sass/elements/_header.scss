@@ -1,62 +1,71 @@
-//.labels{
-//  display: flex;
-//  flex-direction: column;
-//}
-.nav-bar {
-  background-color:$backgroundNavColor;
-  box-shadow: 10px 10px 50px ;
+header{
+  //position: fixed;
+  //width: 100vw;
+  //background-color:white ;
+  .nav-bar {
+    background-color:$backgroundNavColor;
+    box-shadow: 10px 10px 70px ;
 
-  .nav {
-    display: flex;
-    justify-content: space-evenly;
 
-    .ulCategory {
+    .nav {
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 0.5em 0;
-      font-size: 3em;
-      font-weight: 500;
+      justify-content: space-evenly;
 
-      a{
-        color: black;
-      &:hover{
-        font-weight: bolder;
-        text-shadow: 2px 2px $shadowColor;
-      }
-        &:focus{
-          outline: none;
-        }
-      }
-
-
-      li{
-        font-size: 0.5em;
+      .ulCategory {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         padding: 0.5em 0;
-        &:focus{
-          outline: none;
+        font-size: 3.5em;
+        font-weight: 500;
+
+        &:hover{
+          li{
+            display: block;
+          }
         }
+
+        a{
+          color: black;
+          &:hover{
+            font-weight: bolder;
+            text-shadow: 2px 2px $shadowColor;
+          }
+          &:focus{
+            outline: none;
+          }
+        }
+
+
+        li{
+          display: none;
+          font-size: 0.5em;
+          padding: 0.5em 0;
+          &:focus{
+            outline: none;
+          }
+        }
+
       }
 
+
+      margin: 2em auto;
+    }
+  }
+
+  .title {
+    font-size: 4.5em;
+    margin: 0.5em;
+    text-align: center;
+    font-weight: bolder;
+    color: $titleColor;
+    text-transform: capitalize;
+    text-shadow: 2px 2px $titleShadowColor;
+
+    span {
+      color: $titleAccentColor;
     }
 
 
-    margin: 2em auto;
   }
-}
-
-.title {
-  font-size: 4.5em;
-  margin: 0.5em;
-  text-align: center;
-  font-weight: bolder;
-  color: $titleColor;
-  text-transform: capitalize;
-  text-shadow: 2px 2px $titleShadowColor;
-
-  span {
-    color: $titleAccentColor;
-  }
-
-
 }

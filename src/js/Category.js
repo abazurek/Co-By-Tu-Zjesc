@@ -15,7 +15,7 @@ function Category({category, recipes}) {
 
                         return (<>
                             <li key={recipe.name}>
-                                <NavLink activeStyle={{fontWeight:'bolder'}} className='navLink' to={`/recipes/${category}/${recipe.subCategory}`}>
+                                <NavLink key={recipe.name} activeStyle={{fontWeight:'bolder'}} className='navLink' to={`/recipes/${category}/${recipe.subCategory}`}>
                                     {recipe.subCategory}
                                 </NavLink>
                             </li>

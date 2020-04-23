@@ -1,7 +1,7 @@
 {
-  "name": "1_Przygotowanie_React",
+  "name": "my-page",
   "version": "1.0.0",
-  "description": "## Zadanie rozwiązywane z wykładowcą",
+  "description": "Page for cooker lovers",
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "current-day-number": "^1.0.6",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
