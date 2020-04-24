@@ -4,7 +4,7 @@ import Recipes from "../Recipes";
 
 const information = {name: '', password: ''};
 
-function Login({data, recipes, categories}) {
+function Login({logData, recipes, categories}) {
 
     const [info, setInfo] = useState(information);
 
@@ -14,11 +14,13 @@ function Login({data, recipes, categories}) {
     function submitForm(e) {
         e.preventDefault();
 
-        data.forEach(function (item) {
-            if (item.name === info.name && item.password === info.password) {
-                setLogged(true);
-            }
-        });
+        if(logData){
+            logData.forEach(function (item) {
+                if (item.name === info.name && item.password === info.password) {
+                    setLogged(true);
+                }
+            });
+        }
         setDontLogged(false);
         setInfo(information);
     }

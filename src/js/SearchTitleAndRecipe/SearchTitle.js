@@ -7,6 +7,7 @@ function SearchTitle() {
 
     function submitForm(e) {
         e.preventDefault();
+        setTitle('');
     }
 
     return (<>

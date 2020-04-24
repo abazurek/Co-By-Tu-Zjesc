@@ -14,11 +14,12 @@ function SearchedIng({elem, recipes}) {
 
     function noRecipes() {
         if (recipesTable.length === 0) {
-            return (<div className='container no-recipe'><span className='problems' >Nie znaleziono przepisu z podanymi składnikami.</span>
-            <p className='problems'>Spórbuj zapisać składniki inaczej
-                (powinny to być rzeczowniki napisane z małej litery
-                z przecinkiem i spacją pomiędzy) lub podać mniejszą ilość składników</p>
-            <SearchIngredients/>
+            return (<div className='container no-recipe'>
+                <span className='problems'>Nie znaleziono przepisu z podanymi składnikami.</span>
+                <p className='problems'>Spórbuj zapisać składniki inaczej
+                    (powinny to być rzeczowniki napisane z małej litery
+                    z przecinkiem i spacją pomiędzy) lub podać mniejszą ilość składników</p>
+                <SearchIngredients/>
             </div>)
         }
     }
@@ -34,16 +35,17 @@ function SearchedIng({elem, recipes}) {
                 }
             });
 
-            if(find.length === recipesNeedTable.length){
+            if (find.length === recipesNeedTable.length) {
                 recipesTable.push(recipe);
-                find=[];
-                return(<Recipe key={recipe.name} recipe={recipe}/> )
-            } else {find=[]}
+                find = [];
+                return (<Recipe key={recipe.name} recipe={recipe}/>)
+            } else {
+                find = []
+            }
 
         });
 
     }
-
 
 
     return (

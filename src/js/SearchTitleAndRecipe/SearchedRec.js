@@ -5,8 +5,6 @@ import SearchTitle from "./SearchTitle";
 function SearchedRecipe({elem, recipes}) {
 
     const urlName = {...elem}.match.params.name;
-    // const urlCategory={...elem}.match.params.category;
-
 
     const recipesTable = [];
 
