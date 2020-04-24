@@ -11,24 +11,28 @@ function Login({logData, recipes, categories}) {
     const [logged, setLogged] = useState(false);
     const [dontLogged, setDontLogged] = useState(true);
 
-    function submitForm(e) {
-        e.preventDefault();
 
-        if(logData){
+
+    function submitForm(e) {
+
+        if (logData) {
             logData.forEach(function (item) {
                 if (item.name === info.name && item.password === info.password) {
-                    setLogged(true);
+                   setLogged(true);
                 }
             });
         }
+
         setDontLogged(false);
         setInfo(information);
+        e.preventDefault();
     }
 
     return (<>
             {logged ? <Recipes recipes={recipes} categories={categories}/> :
                 <div className='container log-register-section'>
-                    {dontLogged? '' : <span className='no-log problems'>Niepoprawna nazwa użytkownika lub hasło. Spróbuj ponownie lub zarejestruj się</span>}
+                    {dontLogged ? '' :
+                        <span className='no-log problems'>Niepoprawna nazwa użytkownika lub hasło. Spróbuj ponownie lub zarejestruj się</span>}
                     <form onSubmit={submitForm}>
                         <label> <span>Wpisz nazwę użytkownika</span> <br/>
                             <input type='text' value={info.name}

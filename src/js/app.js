@@ -85,7 +85,7 @@ function App() {
                 <Route path="/category/:category" render={props => <ChooseCategory elem={props} recipes={recipes}/>}/>
                 <Route path="/search/:name" render={props => <SearchedRecipe elem={props} recipes={recipes}/>}/>
                 <Route path="/ingredients/:ingred" render={props => <SearchedIng elem={props} recipes={recipes}/>}/>
-                <Route path='/log'><Login logDdata={logData} recipes={recipes} categories={elements}/></Route>
+                <Route path='/log'><Login logData={logData} recipes={recipes} categories={elements}/></Route>
                 <Route path='/register'><Register addUser={addUser} logData={logData} recipes={recipes} categories={elements}/></Route>
             </Switch>
 

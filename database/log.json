@@ -9,68 +9,12 @@
       "favourite": "Makowa panienka"
     },
     {
-      "name": "sfsefd",
-      "password": "adasd",
-      "repeatPassword": "adsd",
-      "email": "sfs@vs",
-      "favourite": "",
-      "id": 2
-    },
-    {
-      "name": "zdvcdz",
-      "password": "SzxXZ",
-      "repeatPassword": "XzX",
-      "email": "ZXAX",
-      "favourite": "",
-      "id": 3
-    },
-    {
-      "name": "dfvsd",
-      "password": "sdsdf",
-      "repeatPassword": "sdfsdf",
-      "email": "sf",
-      "favourite": "",
-      "id": 4
-    },
-    {
-      "name": "fdbfsa",
-      "password": "gbdvsfa",
-      "repeatPassword": "fgas",
-      "email": "gdbsaxa",
-      "favourite": "",
-      "id": 5
-    },
-    {
-      "name": "admin",
-      "password": "admin",
-      "repeatPassword": "admin",
-      "email": "admin@admin",
-      "favourite": "",
-      "id": 6
-    },
-    {
-      "name": "admin",
-      "password": "admin",
-      "repeatPassword": "admin",
-      "email": "admin@admin",
-      "favourite": "",
-      "id": 7
-    },
-    {
-      "name": "admin",
-      "password": "admin",
-      "repeatPassword": "admin",
-      "email": "admin@admin",
-      "favourite": "",
-      "id": 8
-    },
-    {
-      "name": "gfgd",
+      "name": "admin1",
       "password": "aaaaa",
       "repeatPassword": "aaaaa",
-      "email": "aa@",
+      "email": "a@",
       "favourite": "",
-      "id": 9
+      "id": 2
     }
   ]
 }

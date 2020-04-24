@@ -16,7 +16,7 @@ function Register({addUser, logData, recipes, categories}) {
     const [message, setMessage] = useState(false);
     const [register,setRegister]=useState(false);
 
-
+    const checkTable=[];
     function submitForm(e) {
         if (info.name < 3) {
             setMessage('Nazwa użytkownika musi miec do najmniej 3 znaki');
@@ -36,11 +36,19 @@ function Register({addUser, logData, recipes, categories}) {
             return;
         }
 
-        logData.forEach(function (dat) {
-            if (dat.name === info.name) {
-                setMessage("Użytkownik o podanej nazwie instnieje, wpisz inną nazwę");
-            }
-        });
+        if(logData){
+            logData.forEach(function (dat) {
+                if (dat.name === info.name) {
+                    checkTable.push(dat);
+                }
+            });
+        }
+
+        if(checkTable.length!==0){
+            setMessage("Użytkownik o podanej nazwie instnieje, wpisz inną nazwę");
+            return;
+        }
+
 
         addUser(info);
         e.preventDefault();
