@@ -8,6 +8,11 @@ function Header() {
 
    const name=localStorage.getItem("name");
 
+   function OutLog() {
+       localStorage.clear();
+       window.location.reload();
+   }
+
     return (
         <header>
             <NavLink className='navLink title-link' to='/'>
@@ -16,7 +21,9 @@ function Header() {
 
 
                     <div className='log-or-register'>
-                        {name!==null ? <span className='hello'>Cześć {name} !</span> : <LogOrRegister/>}
+                        {name!==null ?
+                            <><span className='hello'>Cześć {name} !</span> <NavLink to={'/'}><button onClick={OutLog} className='outLog'>Wyloguj się</button></NavLink> </>
+                            : <LogOrRegister/>}
                     </div>
 
 

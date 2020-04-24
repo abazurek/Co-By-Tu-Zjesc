@@ -42,6 +42,17 @@ header{
       }
     }
   }
-  .hello{font-size: 1.3em}
+  .hello{
+    font-size: 1.3em;
+    line-height: 1.3em;
+  }
 
+  .outLog{
+    border: none;
+    background: none;
+    font-family: $font-base-landingPage;
+    &:hover{
+      font-weight: bolder;
+    }
+  }
 }
