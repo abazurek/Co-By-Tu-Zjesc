@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-import Recipes from "../Recipes";
+import MainSection from "../MainSection";
 
 const information = {name: '', password: ''};
 
@@ -28,7 +28,7 @@ function Login({logged, setLogged, logData, recipes, categories}) {
     }
 
     return (<>
-            {logged ? <Recipes recipes={recipes} categories={categories}/> :
+            {logged ? <MainSection recipes={recipes} categories={categories}/> :
                 <div className='container log-register-section'>
                     {dontLogged ? '' :
                         <span className='no-log problems'>Niepoprawna nazwa użytkownika lub hasło. Spróbuj ponownie lub zarejestruj się</span>}

@@ -13,13 +13,13 @@ function Category({category, recipes}) {
                     if (!table.includes(recipe.subCategory) && recipe.category === category) {
                         table.push(recipe.subCategory);
 
-                        return (<>
+                        return (
                             <li key={recipe.name}>
                                 <NavLink key={recipe.name} activeStyle={{fontWeight:'bolder'}} className='navLink' to={`/recipes/${category}/${recipe.subCategory}`}>
                                     {recipe.subCategory}
                                 </NavLink>
                             </li>
-                        </>);
+                        );
                     }
                 })}
             </ul>

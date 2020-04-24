@@ -6,6 +6,7 @@ import './../sass/style.scss';
 
 import Header from "./Header";
 import Nav from "./Nav";
+import MainSection from "./MainSection";
 import Recipes from "./Recipes";
 import Footer from "./Footer";
 import ChooseRecipes from "./ChoosenElements/ChooseRecipes";
@@ -79,7 +80,7 @@ function App() {
             <Nav recipes={recipes} categories={elements}/>
             <Switch>
                 <Route exact path="/">
-                    <Recipes recipes={recipes} categories={elements}/>
+                    <MainSection recipes={recipes} categories={elements}/>
                 </Route>
                 <Route path="/recipes/:category/:subcategory"
                        render={props => <ChooseRecipes elem={props} recipes={recipes}/>}/>

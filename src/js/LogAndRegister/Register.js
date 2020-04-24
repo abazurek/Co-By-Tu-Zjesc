@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import Recipes from "../Recipes";
+import MainSection from "../MainSection";
 
 const user = {
     "name": "",
@@ -18,21 +18,21 @@ function Register({register,setRegister, addUser, logData, recipes, categories})
 
     const checkTable=[];
     function submitForm(e) {
-        if (info.name < 3) {
+
+        if (info.name.length < 3) {
             setMessage('Nazwa użytkownika musi miec do najmniej 3 znaki');
             return;
         }
-
-        if (info.password < 5) {
-            setMessage('Hasło musi miec co najmniej 5 znaków');
+        if (info.password.length < 4) {
+            setMessage('Hasło musi miec co najmniej 4 znaki');
             return;
         }
         if (info.password !== info.repeatPassword) {
             setMessage('Hasła muszą być identyczne');
             return;
         }
-        if (!info.email.includes('@')) {
-            setMessage("Email musi zawierać @");
+        if (!info.email.includes('@') || info.email.length<3) {
+            setMessage("Email nie może być krótszy niż 3 znaki i musi zawierać  @");
             return;
         }
 
@@ -60,7 +60,7 @@ function Register({register,setRegister, addUser, logData, recipes, categories})
 
 
     return (<>{
-            register ? <Recipes recipes={recipes} categories={categories}/> :
+            register ? <MainSection recipes={recipes} categories={categories}/> :
                 <div className='container log-register-section'>
                     {message ? <span className='container no-log problems'>{message}</span> : ""}s
                     <form onSubmit={submitForm}>

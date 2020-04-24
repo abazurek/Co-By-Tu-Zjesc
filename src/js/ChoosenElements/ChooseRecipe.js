@@ -23,7 +23,7 @@ function ChooseRecipe({elem,recipes }) {
                     <ul><strong>Składniki: </strong>{recipe.longDesc.ingredients.split('\n').map(item => <li key={item}>{item}</li>)}</ul>
                     <article className='longDesc'>
                         <strong>Przygotowanie: </strong>
-                        <div className='prepareDesc'>{recipe.longDesc.prepare.split('\n').map(item => <p className='longDescParagraph'>{item}</p>)}</div>
+                        <div className='prepareDesc'>{recipe.longDesc.prepare.split('\n').map(item => <p key={item} className='longDescParagraph'>{item}</p>)}</div>
                         </article>
                 </div>
             </div>
