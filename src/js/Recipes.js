@@ -1,8 +1,8 @@
 import React from "react";
 
 import Recipe from "./Recipe";
-import SearchTitle from "./SearchTitle";
-import SearchIngredients from "./SerachIngredients";
+import SearchTitle from "./SearchTitleAndRecipe/SearchTitle";
+import SearchIngredients from "./SearchTitleAndRecipe/SerachIngredients";
 import RandomRecipe from "./RandomRecipe";
 
 function Recipes({recipes,categories}) {

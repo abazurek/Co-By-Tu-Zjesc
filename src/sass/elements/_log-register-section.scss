@@ -1,0 +1,19 @@
+.log-register-section{
+  padding: 3em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .no-log{
+    font-size: 2em;
+    text-align: center;
+    line-height: 2em;
+    margin-bottom: 1em;
+
+  }
+  label{
+    span{
+      font-size: 2em;
+    }
+
+  }
+}

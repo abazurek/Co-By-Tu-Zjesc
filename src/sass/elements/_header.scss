@@ -1,17 +1,47 @@
 header{
-  .title {
-    font-size: 4.5em;
-    margin: 0.5em;
-    text-align: center;
-    font-weight: bolder;
-    color: $titleColor;
-    text-transform: capitalize;
-    text-shadow: 2px 2px $titleShadowColor;
+  display: flex;
 
-    span {
-      color: $titleAccentColor;
+  a{
+    &:focus{
+      outline: none;
     }
-
-
   }
+  .title-link{
+    flex: 6;
+    .title {
+      font-size: 4.5em;
+      margin: 0.5em;
+      text-align: center;
+      font-weight: bolder;
+      color: $titleColor;
+      text-transform: capitalize;
+      text-shadow: 2px 2px $titleShadowColor;
+
+      span {
+        color: $titleAccentColor;
+      }
+
+    }
+  }
+
+  .log-or-register{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    font-size: 1.5em;
+    line-height: 1.2em;
+
+    a{
+      text-decoration: none;
+      color: black;
+      font-weight: bolder;
+
+      &:hover{
+
+        text-shadow: 2px 2px 5px $shadowColor;
+      }
+    }
+  }
+
 }

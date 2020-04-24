@@ -2,7 +2,7 @@
   "recipes": [
     {
       "id": 1,
-      "category": "vegetarian",
+      "category": "wegetariańskio",
       "subCategory": "Zupy",
       "name": "Zupa grzybowa z suszonych grzybów",
       "image": "../../src/images/id1.jpg",
@@ -15,7 +15,7 @@
     },
     {
       "id": 2,
-      "category": "vegetarian",
+      "category": "wegetariańskio",
       "subCategory": "Zupy",
       "name": "Zupa boczniakowa z ciecieżycą",
       "image": "../../src/images/id2.jpg",
@@ -28,7 +28,7 @@
     },
     {
       "id": 3,
-      "category": "vegetarian",
+      "category": "wegetariańskio",
       "subCategory": "Zupy",
       "name": "Zupa cebulowa z suszonymi grzybami",
       "image": "../../src/images/id3.jpg",
@@ -41,9 +41,9 @@
     },
     {
       "id": 4,
-      "category": "vegetarian",
+      "category": "wegetariańskio",
       "subCategory": "Drugie Dania",
-      "name": "Curry wegetariańskie z batatami, kalafiorem i orzechami nerkowca",
+      "name": "Curry wegetariańskio z batatami, kalafiorem i orzechami nerkowca",
       "image": "../../src/images/id4.jpg",
       "shortDesc": "Roślinne curry z kalafiorem i batatami (słodkimi ziemniakami) oraz pomidorami. Świetnym uzupełnieniem będą orzechy nerkowca, nie tylko tylko jako dodatek smakowy ale i podnoszący wartości odżywcze dania (są bogate m.in. w białko). Do podania idealnie sprawdzi się ryż. ",
       "need": "cebula, olej, czosnek, imbir, kumin, papryka ostra, kurkuma, kolendra, pomidory krojone, bataty, kalafior, mleczko kokosowe, orzechy nerkowca, ryż, kolendra",
@@ -54,7 +54,7 @@
     },
     {
       "id":5 ,
-      "category": "vegetarian",
+      "category": "wegetariańskio",
       "subCategory": "Inne Dania",
       "name": "Pasztet sojowy",
       "image": "../../src/images/id5.jpg",
@@ -67,7 +67,7 @@
     },
     {
       "id":6 ,
-      "category": "vegetarian",
+      "category": "wegetariańskio",
       "subCategory": "Drugie Dania",
       "name": " Naleśniki ruskie",
       "image": "../../src/images/id6.jpg",
@@ -80,7 +80,7 @@
     },
     {
       "id":7 ,
-      "category": "vegetarian",
+      "category": "wegetariańskio",
       "subCategory": "Sałatki",
       "name": "Sałatka z mango i avocado",
       "image": "../../src/images/id7.jpg",
@@ -95,7 +95,7 @@
 
     {
       "id":8 ,
-      "category": "fish",
+      "category": "rybnie",
       "subCategory": "Zupy",
       "name": "Zupa z dorszem i kalafiorem",
       "image": "../../src/images/id8.jpg",
@@ -108,7 +108,7 @@
     },
     {
       "id":9 ,
-      "category": "fish",
+      "category": "rybnie",
       "subCategory": "Sałatki",
       "name": "Sałatka z tuńczykiem i pomidorem",
       "image": "../../src/images/id9.jpg",
@@ -121,7 +121,7 @@
     },
     {
       "id":10 ,
-      "category": "fish",
+      "category": "rybnie",
       "subCategory": "Drugie Dania",
       "name": "Dorsz ze szpinakiem i chrupiącą posypką",
       "image": "../../src/images/id10.jpg",
@@ -134,7 +134,7 @@
     },
     {
       "id":11 ,
-      "category": "fish",
+      "category": "rybnie",
       "subCategory": "Przystawki",
       "name": "Krewetki w sosie po luizjańsku",
       "image": "../../src/images/id11.jpg",
@@ -147,7 +147,7 @@
     },
     {
       "id":12 ,
-      "category": "fish",
+      "category": "rybnie",
       "subCategory": "Przystawki",
       "name": "Grzanki z avocado, łososiem wędzonym i jajkiem w koszulce",
       "image": "../../src/images/id12.jpg",
@@ -160,7 +160,7 @@
     },
     {
       "id":13 ,
-      "category": "fish",
+      "category": "rybnie",
       "subCategory": "Drugie Dania",
       "name": "Łosoś pieczony z syropem klonowym",
       "image": "../../src/images/id13.jpg",
@@ -173,7 +173,7 @@
     },
     {
       "id":14 ,
-      "category": "meat",
+      "category": "mięsnie",
       "subCategory": "Drugie Dania",
       "name": "Stir-fry z wołowiną i brokułami",
       "image": "../../src/images/id14.jpg",
@@ -186,7 +186,7 @@
     },
     {
       "id":15 ,
-      "category": "meat",
+      "category": "mięsnie",
       "subCategory": "Drugie Dania",
       "name": "Indyk gotowany w sosie ze śmietaną i marchewką",
       "image": "../../src/images/id15.jpg",
@@ -200,7 +200,7 @@
 
     {
       "id":16 ,
-      "category": "meat",
+      "category": "mięsnie",
       "subCategory": "Kurczakowe",
       "name": "Kurczak z 40 ząbkami czosnku",
       "image": "../../src/images/id16.jpg",
@@ -214,7 +214,7 @@
 
     {
       "id":17 ,
-      "category": "meat",
+      "category": "mięsnie",
       "subCategory": "Drugie Dania",
       "name": "Zapiekanka makaronowa z pieczonym lub gotowanym kurczakiem",
       "image": "../../src/images/id17.jpg",
@@ -228,7 +228,7 @@
 
     {
       "id":18 ,
-      "category": "meat",
+      "category": "mięsnie",
       "subCategory": "Kurczakowe",
       "name": "Grillowane filety z kurczaka z mozarellą i guacamole",
       "image": "../../src/images/id18.jpg",
@@ -241,7 +241,7 @@
     },
     {
       "id":19 ,
-      "category": "meat",
+      "category": "mięsnie",
       "subCategory": "Drugie Dania",
       "name": "Cukinia faszerowana chilli con carne",
       "image": "../../src/images/id19.jpg",
@@ -254,7 +254,7 @@
     },
     {
       "id":20 ,
-      "category": "meat",
+      "category": "mięsnie",
       "subCategory": "Kurczakowe",
       "name": "Kurczak z warzywami",
       "image": "../../src/images/id20.jpg",
@@ -267,7 +267,7 @@
     },
     {
       "id":21 ,
-      "category": "meat",
+      "category": "mięsnie",
       "subCategory": "Drugie Dania",
       "name": "Pulpeciki drobiowe z cukinią w sosie pomidorowym",
       "image": "../../src/images/id21.jpg",
@@ -280,7 +280,7 @@
     },
     {
       "id":22 ,
-      "category": "sweetie",
+      "category": "na słodko",
       "subCategory": "Ciasta",
       "name": "Makowa panienka",
       "image": "../../src/images/id22.jpg",
@@ -293,7 +293,7 @@
     },
     {
       "id":23 ,
-      "category": "sweetie",
+      "category": "na słodko",
       "subCategory": "Inne desery",
       "name": "Bomba tiramisu",
       "image": "../../src/images/id23.jpg",
@@ -306,7 +306,7 @@
     },
     {
       "id":24 ,
-      "category": "sweetie",
+      "category": "na słodko",
       "subCategory": "Ciasta",
       "name": "Ciasto - Sernik z nutą pomarańczy",
       "image": "../../src/images/id24.jpg",
@@ -319,7 +319,7 @@
     },
     {
       "id":25 ,
-      "category": "sweetie",
+      "category": "na słodko",
       "subCategory": "Muffiny",
       "name": "Muffiny bananowe",
       "image": "../../src/images/id25.jpg",
@@ -332,7 +332,7 @@
     },
     {
       "id":26 ,
-      "category": "sweetie",
+      "category": "na słodko",
       "subCategory": "Muffiny",
       "name": "Muffiny z jabłkami",
       "image": "../../src/images/id26.jpg",
@@ -345,7 +345,7 @@
     },
     {
       "id":27 ,
-      "category": "sweetie",
+      "category": "na słodko",
       "subCategory": "Ciastka",
       "name": "Ciasteczka owsiane",
       "image": "../../src/images/id27.jpg",
@@ -358,7 +358,7 @@
     },
     {
       "id":28 ,
-      "category": "sweetie",
+      "category": "na słodko",
       "subCategory": "Inne desery",
       "name": "Malinowy budyń jaglany",
       "image": "../../src/images/id28.jpg",
@@ -371,7 +371,7 @@
     },
     {
       "id":29 ,
-      "category": "sweetie",
+      "category": "na słodko",
       "subCategory": "Ciasta",
       "name": "Brownie z fasoli",
       "image": "../../src/images/id29.jpg",
@@ -384,7 +384,7 @@
     },
     {
       "id":30 ,
-      "category": "sweetie",
+      "category": "na słodko",
       "subCategory": "Inne desery",
       "name": "Kulki mocy",
       "image": "../../src/images/id30.jpg",

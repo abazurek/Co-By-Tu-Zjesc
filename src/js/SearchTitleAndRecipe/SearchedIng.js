@@ -1,5 +1,5 @@
 import React from "react";
-import Recipe from "./Recipe";
+import Recipe from "../Recipe";
 import SearchIngredients from "./SerachIngredients";
 
 function SearchedIng({elem, recipes}) {
@@ -14,10 +14,10 @@ function SearchedIng({elem, recipes}) {
 
     function noRecipes() {
         if (recipesTable.length === 0) {
-            return (<div className='container no-recipe'><span >Nie znaleziono przepisu z podanymi składnikami.</span>
-            <p>Spórbuj zapisać składniki inaczej
+            return (<div className='container no-recipe'><span className='problems' >Nie znaleziono przepisu z podanymi składnikami.</span>
+            <p className='problems'>Spórbuj zapisać składniki inaczej
                 (powinny to być rzeczowniki napisane z małej litery
-                z przecinkiem i spacją pomiędzy), lub podać mniejszą ilość składników</p>
+                z przecinkiem i spacją pomiędzy) lub podać mniejszą ilość składników</p>
             <SearchIngredients/>
             </div>)
         }

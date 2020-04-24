@@ -1,1 +1,36 @@
-{}
+{
+  "log": [
+    {
+      "id": 1,
+      "name": "admin",
+      "password": "admin",
+      "repeatPassword": "admin",
+      "email": "admin@admin.pl",
+      "favourite": "Makowa panienka"
+    },
+    {
+      "name": "sfsefd",
+      "password": "adasd",
+      "repeatPassword": "adsd",
+      "email": "sfs@vs",
+      "favourite": "",
+      "id": 2
+    },
+    {
+      "name": "zdvcdz",
+      "password": "SzxXZ",
+      "repeatPassword": "XzX",
+      "email": "ZXAX",
+      "favourite": "",
+      "id": 3
+    },
+    {
+      "name": "dfvsd",
+      "password": "sdsdf",
+      "repeatPassword": "sdfsdf",
+      "email": "sf",
+      "favourite": "",
+      "id": 4
+    }
+  ]
+}

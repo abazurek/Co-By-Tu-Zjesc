@@ -17,7 +17,7 @@ function SearchTitle() {
                         <input type='text' placeholder='Wpisz nazwę dania' value={title}
                                onChange={({target}) => (setTitle(target.value))}/>
                     </label>
-                    <NavLink activeStyle={{boxShadow:'ox-shadow: 10px 10px 20px $shadowColor;'}} to={`/search/${title}`}>
+                    <NavLink to={`/search/${title}`}>
                         <button type='submit'>Szukaj</button>
                     </NavLink>
                 </form>
