@@ -32,7 +32,7 @@ header{
     font-size: 1.5em;
     line-height: 1.2em;
 
-    a{
+    a, .hello{
       text-decoration: none;
       color: black;
       font-weight: bolder;
@@ -43,5 +43,6 @@ header{
       }
     }
   }
+  .hello{font-size: 1.3em}
 
 }

@@ -10,11 +10,11 @@ const user = {
 
 };
 
-function Register({addUser, logData, recipes, categories}) {
+function Register({register,setRegister, addUser, logData, recipes, categories}) {
 
     const [info, setInfo] = useState(user);
     const [message, setMessage] = useState(false);
-    const [register,setRegister]=useState(false);
+
 
     const checkTable=[];
     function submitForm(e) {
@@ -55,6 +55,7 @@ function Register({addUser, logData, recipes, categories}) {
 
         setInfo(user);
         setRegister(true);
+        localStorage.setItem("name",info.name);
     }
 
 

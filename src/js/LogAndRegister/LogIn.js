@@ -4,11 +4,9 @@ import Recipes from "../Recipes";
 
 const information = {name: '', password: ''};
 
-function Login({logData, recipes, categories}) {
+function Login({logged, setLogged, logData, recipes, categories}) {
 
     const [info, setInfo] = useState(information);
-
-    const [logged, setLogged] = useState(false);
     const [dontLogged, setDontLogged] = useState(true);
 
 
@@ -19,6 +17,7 @@ function Login({logData, recipes, categories}) {
             logData.forEach(function (item) {
                 if (item.name === info.name && item.password === info.password) {
                    setLogged(true);
+                   localStorage.setItem("name",item.name);
                 }
             });
         }

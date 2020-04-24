@@ -20,9 +20,11 @@ import Register from "./LogAndRegister/Register";
 
 function App() {
 
-
     const [recipes, setRecipes] = useState(false);
     const [logData, setLogData]=useState(false);
+
+    const [logged, setLogged] = useState(false);
+    const [register,setRegister]=useState(false);
 
     function fetchData (){
         fetch('http://localhost:3000/recipes')
@@ -73,7 +75,7 @@ function App() {
 
     return (
         <Router>
-            <Header/>
+            <Header />
             <Nav recipes={recipes} categories={elements}/>
             <Switch>
                 <Route exact path="/">
@@ -85,8 +87,8 @@ function App() {
                 <Route path="/category/:category" render={props => <ChooseCategory elem={props} recipes={recipes}/>}/>
                 <Route path="/search/:name" render={props => <SearchedRecipe elem={props} recipes={recipes}/>}/>
                 <Route path="/ingredients/:ingred" render={props => <SearchedIng elem={props} recipes={recipes}/>}/>
-                <Route path='/log'><Login logData={logData} recipes={recipes} categories={elements}/></Route>
-                <Route path='/register'><Register addUser={addUser} logData={logData} recipes={recipes} categories={elements}/></Route>
+                <Route path='/log'><Login logged={logged} setLogged={setLogged} logData={logData} recipes={recipes} categories={elements}/></Route>
+                <Route path='/register'><Register  register={register} setRegister={setRegister} addUser={addUser} logData={logData} recipes={recipes} categories={elements}/></Route>
             </Switch>
 
             <Footer/>

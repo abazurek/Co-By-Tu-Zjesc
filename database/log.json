@@ -15,6 +15,38 @@
       "email": "a@",
       "favourite": "",
       "id": 2
+    },
+    {
+      "name": "Alicja",
+      "password": "aaaaa",
+      "repeatPassword": "aaaaa",
+      "email": "a@",
+      "favourite": "",
+      "id": 3
+    },
+    {
+      "name": "Ala",
+      "password": "aaaaa",
+      "repeatPassword": "aaaaa",
+      "email": "a@",
+      "favourite": "",
+      "id": 4
+    },
+    {
+      "name": "aaaa",
+      "password": "aaaaa",
+      "repeatPassword": "aaaaa",
+      "email": "a@",
+      "favourite": "",
+      "id": 5
+    },
+    {
+      "name": "Kot",
+      "password": "sssss",
+      "repeatPassword": "sssss",
+      "email": "s@",
+      "favourite": "",
+      "id": 6
     }
   ]
 }
