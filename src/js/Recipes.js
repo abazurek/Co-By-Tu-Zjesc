@@ -2,7 +2,7 @@ import React from "react";
 
 import Recipe from "./Recipe";
 
-function Recipes({recipes,categories}) {
+function Recipes({name,recipes,categories}) {
 
     return(
         <>
@@ -14,7 +14,7 @@ function Recipes({recipes,categories}) {
                         {recipes.map(function (recipe) {
                             if(element===recipe.category){
                                 return(
-                                    <Recipe key={recipe.name} recipe={recipe}/>
+                                    <Recipe name={name} key={recipe.name} recipe={recipe}/>
                                 )
                             }
                         })}

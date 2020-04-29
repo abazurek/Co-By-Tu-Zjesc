@@ -1,7 +1,7 @@
 import React from "react";
 import Recipe from "./Recipe";
 
-function RandomRecipe({recipes}) {
+function RandomRecipe({name,recipes}) {
 
     const currentDayNumber = require('current-day-number');
     const indexOfRecipe = currentDayNumber() % (recipes.length);
@@ -10,7 +10,7 @@ function RandomRecipe({recipes}) {
         <div className='for-today container'>
             <span>Przepis na dziś:</span>
             {recipes ? <div className='recipe-for-today'>
-                <Recipe recipe={recipes[indexOfRecipe]}/>
+                <Recipe name={name} recipe={recipes[indexOfRecipe]}/>
             </div> : <span className='loading container'>Loading...</span>}
         </div>
     )

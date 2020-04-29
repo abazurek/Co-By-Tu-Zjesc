@@ -12,7 +12,7 @@ module.exports = {
     path: path.resolve(__dirname, "build") //zapisuj wszystko w ./build
   },
   devServer: {
-    port: 3001,
+    port: 3002,
   },
   module: {
     rules: [
@@ -87,4 +87,4 @@ module.exports = {
         template: './src/index.html', // szablon na podstawie, którego ma być utworzony plik
     })
   ]
-}
+};

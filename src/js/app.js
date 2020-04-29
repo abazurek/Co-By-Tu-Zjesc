@@ -7,7 +7,6 @@ import './../sass/style.scss';
 import Header from "./Header";
 import Nav from "./Nav";
 import MainSection from "./MainSection";
-import Recipes from "./Recipes";
 import Footer from "./Footer";
 import ChooseRecipes from "./ChoosenElements/ChooseRecipes";
 import ChooseRecipe from "./ChoosenElements/ChooseRecipe";
@@ -16,10 +15,13 @@ import SearchedRecipe from "./SearchTitleAndRecipe/SearchedRec";
 import SearchedIng from "./SearchTitleAndRecipe/SearchedIng";
 import Login from "./LogAndRegister/LogIn";
 import Register from "./LogAndRegister/Register";
+import Account from "./LogAndRegister/Account";
 
 
 
 function App() {
+
+    const name=localStorage.getItem("name");
 
     const [recipes, setRecipes] = useState(false);
     const [logData, setLogData]=useState(false);
@@ -76,11 +78,11 @@ function App() {
 
     return (
         <Router>
-            <Header />
+            <Header name={name}/>
             <Nav recipes={recipes} categories={elements}/>
             <Switch>
                 <Route exact path="/">
-                    <MainSection recipes={recipes} categories={elements}/>
+                    <MainSection name={name} recipes={recipes} categories={elements}/>
                 </Route>
                 <Route path="/recipes/:category/:subcategory"
                        render={props => <ChooseRecipes elem={props} recipes={recipes}/>}/>
@@ -90,6 +92,7 @@ function App() {
                 <Route path="/ingredients/:ingred" render={props => <SearchedIng elem={props} recipes={recipes}/>}/>
                 <Route path='/log'><Login logged={logged} setLogged={setLogged} logData={logData} recipes={recipes} categories={elements}/></Route>
                 <Route path='/register'><Register  register={register} setRegister={setRegister} addUser={addUser} logData={logData} recipes={recipes} categories={elements}/></Route>
+                <Route path={'/account/:usen'} render={props=><Account elem={props}/>}/>
             </Switch>
 
             <Footer/>

@@ -4,9 +4,8 @@ import {NavLink} from "react-router-dom";
 import LogOrRegister from "./LogAndRegister/LogOrRegister";
 
 
-function Header() {
+function Header({name}) {
 
-   const name=localStorage.getItem("name");
 
    function OutLog() {
        localStorage.clear();
@@ -22,7 +21,8 @@ function Header() {
 
                     <div className='log-or-register'>
                         {name!==null ?
-                            <><span className='hello'>Cześć {name} !</span> <NavLink to={'/'}><button onClick={OutLog} className='outLog'>Wyloguj się</button></NavLink> </>
+                            <><NavLink to={`/account/${name}`}><span className='hello'>Cześć {name} !</span></NavLink>
+                            <NavLink to={'/'}><button onClick={OutLog} className='outLog'>Wyloguj się</button></NavLink> </>
                             : <LogOrRegister/>}
                     </div>
 

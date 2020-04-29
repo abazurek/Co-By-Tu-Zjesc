@@ -7,6 +7,30 @@
       "repeatPassword": "admin",
       "email": "admin@admin.pl",
       "favourite": "Makowa panienka"
+    },
+    {
+      "name": "Ala",
+      "password": "4444",
+      "repeatPassword": "4444",
+      "email": "aA@a",
+      "favourite": "",
+      "id": 2
+    },
+    {
+      "name": "Alicja",
+      "password": "5555",
+      "repeatPassword": "5555",
+      "email": "a@aa",
+      "favourite": "",
+      "id": 3
+    },
+    {
+      "name": "zzz",
+      "password": "zzzz",
+      "repeatPassword": "zzzz",
+      "email": "z55@z",
+      "favourite": "",
+      "id": 4
     }
   ]
 }

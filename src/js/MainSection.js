@@ -5,7 +5,7 @@ import SearchIngredients from "./SearchTitleAndRecipe/SerachIngredients";
 import RandomRecipe from "./RandomRecipe";
 import Recipes from "./Recipes";
 
-function MainSection({recipes,categories}) {
+function MainSection({name,recipes,categories}) {
 
 
     return(
@@ -13,8 +13,8 @@ function MainSection({recipes,categories}) {
 
             <SearchTitle/>
             <SearchIngredients/>
-            <RandomRecipe recipes={recipes}/>
-           <Recipes recipes={recipes} categories={categories}/>
+            <RandomRecipe name={name} recipes={recipes}/>
+           <Recipes name={name} recipes={recipes} categories={categories}/>
 
         </>
 
