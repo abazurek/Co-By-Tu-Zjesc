@@ -2,7 +2,7 @@ import React from "react";
 import Recipe from "../Recipe";
 import SearchIngredients from "./SerachIngredients";
 
-function SearchedIng({elem, recipes}) {
+function SearchedIng({update, info, elem, recipes}) {
 
     const urlIngredients = {...elem}.match.params.ingred;
 
@@ -38,7 +38,7 @@ function SearchedIng({elem, recipes}) {
             if (find.length === recipesNeedTable.length) {
                 recipesTable.push(recipe);
                 find = [];
-                return (<Recipe key={recipe.name} recipe={recipe}/>)
+                return (<Recipe update={update} info={info} key={recipe.name} recipe={recipe}/>)
             } else {
                 find = []
             }

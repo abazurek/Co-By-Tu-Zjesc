@@ -2,7 +2,7 @@ import React from "react";
 import Recipe from "../Recipe";
 import SearchTitle from "./SearchTitle";
 
-function SearchedRecipe({elem, recipes}) {
+function SearchedRecipe({update, info,elem, recipes}) {
 
     const urlName = {...elem}.match.params.name;
 
@@ -12,7 +12,7 @@ function SearchedRecipe({elem, recipes}) {
         if(recipesTable.length===0){
             return(<div className='container no-recipe'>
                 <span className='problems'>Nie znaleziono przepisu</span>
-                <p className='problems'>Spróbuj wpisać krótszą frazę lub słowo z wielkiej/małej litery</p>
+                <p className='problems'>Spróbuj wpisać krótszą frazę lub inaczej sformułować zapytanie</p>
                 <SearchTitle/>
             </div>)
         }
@@ -21,9 +21,9 @@ function SearchedRecipe({elem, recipes}) {
     return (
         recipes ? <>
                 {recipes.map((recipe) => {
-                    if (recipe.name.includes(urlName)) {
+                    if (recipe.name.toLowerCase().includes(urlName.toLowerCase())) {
                         recipesTable.push(recipe);
-                        return (<Recipe key={recipe.name} recipe={recipe}/>)
+                        return (<Recipe update={update} info={info} key={recipe.name} recipe={recipe}/>)
                     }
                 })}
                 {noRecipes()}

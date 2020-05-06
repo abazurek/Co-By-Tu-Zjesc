@@ -18,19 +18,36 @@
   font-family: $font-second-recipes;
   margin: 7em auto;
 
-
-  .recipe-name{
-    text-align: center;
-    font-size: 2.5em;
-    font-weight: bolder;
+  .recipe-name-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 1em;
-    color: $recipeNameColor;
-  }
-  .recipe-link{
-    &:hover{
-      text-shadow: 2px 2px 5px $shadowColor;
+    .recipe-name{
+      text-align: center;
+      font-size: 2.5em;
+      font-weight: bolder;
+      color: $recipeNameColor;
+    }
+    .recipe-link{
+      &:hover{
+        text-shadow: 2px 2px 5px $shadowColor;
+      }
+    }
+    .recipe-icon{
+      margin-left: 1em;
+      color: $problemsColor;
+    }
+
+    .addFavourite{
+
+      &:hover{
+        font-size: 1.5em;
+        cursor: pointer;
+      }
     }
   }
+
 
   img{
     max-width: 600px;

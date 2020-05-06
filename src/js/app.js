@@ -22,6 +22,7 @@ import Account from "./LogAndRegister/Account";
 function App() {
 
     const name=localStorage.getItem("name");
+    let info=null;
 
     const [recipes, setRecipes] = useState(false);
     const [logData, setLogData]=useState(false);
@@ -76,23 +77,43 @@ function App() {
             .catch(err=>console.log(err))
     }
 
+    if(logData){
+        logData.forEach(function (element) {
+            if(element.name===name){
+                info=element;
+            }
+        })
+    }
+
+    function udpateFavourities(id,fav) {
+        fetch(`http://localhost:3004/log/${id}`,{
+            method:"PATCH",
+            body:JSON.stringify(fav),
+            headers:{
+                "Content-Type":"application/json"
+            }
+        })
+            .then(resp=>resp.json())
+            .catch(err=>console.log(err))
+    }
+
     return (
         <Router>
             <Header name={name}/>
             <Nav recipes={recipes} categories={elements}/>
             <Switch>
                 <Route exact path="/">
-                    <MainSection name={name} recipes={recipes} categories={elements}/>
+                    <MainSection update={udpateFavourities} info={info} name={name} recipes={recipes} categories={elements}/>
                 </Route>
                 <Route path="/recipes/:category/:subcategory"
-                       render={props => <ChooseRecipes elem={props} recipes={recipes}/>}/>
-                <Route path="/recipe/:name" render={props => <ChooseRecipe elem={props} recipes={recipes}/>}/>
-                <Route path="/category/:category" render={props => <ChooseCategory elem={props} recipes={recipes}/>}/>
-                <Route path="/search/:name" render={props => <SearchedRecipe elem={props} recipes={recipes}/>}/>
-                <Route path="/ingredients/:ingred" render={props => <SearchedIng elem={props} recipes={recipes}/>}/>
+                       render={props => <ChooseRecipes update={udpateFavourities} info={info} elem={props} recipes={recipes}/>}/>
+                <Route path="/recipe/:name" render={props => <ChooseRecipe update={udpateFavourities}  info={info} name={name} elem={props} recipes={recipes}/>}/>
+                <Route path="/category/:category" render={props => <ChooseCategory  update={udpateFavourities}  info={info} elem={props} recipes={recipes}/>}/>
+                <Route path="/search/:name" render={props => <SearchedRecipe  update={udpateFavourities} info={info} elem={props} recipes={recipes}/>}/>
+                <Route path="/ingredients/:ingred" render={props => <SearchedIng  update={udpateFavourities} info={info} elem={props} recipes={recipes}/>}/>
                 <Route path='/log'><Login logged={logged} setLogged={setLogged} logData={logData} recipes={recipes} categories={elements}/></Route>
                 <Route path='/register'><Register  register={register} setRegister={setRegister} addUser={addUser} logData={logData} recipes={recipes} categories={elements}/></Route>
-                <Route path={'/account/:usen'} render={props=><Account elem={props}/>}/>
+                <Route path={'/account/:user'} render={props=><Account info={info} elem={props} recipes={recipes}/>}/>
             </Switch>
 
             <Footer/>

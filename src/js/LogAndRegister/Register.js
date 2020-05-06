@@ -6,7 +6,7 @@ const user = {
     "password": "",
     "repeatPassword": "",
     "email": "",
-    "favourite": "",
+    "favourite": [],
 
 };
 
