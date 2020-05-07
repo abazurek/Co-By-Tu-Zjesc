@@ -7,18 +7,26 @@
       "repeatPassword": "admin",
       "email": "admin@admin.pl",
       "favourite": [
-        "Makowa panienka",
         "Grzanki z avocado, łososiem wędzonym i jajkiem w koszulce",
-        "Krewetki w sosie po luizjańsku"
+        "Zupa z dorszem i kalafiorem",
+        "Sałatka z tuńczykiem i pomidorem"
+      ],
+      "myRecipes": [
+        {
+          "name": "Zapiekanka",
+          "shortDesc": "Pyszna zapiekanka mniami mniami mniami",
+          "need": "jaja, kasza, mleko, sól, pieprz, papryka, czosnek, cebula",
+          "ingredients": "4jaja, pól litra mleka, 4 worki kaszy, 8 papryk, 4 cebule",
+          "longDesc": "Wszystko wymieszać, zapiec i gotowe"
+        },
+        {
+          "name": "Kaszanka",
+          "shortDesc": "Pyszna kaszanka ble ble ble",
+          "need": "jaja, kasza, krew, sól, pieprz, czosnek, cebula",
+          "ingredients": "4jaja, 4 worki kaszy, 4 cebule, duzo soli, dużo pieprzu, troche czosnku",
+          "longDesc": "Wszystko wymieszać, zapiec i gotowe. Nie jeść bo ochydne"
+        }
       ]
-    },
-    {
-      "name": "Ala",
-      "password": "4444",
-      "repeatPassword": "4444",
-      "email": "aA@a",
-      "favourite": [],
-      "id": 2
     },
     {
       "name": "Alicja",
@@ -26,60 +34,14 @@
       "repeatPassword": "5555",
       "email": "a@aa",
       "favourite": [
-        "Zupa boczniakowa z ciecieżycą",
-        "Zupa cebulowa z suszonymi grzybami",
-        "Curry wegetariańskio z batatami, kalafiorem i orzechami nerkowca",
-        "Kurczak z 40 ząbkami czosnku",
+        "Sałatka z tuńczykiem i pomidorem",
+        "Zupa z dorszem i kalafiorem",
+        " Naleśniki ruskie",
         "Zupa grzybowa z suszonych grzybów",
-        "Makowa panienka",
-        "Zapiekanka makaronowa z pieczonym lub gotowanym kurczakiem",
-        "Bomba tiramisu",
-        "Kurczak z warzywami",
-        "Stir-fry z wołowiną i brokułami",
-        "Indyk gotowany w sosie ze śmietaną i marchewką",
-        "Muffiny bananowe",
-        "Grillowane filety z kurczaka z mozarellą i guacamole",
-        "Pasztet sojowy"
+        "Stir-fry z wołowiną i brokułami"
       ],
-      "id": 3
-    },
-    {
-      "name": "zzz",
-      "password": "zzzz",
-      "repeatPassword": "zzzz",
-      "email": "z55@z",
-      "favourite": [],
-      "id": 4
-    },
-    {
-      "name": "Halina",
-      "password": "Zuza",
-      "repeatPassword": "Zuza",
-      "email": "halinka63@onet.pl",
-      "favourite": [
-        "Zupa boczniakowa z ciecieżycą"
-      ],
-      "id": 5
-    },
-    {
-      "name": "wojpala",
-      "password": "laptop123",
-      "repeatPassword": "laptop123",
-      "email": "jerzyskora@lm.com",
-      "favourite": [
-        "Łosoś pieczony z syropem klonowym"
-      ],
-      "id": 6
-    },
-    {
-      "name": "kkk",
-      "password": "2222",
-      "repeatPassword": "2222",
-      "email": "a@aa",
-      "favourite": [
-        "Zupa grzybowa z suszonych grzybów"
-      ],
-      "id": 7
+      "id": 2,
+      "myRecipes": []
     }
   ]
 }

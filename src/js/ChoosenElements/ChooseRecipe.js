@@ -32,8 +32,12 @@ function ChooseRecipe({update,info,name,elem, recipes}) {
             <div className=' recipe recipe-longVersion container' key={recipe.name}>
                 <div className='recipe-name-block'>
                     <h3 className='recipe-name'>{recipe.name}</h3>
-                    {name !== null ? <div className='addFavourite' onClick={()=>addToFavourite(recipe.name)}>
-                        <FontAwesomeIcon title='dodaj do ulubionych' className='recipe-icon' icon={faHeart}/></div> :""}</div>
+                    {name!==null && info ? <div className='addFavourite' onClick={()=>addToFavourite(recipe.name)}>
+                            {
+                                !info.favourite.includes(recipe.name) ? <FontAwesomeIcon title='dodaj do ulubionych' className='recipe-icon' icon={faHeart}/> : ""
+                            }
+                        </div>
+                        :""}</div>
                 <img src={recipe.image} alt={recipe.name}/>
                 <div className='container'>
                     <ul><strong>Składniki: </strong>{recipe.longDesc.ingredients.split('\n').map(item => <li

@@ -14,10 +14,10 @@ function Footer() {
                 </div>
                 <div className='contact'>
                     <p>Media:</p>
-                    <a href='https://www.facebook.com/' target='_blank'>
-                        <img src='../../src/images/Facebook.svg' alt='Facebook icon'/></a>
-                    <a href='https://twitter.com/?lang=pl' target='_blank'>
-                        <img src='../../src/images/Twitter.svg' alt='Twitter icon'/></a>
+                    <a href='https://www.linkedin.com/in/alicja-%C5%BCurek-33898a196/' target='_blank'>
+                        <img src='../../src/images/linkedin.png' alt='LinkedIn icon'/></a>
+                    <a href='https://github.com/abazurek' target='_blank'>
+                        <img src='../../src/images/github.webp' alt='Github icon'/></a>
                 </div>
             </div>
         </footer>

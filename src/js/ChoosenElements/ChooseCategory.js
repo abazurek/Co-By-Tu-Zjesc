@@ -1,7 +1,7 @@
 import React from "react";
 import Recipe from "../Recipe";
 
-function ChooseCategory({update,info,elem, recipes}) {
+function ChooseCategory({update,info, name, elem, recipes}) {
 
     const urlName = {...elem}.match.params.category;
 
@@ -13,7 +13,7 @@ function ChooseCategory({update,info,elem, recipes}) {
                 {recipes.map(function (recipe) {
                     if (urlName === recipe.category) {
                         return (
-                            <Recipe update={update} info={info} key={recipe.name} recipe={recipe}/>
+                            <Recipe update={update} info={info} name={name} key={recipe.name} recipe={recipe}/>
                         )
                     }
                 })}</section>

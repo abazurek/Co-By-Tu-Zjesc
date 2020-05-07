@@ -12,6 +12,10 @@ function Header({name}) {
        window.location.reload();
    }
 
+   function Reload() {
+       window.location.reload();
+   }
+
     return (
         <header>
             <NavLink className='navLink title-link' to='/'>
@@ -19,7 +23,7 @@ function Header({name}) {
             </NavLink>
                     <div className='log-or-register'>
                         {name!==null ?
-                            <><NavLink to={`/account/${name}`}><span className='hello'>Cześć {name} !</span></NavLink>
+                            <><div onClick={Reload}><NavLink to={`/account/${name}`}><span className='hello'>Cześć {name} !</span></NavLink></div>
                             <NavLink to={'/'}><button onClick={OutLog} className='outLog'>Wyloguj się</button></NavLink> </>
                             : <LogOrRegister/>}
                     </div>

@@ -6,7 +6,6 @@ import {faHeart} from '@fortawesome/free-solid-svg-icons'
 
 function Recipe({update,info, name,recipe}) {
 
-
     function addToFavourite(recipeName) {
         if(info){
             const fav={favourite:[...info.favourite,recipeName]};
@@ -15,6 +14,7 @@ function Recipe({update,info, name,recipe}) {
             }
         }
     }
+
     return(
         <>
             <div className='recipe container' key={recipe.name}>
@@ -22,8 +22,12 @@ function Recipe({update,info, name,recipe}) {
                     <NavLink className='navLink' to={`/recipe/${recipe.name}`}>
                     <h3 className='recipe-name recipe-link'>{recipe.name} </h3>
                 </NavLink>
-                    {name!==null? <div className='addFavourite' onClick={()=>addToFavourite(recipe.name)}>
-                        <FontAwesomeIcon title='dodaj do ulubionych' className='recipe-icon' icon={faHeart}/></div> :""}</div>
+                    {name!==null && info ? <div className='addFavourite' onClick={()=>addToFavourite(recipe.name)}>
+                            {
+                                !info.favourite.includes(recipe.name) ? <FontAwesomeIcon title='dodaj do ulubionych' className='recipe-icon' icon={faHeart}/> : ""
+                            }
+                    </div>
+                        :""}</div>
 
                 <div className='recipe-section'><img src={recipe.image} alt={recipe.name}/>
                     <div className='recipe-text'>

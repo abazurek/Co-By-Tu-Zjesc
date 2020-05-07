@@ -1,8 +1,7 @@
 import React from "react";
 import Recipe from "../Recipe";
-// import SearchTitle from "./SearchTitle";
 
-function ChooseRecipes({update,info, elem,recipes }) {
+function ChooseRecipes({update,info, name, elem,recipes }) {
 
     const urlCategory={...elem}.match.params.category;
     const urlSubCategory={...elem}.match.params.subcategory;
@@ -24,11 +23,10 @@ function ChooseRecipes({update,info, elem,recipes }) {
 
     return(
         <>
-            {/*<SearchTitle/>*/}
             <h2 className='recipes-title container'> - Nasze przepisy - </h2>
             {tableCategory.map(title=> <h3 className='category-name container' key={title}> - {title} - </h3>)}
             {tableRecipes.map(recipe=>(
-                <Recipe update={update} info={info} key={recipe.name} recipe={recipe} />
+                <Recipe update={update} info={info} name={name} key={recipe.name} recipe={recipe} />
             ))}
 
         </>

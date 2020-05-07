@@ -1,3 +1,10 @@
 @import "recipes-section";
 @import "searchBox";
 @import "recipe-for-today";
+
+.information{
+  font-size: 2.5em;
+  line-height: 1.2em;
+  color: $problemsColor;
+  padding: 1em;
+}

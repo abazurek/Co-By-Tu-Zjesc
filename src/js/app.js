@@ -16,6 +16,8 @@ import SearchedIng from "./SearchTitleAndRecipe/SearchedIng";
 import Login from "./LogAndRegister/LogIn";
 import Register from "./LogAndRegister/Register";
 import Account from "./LogAndRegister/Account";
+import AddRecipe from "./AddRecipe";
+import MyRec from "./ChoosenElements/ChooseMyRec";
 
 
 
@@ -106,14 +108,18 @@ function App() {
                     <MainSection update={udpateFavourities} info={info} name={name} recipes={recipes} categories={elements}/>
                 </Route>
                 <Route path="/recipes/:category/:subcategory"
-                       render={props => <ChooseRecipes update={udpateFavourities} info={info} elem={props} recipes={recipes}/>}/>
+                       render={props => <ChooseRecipes update={udpateFavourities} info={info} name={name} elem={props} recipes={recipes}/>}/>
                 <Route path="/recipe/:name" render={props => <ChooseRecipe update={udpateFavourities}  info={info} name={name} elem={props} recipes={recipes}/>}/>
-                <Route path="/category/:category" render={props => <ChooseCategory  update={udpateFavourities}  info={info} elem={props} recipes={recipes}/>}/>
+                <Route path="/category/:category" render={props => <ChooseCategory  update={udpateFavourities}  info={info} name={name} elem={props} recipes={recipes}/>}/>
                 <Route path="/search/:name" render={props => <SearchedRecipe  update={udpateFavourities} info={info} elem={props} recipes={recipes}/>}/>
                 <Route path="/ingredients/:ingred" render={props => <SearchedIng  update={udpateFavourities} info={info} elem={props} recipes={recipes}/>}/>
                 <Route path='/log'><Login logged={logged} setLogged={setLogged} logData={logData} recipes={recipes} categories={elements}/></Route>
                 <Route path='/register'><Register  register={register} setRegister={setRegister} addUser={addUser} logData={logData} recipes={recipes} categories={elements}/></Route>
-                <Route path={'/account/:user'} render={props=><Account info={info} elem={props} recipes={recipes}/>}/>
+                <Route path={'/account/:user'} render={props=><Account info={info} update={udpateFavourities} elem={props} recipes={recipes}/>}/>
+                <Route path={'/add/recipe'}>
+                    <AddRecipe/>
+                </Route>
+                <Route path='/my/:name' render={props=><MyRec info={info} elem={props}/>}/>
             </Switch>
 
             <Footer/>

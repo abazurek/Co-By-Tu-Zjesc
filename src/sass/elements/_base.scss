@@ -1,7 +1,12 @@
+html {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
 body {
   font-family: $font-base-landingPage;
 
-  #app{
+  #app {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -16,50 +21,50 @@ body {
   margin: 0 auto;
 }
 
-.navLink{
+.navLink {
   text-decoration: none;
 }
 
-.loading{
+.loading {
   font-size: 3em;
   text-align: center;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  input{
+  input {
     width: 30em;
     border-radius: 0.25em;
     margin: 1em auto;
     text-align: center;
     line-height: 2em;
     font-family: $font-placeholders;
-    border:none;
+    border: none;
     box-shadow: 2px 2px 7px $shadowColor;
 
-    &:focus{
+    &:focus {
       box-shadow: 10px 10px 20px $shadowColor;
     }
 
   }
 
-  button{
+  button {
     border: none;
     background: none;
     font-family: $font-placeholders;
     font-size: 1.5em;
 
-    &:hover{
+    &:hover {
       font-weight: bolder;
       text-shadow: 1px 1px 5px $shadowColor;
     }
   }
 }
 
-.problems{
+.problems {
   font-family: $font-problems;
   color: $problemsColor;
 }

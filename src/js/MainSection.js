@@ -9,6 +9,9 @@ function MainSection({update,info, name,recipes,categories}) {
 
     return(
         <>
+            {name===null?
+                <span className='container information'> Zaloguj się aby dodawać przepisy do ulubionych i tworzyć własne !</span>
+            : ""}
             <SearchTitle/>
             <SearchIngredients/>
             <RandomRecipe update={update} info={info}  name={name} recipes={recipes}/>
