@@ -7,15 +7,9 @@
       "repeatPassword": "admin",
       "email": "admin@admin.pl",
       "favourite": [
-        "Curry wegetariańskio z batatami, kalafiorem i orzechami nerkowca",
-        "Zupa grzybowa z suszonych grzybów",
-        "Zupa boczniakowa z ciecieżycą",
-        "Zupa cebulowa z suszonymi grzybami",
-        "Zupa z dorszem i kalafiorem",
-        "Sałatka z tuńczykiem i pomidorem",
-        "Kulki mocy",
-        "Zapiekanka makaronowa z pieczonym lub gotowanym kurczakiem",
-        "Stir-fry z wołowiną i brokułami"
+        "Ciasteczka owsiane",
+        "Grillowane filety z kurczaka z mozarellą i guacamole",
+        "Kurczak z warzywami"
       ],
       "myRecipes": [
         {
@@ -41,10 +35,14 @@
       "email": "a@aa",
       "favourite": [
         "Sałatka z tuńczykiem i pomidorem",
-        "Zupa z dorszem i kalafiorem",
-        " Naleśniki ruskie",
+        "Zapiekanka makaronowa z pieczonym lub gotowanym kurczakiem",
         "Zupa grzybowa z suszonych grzybów",
-        "Stir-fry z wołowiną i brokułami"
+        "Zupa boczniakowa z ciecieżycą",
+        "Dorsz ze szpinakiem i chrupiącą posypką",
+        "Grzanki z avocado, łososiem wędzonym i jajkiem w koszulce",
+        "Łosoś pieczony z syropem klonowym",
+        "Grillowane filety z kurczaka z mozarellą i guacamole",
+        "Ciasteczka owsiane"
       ],
       "id": 2,
       "myRecipes": []

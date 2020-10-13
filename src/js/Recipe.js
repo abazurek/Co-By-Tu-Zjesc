@@ -1,12 +1,11 @@
-import React, { useState} from "react";
+import React from "react";
 import {NavLink} from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faHeart} from '@fortawesome/free-solid-svg-icons'
 
 
-function Recipe({update,info, name,recipe}) {
+function Recipe({downloadLogInfo,update,info, name,recipe}) {
 
-    const [favourites, setFavourites]=useState(info.favourite);
 
     function addToFavourite(recipeName) {
         if(info){
@@ -16,7 +15,7 @@ function Recipe({update,info, name,recipe}) {
 
             }
         }
-        setFavourites(prev=>({...prev, recipeName}))
+        downloadLogInfo;
     }
 
     return(

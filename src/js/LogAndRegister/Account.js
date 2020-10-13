@@ -6,6 +6,7 @@ import {faTrashAlt} from '@fortawesome/free-solid-svg-icons'
 
 function Account({info, update, elem, recipes}) {
 
+
     let fav = [];
     let myRec = [];
     if (info && recipes) {
@@ -32,7 +33,6 @@ function Account({info, update, elem, recipes}) {
             info.favourite.splice(index, 1);
             const newFav = {favourite: [...info.favourite]};
             update(info.id, newFav);
-            window.location.reload();
         }
 
     }
