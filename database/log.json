@@ -7,10 +7,15 @@
       "repeatPassword": "admin",
       "email": "admin@admin.pl",
       "favourite": [
-        "Grzanki z avocado, łososiem wędzonym i jajkiem w koszulce",
+        "Curry wegetariańskio z batatami, kalafiorem i orzechami nerkowca",
+        "Zupa grzybowa z suszonych grzybów",
+        "Zupa boczniakowa z ciecieżycą",
+        "Zupa cebulowa z suszonymi grzybami",
         "Zupa z dorszem i kalafiorem",
         "Sałatka z tuńczykiem i pomidorem",
-        "Brownie z fasoli"
+        "Kulki mocy",
+        "Zapiekanka makaronowa z pieczonym lub gotowanym kurczakiem",
+        "Stir-fry z wołowiną i brokułami"
       ],
       "myRecipes": [
         {
