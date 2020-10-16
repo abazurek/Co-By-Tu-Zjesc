@@ -6,11 +6,7 @@
       "password": "admin",
       "repeatPassword": "admin",
       "email": "admin@admin.pl",
-      "favourite": [
-        "Ciasteczka owsiane",
-        "Grillowane filety z kurczaka z mozarellą i guacamole",
-        "Kurczak z warzywami"
-      ],
+      "favourite": [],
       "myRecipes": [
         {
           "name": "Zapiekanka",

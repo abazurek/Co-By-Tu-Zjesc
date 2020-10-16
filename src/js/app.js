@@ -96,7 +96,9 @@ function App() {
             }
         })
             .then(resp=>resp.json())
-            .catch(err=>console.log(err))
+            .catch(err=>console.log(err));
+
+        fetchLog();
     }
 
     return (
@@ -105,7 +107,7 @@ function App() {
             <Nav recipes={recipes} categories={elements}/>
             <Switch>
                 <Route exact path="/">
-                    <MainSection downloadLogInfo={fetchLog()} update={udpateFavourities} info={info} name={name} recipes={recipes} categories={elements}/>
+                    <MainSection  update={udpateFavourities} info={info} name={name} recipes={recipes} categories={elements}/>
                 </Route>
                 <Route path="/recipes/:category/:subcategory"
                        render={props => <ChooseRecipes update={udpateFavourities} info={info} name={name} elem={props} recipes={recipes}/>}/>

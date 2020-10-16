@@ -38,10 +38,7 @@
   .problems{
     font-size: 1.2em;
   }
-  .account-myRec{
-    display: flex;
-    flex-direction: column;
-  }
+
   .account-single-recipe-title{
     display: flex;
     align-items: center;
@@ -57,4 +54,15 @@
       }
     }
   }
+  .account-myRec{
+    display: flex;
+    flex-direction: column;
+    .title-box{
+      button{
+
+      }
+    }
+  }
+
+
 }

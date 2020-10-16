@@ -34,7 +34,6 @@ function Account({info, update, elem, recipes}) {
             const newFav = {favourite: [...info.favourite]};
             update(info.id, newFav);
         }
-
     }
 
     const showMyRecipes = (recipe) => (
