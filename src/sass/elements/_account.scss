@@ -69,7 +69,6 @@
         color:$footerAccent;
         border: 2px solid $descriptionColor;
         box-shadow: 1px 1px 5px 2px $shadowColor;
-        //box-shadow: -2px -2px 5px $shadowColor;
         &:focus{
           box-shadow: inset 1px 1px 5px 1px $shadowColor;
         }
