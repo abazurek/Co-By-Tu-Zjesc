@@ -28,11 +28,9 @@ function AddRecipe(name) {
             return;
         } else  setMessage(prev=>({...prev, name:""}));
 
-
         history.push(`/account/${name}`)
 
     }
-
     // function returnError(elem) {
     //     const mess=message;
     //     const info={elem}
