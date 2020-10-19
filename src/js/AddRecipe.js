@@ -27,11 +27,10 @@ function AddRecipe(name) {
             setMessage(prev=>({...prev, name:"Nazwa dania nie moźe być krótsza niż 3 znaki"}));
             return;
         } else  setMessage(prev=>({...prev, name:""}));
-        if(!recipe.need){
-            // console.log(recipe.need.split(', '))
-           setMessage(prev=>({...prev, need:"Musisz wpisać do najmniej jeden składnik"}));
+        if(!recipe.need || (recipe.need && recipe.need.split(', ').length<=1)){
+           setMessage(prev=>({...prev, need:"Musisz wpisać do najmniej dwa składniki"}));
             return;
-        }
+        }else  setMessage(prev=>({...prev, need:""}));
         history.push(`/account/${name}`)
 
     }
