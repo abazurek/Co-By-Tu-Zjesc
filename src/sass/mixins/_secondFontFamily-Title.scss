@@ -1,0 +1,5 @@
+@mixin courgetteTitle($fontSize){
+  font-family: $font-second-recipes;
+  font-size: $fontSize;
+  line-height: 1.5em;
+}

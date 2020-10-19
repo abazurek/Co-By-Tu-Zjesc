@@ -6,10 +6,23 @@
       "password": "admin",
       "repeatPassword": "admin",
       "email": "admin@admin.pl",
-      "favourite": [],
+      "favourite": [
+        "Krewetki w sosie po luizjańsku",
+        "Dorsz ze szpinakiem i chrupiącą posypką",
+        "Zupa z dorszem i kalafiorem",
+        "Bomba tiramisu",
+        "Zupa grzybowa z suszonych grzybów"
+      ],
       "myRecipes": [
         {
           "name": "Zapiekanka",
+          "shortDesc": "Pyszna zapiekanka mniami mniami mniami",
+          "need": "jaja, kasza, mleko, sól, pieprz, papryka, czosnek, cebula",
+          "ingredients": "4jaja, pól litra mleka, 4 worki kaszy, 8 papryk, 4 cebule",
+          "longDesc": "Wszystko wymieszać, zapiec i gotowe"
+        },
+        {
+          "name": "Zapiekanka2",
           "shortDesc": "Pyszna zapiekanka mniami mniami mniami",
           "need": "jaja, kasza, mleko, sól, pieprz, papryka, czosnek, cebula",
           "ingredients": "4jaja, pól litra mleka, 4 worki kaszy, 8 papryk, 4 cebule",

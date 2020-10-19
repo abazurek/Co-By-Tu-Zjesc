@@ -44,8 +44,11 @@ function App() {
     function fetchLog (){
         fetch('http://localhost:3004/log')
             .then(resp=>resp.json())
-            .then(data =>setLogData(data))
+            .then(data => setLogData(data)
+            )
             .catch(err=>{console.log(err)})
+
+
     }
 
     useEffect(() => {
@@ -119,7 +122,7 @@ function App() {
                 <Route path='/register'><Register  register={register} setRegister={setRegister} addUser={addUser} logData={logData} recipes={recipes} categories={elements}/></Route>
                 <Route path={'/account/:user'} render={props=><Account  info={info} update={udpateFavourities} elem={props} recipes={recipes}/>}/>
                 <Route path={'/add/recipe'}>
-                    <AddRecipe/>
+                    <AddRecipe name={name}/>
                 </Route>
                 <Route path='/my/:name' render={props=><MyRec info={info} elem={props}/>}/>
             </Switch>

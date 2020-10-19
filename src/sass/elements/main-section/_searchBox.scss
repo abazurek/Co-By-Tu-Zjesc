@@ -6,14 +6,10 @@
   font-family: $font-base-landingPage;
 
   span{
-    font-size: 2em;
-    line-height: 1.5em;
-    font-family: $font-second-recipes;
+    @include courgetteTitle(2em)
   }
   p{
-    font-family: $font-second-recipes;
-    font-size: 1.2em;
-    line-height: 1.5em;
+    @include courgetteTitle(1.2em)
   }
 
 }
