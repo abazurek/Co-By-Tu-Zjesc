@@ -27,7 +27,11 @@ function AddRecipe(name) {
             setMessage(prev=>({...prev, name:"Nazwa dania nie moźe być krótsza niż 3 znaki"}));
             return;
         } else  setMessage(prev=>({...prev, name:""}));
-
+        if(!recipe.need){
+            // console.log(recipe.need.split(', '))
+           setMessage(prev=>({...prev, need:"Musisz wpisać do najmniej jeden składnik"}));
+            return;
+        }
         history.push(`/account/${name}`)
 
     }
@@ -54,6 +58,7 @@ function AddRecipe(name) {
                     <input
                         type="text"
                         placeholder="Wpisz potrzebne składniki po porzecinkach np. jajka, mleko"
+                        onChange={({target})=>setRecipe(prev=>({...prev, need: target.value}))}
                     />
                     <span style={style}>{message.need}</span>
                 </label>
