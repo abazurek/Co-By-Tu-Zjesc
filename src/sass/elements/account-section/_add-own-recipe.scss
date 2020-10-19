@@ -1,0 +1,26 @@
+.my-recipe{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  align-items: flex-start;
+  margin-bottom: 5em;
+  padding-bottom: 5em;
+
+  h2{
+   @include courgetteTitle(2.2em);
+    margin-bottom: 1em;
+  }
+
+  .my-recipe_form{
+    align-items: flex-start;
+    label{
+      align-items: flex-start;
+    }
+
+    input, textarea{
+      text-align: left;
+      padding: 0 1em;
+    }
+  }
+
+}

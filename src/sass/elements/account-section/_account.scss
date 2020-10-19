@@ -17,7 +17,8 @@
   .account-fav {
     display: flex;
     flex-direction: column;
-
+    margin-bottom: 6em;
+    width: 70%;
     .navLink {
       &:hover {
         text-shadow: 2px 2px 5px $shadowColor;
@@ -33,7 +34,7 @@
       color: black;
     }
 
-    margin-bottom: 1.5em;
+
   }
   .problems{
     font-size: 1.2em;
@@ -73,6 +74,9 @@
           box-shadow: inset 1px 1px 5px 1px $shadowColor;
         }
       }
+    }
+    .recipe{
+      margin: 2em auto;
     }
   }
 

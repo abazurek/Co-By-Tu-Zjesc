@@ -22,7 +22,6 @@ function ChooseRecipe({update,info,name,elem, recipes}) {
             const fav={favourite:[...info.favourite,recipeName]};
             if(!info.favourite.includes(recipeName)){
                 update(info.id,fav);
-                console.log(info)
             }
         }
     }

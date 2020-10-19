@@ -10,7 +10,6 @@ function Login({logged, setLogged, logData, recipes, categories}) {
     const [dontLogged, setDontLogged] = useState(true);
 
 
-
     function submitForm(e) {
 
         if (logData) {
@@ -33,11 +32,11 @@ function Login({logged, setLogged, logData, recipes, categories}) {
                     {dontLogged ? '' :
                         <span className='no-log problems'>Niepoprawna nazwa użytkownika lub hasło. Spróbuj ponownie lub zarejestruj się</span>}
                     <form onSubmit={submitForm}>
-                        <label> <span>Wpisz nazwę użytkownika</span> <br/>
+                        <label> <span>Wpisz nazwę użytkownika</span>
                             <input type='text' value={info.name}
                                    onChange={({target}) => setInfo(prev => ({...prev, name: target.value}))}/>
                         </label>
-                        <label><span>Wpisz hasło</span> <br/>
+                        <label><span>Wpisz hasło</span>
                             <input type='password' value={info.password}
                                    onChange={({target}) => setInfo(prev => ({...prev, password: target.value}))}/>
                         </label>

@@ -4,7 +4,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faTrashAlt} from '@fortawesome/free-solid-svg-icons'
 
 
-function Account({info, update, elem, recipes}) {
+function Account({ info, update, elem, recipes}) {
 
 
     let fav = [];

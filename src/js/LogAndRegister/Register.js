@@ -7,15 +7,7 @@ const user = {
     "repeatPassword": "",
     "email": "",
     "favourite": [],
-    "myRecipes":[
-    //     {
-    //     "name":"",
-    //     "shortDesc":"",
-    //     "need":"",
-    //     "ingredients":"",
-    //     "longDesc":""
-    // }
-    ]
+    "myRecipes":[]
 
 };
 
