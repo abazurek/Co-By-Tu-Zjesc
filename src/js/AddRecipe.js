@@ -9,16 +9,14 @@ const newRecipe = {
     longDesc: "",
 };
 
-const style = {
-    color: "red",
-    fontSize: "18px",
-};
 
-function AddRecipe(name) {
+function AddRecipe({name, info, updateMyRec}) {
     let history = useHistory();
 
     const [recipe, setRecipe] = useState(newRecipe);
     const [message, setMessage] = useState(newRecipe);
+
+
 
     function submitForm(e) {
         e.preventDefault();
@@ -51,7 +49,8 @@ function AddRecipe(name) {
             setMessage(prev => ({...prev, longDesc: "Dokładny opis dania musi zawierać co najmniej 100 znaków"}));
             return;
         } else setMessage(newRecipe);
-
+        const myRecipes={"myRecipes":[...info.myRecipes, recipe]};
+        updateMyRec(info.id, myRecipes);
         history.push(`/account/${name}`);
     }
 

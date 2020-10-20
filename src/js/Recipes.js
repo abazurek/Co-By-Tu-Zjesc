@@ -2,7 +2,7 @@ import React from "react";
 
 import Recipe from "./Recipe";
 
-function Recipes({ update,info, name,recipes,categories}) {
+function Recipes({ updateFav,info, name,recipes,categories}) {
 
     return(
         <>
@@ -14,7 +14,7 @@ function Recipes({ update,info, name,recipes,categories}) {
                         {recipes.map(function (recipe) {
                             if(element===recipe.category){
                                 return(
-                                    <Recipe update={update} info={info} name={name} key={recipe.name} recipe={recipe}/>
+                                    <Recipe updateFav={updateFav} info={info} name={name} key={recipe.name} recipe={recipe}/>
                                 )
                             }
                         })}

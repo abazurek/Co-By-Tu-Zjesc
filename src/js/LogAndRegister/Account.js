@@ -1,10 +1,10 @@
-import React from "react";
+import React,{useEffect, useState} from "react";
 import {NavLink} from "react-router-dom";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faTrashAlt} from '@fortawesome/free-solid-svg-icons'
 
 
-function Account({ info, update, elem, recipes}) {
+function Account({ info, updateFav, updateMyRec, recipes}) {
 
 
     let fav = [];
@@ -13,6 +13,8 @@ function Account({ info, update, elem, recipes}) {
         fav = info.favourite;
         myRec = info.myRecipes;
     }
+
+
 
     const FavRecipes = (elem) => recipes.map(function (item) {
         if (item.name === elem) {
@@ -32,7 +34,16 @@ function Account({ info, update, elem, recipes}) {
             const index = info.favourite.indexOf(itemName);
             info.favourite.splice(index, 1);
             const newFav = {favourite: [...info.favourite]};
-            update(info.id, newFav);
+            updateFav(info.id, newFav);
+        }
+    }
+
+    function removeFromOwnRecipes(recipeName) {
+        if(info){
+            const recipeIndex=info.myRecipes.indexOf(recipeName);
+            info.myRecipes.splice(recipeIndex,1);
+            const newMyRecipes={myRecipes:[...info.myRecipes]};
+            updateMyRec(info.id, newMyRecipes)
         }
     }
 
@@ -41,7 +52,11 @@ function Account({ info, update, elem, recipes}) {
             <div className='recipe-name-block'>
                 <NavLink className='navLink' to={`/my/${recipe.name}`}>
                     <h3 className='recipe-name recipe-link'>{recipe.name} </h3>
-                </NavLink></div>
+                </NavLink>
+            <div onClick={()=>removeFromOwnRecipes(recipe.name)}>
+                <FontAwesomeIcon title="usuń z moje przepisy" className='trash-icon' icon={faTrashAlt}/>
+            </div>
+            </div>
             <div className='recipe-section'>
                 <div className='recipe-text'>
                     <p className='shortDesc'>{recipe.shortDesc}</p>
