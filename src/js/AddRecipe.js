@@ -1,39 +1,60 @@
 import React, {useState} from "react";
 import {useHistory} from "react-router-dom";
 
-
 const newRecipe = {
-    "name": "",
-    "shortDesc": "",
-    "need":"",
-    "ingredients": "",
-    "longDesc": ""
-
+    name: "",
+    shortDesc: "",
+    need: "",
+    ingredients: "",
+    longDesc: "",
 };
 
-const style={
-    color:"red",
-    fontSize:"18px"
+const style = {
+    color: "red",
+    fontSize: "18px",
 };
 
 function AddRecipe(name) {
     let history = useHistory();
 
-    const [recipe, setRecipe]=useState(newRecipe);
-    const [message, setMessage]=useState(newRecipe);
+    const [recipe, setRecipe] = useState(newRecipe);
+    const [message, setMessage] = useState(newRecipe);
+
     function submitForm(e) {
         e.preventDefault();
-        if(recipe.name.length<3 ){
-            setMessage(prev=>({...prev, name:"Nazwa dania nie moźe być krótsza niż 3 znaki"}));
+        if (recipe.name.length < 3) {
+            setMessage((prev) => ({
+                ...prev,
+                name: "Nazwa dania nie moźe być krótsza niż 3 znaki",
+            }));
             return;
-        } else  setMessage(prev=>({...prev, name:""}));
-        if(!recipe.need || (recipe.need && recipe.need.split(', ').length<=1)){
-           setMessage(prev=>({...prev, need:"Musisz wpisać do najmniej dwa składniki"}));
+        } else setMessage(newRecipe);
+        if (!recipe.need || recipe.need && recipe.need.split(", ").length < 2) {
+            setMessage((prev) => ({
+                ...prev,
+                need: "Musisz wpisać do najmniej dwa składniki",
+            }));
             return;
-        }else  setMessage(prev=>({...prev, need:""}));
-        history.push(`/account/${name}`)
+        } else setMessage(newRecipe);
+        if (recipe.shortDesc.length < 20) {
+            setMessage((prev) => ({
+                ...prev,
+                shortDesc: "Krótki opis danie musi zawierać do najmniej 20 znaków",
+            }));
+            return;
+        } else setMessage(newRecipe);
+        if ( recipe.ingredients.split(', ').length < 3) {
+            setMessage(prev => ({...prev, ingredients: "Musisz wymienić co najmniej 3 składniki"}));
+            return;
+        } else setMessage(newRecipe);
+        if (recipe.longDesc.length < 100) {
+            setMessage(prev => ({...prev, longDesc: "Dokładny opis dania musi zawierać co najmniej 100 znaków"}));
+            return;
+        } else setMessage(newRecipe);
 
+        history.push(`/account/${name}`);
     }
+
     // function returnError(elem) {
     //     const mess=message;
     //     const info={elem}
@@ -48,8 +69,14 @@ function AddRecipe(name) {
                 <label>
                     {" "}
                     <span>Nazwa dania</span>
-                    <input type="text" placeholder="Wpisz nazwę dania" onChange={({target})=>setRecipe(prev=>({...prev, name:target.value}))}/>
-                    <span style={style}>{message.name}</span>
+                    <input
+                        type="text"
+                        placeholder="Wpisz nazwę dania"
+                        onChange={({target}) =>
+                            setRecipe((prev) => ({...prev, name: target.value}))
+                        }
+                    />
+                    <span className="problems">{message.name}</span>
                 </label>
                 <label>
                     {" "}
@@ -57,30 +84,45 @@ function AddRecipe(name) {
                     <input
                         type="text"
                         placeholder="Wpisz potrzebne składniki po porzecinkach np. jajka, mleko"
-                        onChange={({target})=>setRecipe(prev=>({...prev, need: target.value}))}
+                        onChange={({target}) =>
+                            setRecipe((prev) => ({...prev, need: target.value}))
+                        }
                     />
-                    <span style={style}>{message.need}</span>
+                    <span className="problems">{message.need}</span>
                 </label>
                 <label>
                     {" "}
                     <span>Krótki opis dania</span>
-                    <textarea placeholder="Wpisz krótki opis dania"/>
-                    <span style={style}>{message.shortDesc}</span>
+                    <textarea
+                        placeholder="Wpisz krótki opis dania"
+                        onChange={({target}) =>
+                            setRecipe((prev) => ({...prev, shortDesc: target.value}))
+                        }
+                    />
+                    <span className="problems">{message.shortDesc}</span>
                 </label>
                 <label>
                     {" "}
                     <span>Składniki</span>
                     <input
                         type="text"
-                        placeholder="Wpisz składniki po porzecinkach np. 4 jajka, pół litra mleka"
+                        placeholder="Wpisz dokładne ilości składników po porzecinkach np. 4 jajka, pół litra mleka"
+                        onChange={({target}) =>
+                            setRecipe((prev) => ({...prev, ingredients: target.value}))
+                        }
                     />
-                    <span style={style}>{message.ingredients}</span>
+                    <span className="problems">{message.ingredients}</span>
                 </label>
                 <label>
                     {" "}
                     <span> Dokładny opis opis dania</span>
-                    <textarea placeholder="Wpisz dokładny opis dania"/>
-                    <span style={style}>{message.longDesc}</span>
+                    <textarea
+                        placeholder="Wpisz dokładny opis dania"
+                        onChange={({target}) =>
+                            setRecipe((prev) => ({...prev, longDesc: target.value}))
+                        }
+                    />
+                    <span className="problems">{message.longDesc}</span>
                 </label>
                 <button type="submit">Dodaj przepis</button>
             </form>
