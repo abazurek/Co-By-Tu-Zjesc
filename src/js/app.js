@@ -104,13 +104,26 @@ function App() {
         fetchLog();
     }
 
+    function updateMyRecipes(id,myRecipes) {
+        fetch(`http://localhost:3004/log/${id}`,{
+            method:"PATCH",
+            body:JSON.stringify(myRecipes),
+            headers:{
+                "Content-Type":"application/json"
+            }
+        })
+            .then(resp=>resp.json())
+            .catch(err=>console.log(err));
+        fetchLog();
+    }
+
     return (
         <Router>
             <Header name={name}/>
             <Nav recipes={recipes} categories={elements}/>
             <Switch>
                 <Route exact path="/">
-                    <MainSection  update={udpateFavourities} info={info} name={name} recipes={recipes} categories={elements}/>
+                    <MainSection  updateFav={udpateFavourities} info={info} name={name} recipes={recipes} categories={elements}/>
                 </Route>
                 <Route path="/recipes/:category/:subcategory"
                        render={props => <ChooseRecipes update={udpateFavourities} info={info} name={name} elem={props} recipes={recipes}/>}/>
@@ -120,9 +133,9 @@ function App() {
                 <Route path="/ingredients/:ingred" render={props => <SearchedIng  update={udpateFavourities} info={info} elem={props} recipes={recipes}/>}/>
                 <Route path='/log'><Login logged={logged} setLogged={setLogged} logData={logData} recipes={recipes} categories={elements}/></Route>
                 <Route path='/register'><Register  register={register} setRegister={setRegister} addUser={addUser} logData={logData} recipes={recipes} categories={elements}/></Route>
-                <Route path={'/account/:user'} render={props=><Account  info={info} update={udpateFavourities} elem={props} recipes={recipes}/>}/>
+                <Route path={'/account/:user'} render={props=><Account  info={info} updateFav={udpateFavourities} updateMyRec={updateMyRecipes} recipes={recipes}/>}/>
                 <Route path={'/add/recipe'}>
-                    <AddRecipe name={name}/>
+                    <AddRecipe name={name} info={info} updateMyRec={updateMyRecipes}/>
                 </Route>
                 <Route path='/my/:name' render={props=><MyRec info={info} elem={props}/>}/>
             </Switch>

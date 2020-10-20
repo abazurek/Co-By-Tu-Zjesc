@@ -4,14 +4,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faHeart} from '@fortawesome/free-solid-svg-icons'
 
 
-function Recipe({update,info, name,recipe}) {
+function Recipe({updateFav,info, name,recipe}) {
 
 
     function addToFavourite(recipeName) {
         if(info){
             const fav={favourite:[...info.favourite,recipeName]};
             if(!info.favourite.includes(recipeName)){
-                update(info.id,fav);
+                updateFav(info.id,fav);
 
             }
         }

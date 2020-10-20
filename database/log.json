@@ -20,20 +20,6 @@
           "need": "jaja, kasza, mleko, sól, pieprz, papryka, czosnek, cebula",
           "ingredients": "4jaja, pól litra mleka, 4 worki kaszy, 8 papryk, 4 cebule",
           "longDesc": "Wszystko wymieszać, zapiec i gotowe"
-        },
-        {
-          "name": "Zapiekanka2",
-          "shortDesc": "Pyszna zapiekanka mniami mniami mniami",
-          "need": "jaja, kasza, mleko, sól, pieprz, papryka, czosnek, cebula",
-          "ingredients": "4jaja, pól litra mleka, 4 worki kaszy, 8 papryk, 4 cebule",
-          "longDesc": "Wszystko wymieszać, zapiec i gotowe"
-        },
-        {
-          "name": "Kaszanka",
-          "shortDesc": "Pyszna kaszanka ble ble ble",
-          "need": "jaja, kasza, krew, sól, pieprz, czosnek, cebula",
-          "ingredients": "4jaja, 4 worki kaszy, 4 cebule, duzo soli, dużo pieprzu, troche czosnku",
-          "longDesc": "Wszystko wymieszać, zapiec i gotowe. Nie jeść bo ochydne"
         }
       ]
     },
