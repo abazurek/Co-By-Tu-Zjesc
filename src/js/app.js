@@ -133,9 +133,9 @@ function App() {
                 <Route path="/ingredients/:ingred" render={props => <SearchedIng  update={udpateFavourities} info={info} elem={props} recipes={recipes}/>}/>
                 <Route path='/log'><Login logged={logged} setLogged={setLogged} logData={logData} recipes={recipes} categories={elements}/></Route>
                 <Route path='/register'><Register  register={register} setRegister={setRegister} addUser={addUser} logData={logData} recipes={recipes} categories={elements}/></Route>
-                <Route path={'/account/:user'} render={props=><Account  info={info} updateFav={udpateFavourities} updateMyRec={updateMyRecipes} recipes={recipes}/>}/>
+                <Route path={'/account/:user'}> <Account info={info} updateFav={udpateFavourities} updateMyRec={updateMyRecipes}  recipes={recipes} /></Route>
                 <Route path={'/add/recipe'}>
-                    <AddRecipe name={name} info={info} updateMyRec={updateMyRecipes}/>
+                    <AddRecipe name={name} info={info} updateMyRec={updateMyRecipes} />
                 </Route>
                 <Route path='/my/:name' render={props=><MyRec info={info} elem={props}/>}/>
             </Switch>
