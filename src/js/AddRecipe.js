@@ -51,6 +51,7 @@ function AddRecipe({name, info, updateMyRec}) {
         } else setMessage(newRecipe);
         const myRecipes={"myRecipes":[...info.myRecipes, recipe]};
         updateMyRec(info.id, myRecipes);
+
         history.push(`/account/${name}`);
     }
 

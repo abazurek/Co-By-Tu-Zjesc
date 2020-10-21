@@ -10,8 +10,8 @@
         "Krewetki w sosie po luizjańsku",
         "Dorsz ze szpinakiem i chrupiącą posypką",
         "Zupa z dorszem i kalafiorem",
-        "Bomba tiramisu",
-        "Zupa grzybowa z suszonych grzybów"
+        "Zupa grzybowa z suszonych grzybów",
+        "Kurczak z 40 ząbkami czosnku"
       ],
       "myRecipes": [
         {
@@ -20,6 +20,27 @@
           "need": "jaja, kasza, mleko, sól, pieprz, papryka, czosnek, cebula",
           "ingredients": "4jaja, pól litra mleka, 4 worki kaszy, 8 papryk, 4 cebule",
           "longDesc": "Wszystko wymieszać, zapiec i gotowe"
+        },
+        {
+          "name": "buraki",
+          "shortDesc": "kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza ",
+          "need": "burakki, buraki",
+          "ingredients": "buraki, buraki, buraki",
+          "longDesc": "kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza "
+        },
+        {
+          "name": "ddddd",
+          "shortDesc": "addedNewRecipe addedNewRecipe addedNewRecipe ",
+          "need": "ddd, dddd, ",
+          "ingredients": "aaa, addd, add",
+          "longDesc": "addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe "
+        },
+        {
+          "name": "eeee",
+          "shortDesc": "addedNewRecipe addedNewRecipe addedNewRecipe ",
+          "need": "eee, eeee, eee",
+          "ingredients": "eee, eeee, eee",
+          "longDesc": "addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe "
         }
       ]
     },

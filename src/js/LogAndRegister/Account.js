@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from "react";
+import React from "react";
 import {NavLink} from "react-router-dom";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faTrashAlt} from '@fortawesome/free-solid-svg-icons'
@@ -40,7 +40,9 @@ function Account({ info, updateFav, updateMyRec, recipes}) {
 
     function removeFromOwnRecipes(recipeName) {
         if(info){
-            const recipeIndex=info.myRecipes.indexOf(recipeName);
+            let recipeObject={};
+            info.myRecipes.forEach(item=>item.name===recipeName? recipeObject=item : false);
+            const recipeIndex=info.myRecipes.indexOf(recipeObject);
             info.myRecipes.splice(recipeIndex,1);
             const newMyRecipes={myRecipes:[...info.myRecipes]};
             updateMyRec(info.id, newMyRecipes)
