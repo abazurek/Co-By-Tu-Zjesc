@@ -10,20 +10,20 @@ const newRecipe = {
 };
 
 
-function AddRecipe({name, info, updateMyRec}) {
+function AddRecipe({name, info, updateMyRec, editedRecipe, editMyRecipe}) {
     let history = useHistory();
 
-    const [recipe, setRecipe] = useState(newRecipe);
+    const [recipe, setRecipe] = useState({...editedRecipe});
     const [message, setMessage] = useState(newRecipe);
 
 
-
     function checkName(name) {
-        let checked=false;
-        info.myRecipes.forEach(item=> item.name.toLowerCase() === name.toLowerCase()? checked=true: false);
+        let checked = false;
+        info.myRecipes.forEach(item => item.name.toLowerCase() === name.toLowerCase() ? checked = true : false);
         return checked;
     }
-    
+
+
     function submitForm(e) {
         e.preventDefault();
         if (recipe.name.length < 3) {
@@ -32,7 +32,8 @@ function AddRecipe({name, info, updateMyRec}) {
                 name: "Nazwa dania nie moźe być krótsza niż 3 znaki",
             }));
             return;
-        } if(checkName(recipe.name)){
+        }
+        if (checkName(recipe.name)) {
             setMessage((prev) => ({
                 ...prev,
                 name: "Danie o podanej nazwie już istnieje, proszę podać inną nazwę",
@@ -53,7 +54,7 @@ function AddRecipe({name, info, updateMyRec}) {
             }));
             return;
         } else setMessage(newRecipe);
-        if ( recipe.ingredients.split(', ').length < 3) {
+        if (recipe.ingredients.split(', ').length < 3) {
             setMessage(prev => ({...prev, ingredients: "Musisz wymienić co najmniej 3 składniki"}));
             return;
         } else setMessage(newRecipe);
@@ -61,8 +62,11 @@ function AddRecipe({name, info, updateMyRec}) {
             setMessage(prev => ({...prev, longDesc: "Dokładny opis dania musi zawierać co najmniej 100 znaków"}));
             return;
         } else setMessage(newRecipe);
-        const myRecipes={"myRecipes":[...info.myRecipes, recipe]};
-        updateMyRec(info.id, myRecipes);
+        const myRecipes = {"myRecipes": [...info.myRecipes, recipe]};
+
+
+        editedRecipe? editMyRecipe(info.id, info.myRecipes, info.myRecipes.indexOf(editedRecipe)) : updateMyRec(info.id, myRecipes);
+
         history.push(`/account/${name}`);
     }
 
@@ -76,6 +80,7 @@ function AddRecipe({name, info, updateMyRec}) {
                     <span>Nazwa dania</span>
                     <input
                         type="text"
+                        value={recipe.name}
                         placeholder="Wpisz nazwę dania"
                         onChange={({target}) =>
                             setRecipe((prev) => ({...prev, name: target.value}))
@@ -88,6 +93,7 @@ function AddRecipe({name, info, updateMyRec}) {
                     <span>Potrzebne składniki </span>
                     <input
                         type="text"
+                        value={recipe.need}
                         placeholder="Wpisz potrzebne składniki po porzecinkach np. jajka, mleko"
                         onChange={({target}) =>
                             setRecipe((prev) => ({...prev, need: target.value}))
@@ -99,6 +105,7 @@ function AddRecipe({name, info, updateMyRec}) {
                     {" "}
                     <span>Krótki opis dania</span>
                     <textarea
+                        value={recipe.shortDesc}
                         placeholder="Wpisz krótki opis dania"
                         onChange={({target}) =>
                             setRecipe((prev) => ({...prev, shortDesc: target.value}))
@@ -111,6 +118,7 @@ function AddRecipe({name, info, updateMyRec}) {
                     <span>Składniki</span>
                     <input
                         type="text"
+                        value={recipe.ingredients}
                         placeholder="Wpisz dokładne ilości składników po porzecinkach np. 4 jajka, pół litra mleka"
                         onChange={({target}) =>
                             setRecipe((prev) => ({...prev, ingredients: target.value}))
@@ -122,6 +130,7 @@ function AddRecipe({name, info, updateMyRec}) {
                     {" "}
                     <span> Dokładny opis opis dania</span>
                     <textarea
+                        value={recipe.longDesc}
                         placeholder="Wpisz dokładny opis dania"
                         onChange={({target}) =>
                             setRecipe((prev) => ({...prev, longDesc: target.value}))
@@ -129,7 +138,12 @@ function AddRecipe({name, info, updateMyRec}) {
                     />
                     <span className="problems">{message.longDesc}</span>
                 </label>
-                <button type="submit">Dodaj przepis</button>
+                {editedRecipe ?
+                    <button type='submit'>Edytuj przepis</button>
+                    :
+                    <button type="submit">Dodaj przepis</button>
+                }
+
             </form>
         </div>
     );
