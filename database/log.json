@@ -22,25 +22,25 @@
           "longDesc": "Wszystko wymieszać, zapiec i gotowe"
         },
         {
-          "name": "buraki",
-          "shortDesc": "kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza ",
-          "need": "burakki, buraki",
-          "ingredients": "buraki, buraki, buraki",
-          "longDesc": "kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza kasza "
+          "name": "ggg",
+          "shortDesc": "adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads ",
+          "need": "sas, asdad, asdsa",
+          "ingredients": "asdad, wre, sdas",
+          "longDesc": "adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads "
         },
         {
-          "name": "ddddd",
-          "shortDesc": "addedNewRecipe addedNewRecipe addedNewRecipe ",
-          "need": "ddd, dddd, ",
-          "ingredients": "aaa, addd, add",
-          "longDesc": "addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe "
+          "name": "kaszanka",
+          "shortDesc": "nie wiem co mam tu napisac",
+          "need": "mąka, jajak",
+          "ingredients": "kasza 5 worków, maka 8 worków, kaszanka",
+          "longDesc": "to jest bardzo dlugi opis dania, rzeba tu szczegolowo napisac co trzeba zrobic i jak zrobic to cale smieszne danie, az sto słow ktore nie wiem czy mam, zaraz sprawdze"
         },
         {
-          "name": "eeee",
-          "shortDesc": "addedNewRecipe addedNewRecipe addedNewRecipe ",
-          "need": "eee, eeee, eee",
-          "ingredients": "eee, eeee, eee",
-          "longDesc": "addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe addedNewRecipe "
+          "name": "ble ble",
+          "shortDesc": "adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads ",
+          "need": "lll, lll",
+          "ingredients": "kasza, kasza, kasza",
+          "longDesc": "adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads "
         }
       ]
     },
