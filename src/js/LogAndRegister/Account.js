@@ -1,10 +1,10 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faTrashAlt} from '@fortawesome/free-solid-svg-icons'
+import {faTrashAlt, faEdit} from '@fortawesome/free-solid-svg-icons'
 
 
-function Account({ info, updateFav, updateMyRec, recipes}) {
+function Account({info, updateFav, updateMyRec, setEditedRecipe, recipes}) {
 
 
     let fav = [];
@@ -13,7 +13,6 @@ function Account({ info, updateFav, updateMyRec, recipes}) {
         fav = info.favourite;
         myRec = info.myRecipes;
     }
-
 
 
     const FavRecipes = (elem) => recipes.map(function (item) {
@@ -39,14 +38,18 @@ function Account({ info, updateFav, updateMyRec, recipes}) {
     }
 
     function removeFromOwnRecipes(recipeName) {
-        if(info){
-            let recipeObject={};
-            info.myRecipes.forEach(item=>item.name===recipeName? recipeObject=item : false);
-            const recipeIndex=info.myRecipes.indexOf(recipeObject);
-            info.myRecipes.splice(recipeIndex,1);
-            const newMyRecipes={myRecipes:[...info.myRecipes]};
+        if (info) {
+            let recipeObject = {};
+            info.myRecipes.forEach(item => item.name === recipeName ? recipeObject = item : false);
+            const recipeIndex = info.myRecipes.indexOf(recipeObject);
+            info.myRecipes.splice(recipeIndex, 1);
+            const newMyRecipes = {myRecipes: [...info.myRecipes]};
             updateMyRec(info.id, newMyRecipes)
         }
+    }
+
+    function editRecipe(recipe) {
+        setEditedRecipe(recipe);
     }
 
     const showMyRecipes = (recipe) => (
@@ -55,9 +58,14 @@ function Account({ info, updateFav, updateMyRec, recipes}) {
                 <NavLink className='navLink' to={`/my/${recipe.name}`}>
                     <h3 className='recipe-name recipe-link'>{recipe.name} </h3>
                 </NavLink>
-            <div onClick={()=>removeFromOwnRecipes(recipe.name)}>
-                <FontAwesomeIcon title="usuń z moje przepisy" className='trash-icon' icon={faTrashAlt}/>
-            </div>
+                <div onClick={() => editRecipe(recipe)}>
+                    <NavLink className='navLink' to="/add/recipe">
+                        <FontAwesomeIcon title="edytuj przepis" className='edit-icon' icon={faEdit}/>
+                    </NavLink>
+                </div>
+                <div onClick={() => removeFromOwnRecipes(recipe.name)}>
+                    <FontAwesomeIcon title="usuń z moje przepisy" className='trash-icon' icon={faTrashAlt}/>
+                </div>
             </div>
             <div className='recipe-section'>
                 <div className='recipe-text'>
@@ -83,7 +91,9 @@ function Account({ info, updateFav, updateMyRec, recipes}) {
                 <div className='account-myRec'>
                     <div className='title-box'>
                         <span className='title'>Moje przepisy</span>
-                        <NavLink className='navLink' to="/add/recipe"> <button>Dodaj przepis</button></NavLink>
+                        <NavLink className='navLink' to="/add/recipe">
+                            <button>Dodaj przepis</button>
+                        </NavLink>
                     </div>
                     {myRec.length !== 0 ? myRec.map(recipe => showMyRecipes(recipe))
                         : <span className='problems'>Nie masz jeszcze swoich przepisów . . .</span>

@@ -73,7 +73,7 @@
 
 
 
-  .trash-icon{
+  .trash-icon, .edit-icon{
     margin-left: 1em;
     font-size: 1.25em;
     color: $problemsColor;
@@ -82,5 +82,8 @@
       cursor: pointer;
       font-size: 1.35em;
     }
+  }
+  .edit-icon{
+    color:$editIconColor;
   }
 }
