@@ -18,12 +18,24 @@ function AddRecipe({name, info, updateMyRec}) {
 
 
 
+    function checkName(name) {
+        let checked=false;
+        info.myRecipes.forEach(item=> item.name.toLowerCase() === name.toLowerCase()? checked=true: false);
+        return checked;
+    }
+    
     function submitForm(e) {
         e.preventDefault();
         if (recipe.name.length < 3) {
             setMessage((prev) => ({
                 ...prev,
                 name: "Nazwa dania nie moźe być krótsza niż 3 znaki",
+            }));
+            return;
+        } if(checkName(recipe.name)){
+            setMessage((prev) => ({
+                ...prev,
+                name: "Danie o podanej nazwie już istnieje, proszę podać inną nazwę",
             }));
             return;
         } else setMessage(newRecipe);
@@ -51,16 +63,9 @@ function AddRecipe({name, info, updateMyRec}) {
         } else setMessage(newRecipe);
         const myRecipes={"myRecipes":[...info.myRecipes, recipe]};
         updateMyRec(info.id, myRecipes);
-
         history.push(`/account/${name}`);
     }
 
-    // function returnError(elem) {
-    //     const mess=message;
-    //     const info={elem}
-    //     return  <span style={style}>{mess.elem}</span>
-    //
-    // }
 
     return (
         <div className="container my-recipe">

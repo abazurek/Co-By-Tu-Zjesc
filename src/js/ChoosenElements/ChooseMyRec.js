@@ -28,7 +28,7 @@ function MyRec({info,elem}) {
                         <strong>Przygotowanie: </strong>
                         <div className='prepareDesc'>
                             {recipe.longDesc.split('\n').map(item =>
-                                <p key={item} className='longDescParagraph'>{item}</p>)}
+                                <p key={item.split(' ')} className='longDescParagraph'>{item}</p>)}
                         </div>
                     </article>
                 </div>

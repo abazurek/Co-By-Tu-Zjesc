@@ -7,40 +7,16 @@
       "repeatPassword": "admin",
       "email": "admin@admin.pl",
       "favourite": [
-        "Krewetki w sosie po luizjańsku",
-        "Dorsz ze szpinakiem i chrupiącą posypką",
-        "Zupa z dorszem i kalafiorem",
         "Zupa grzybowa z suszonych grzybów",
-        "Kurczak z 40 ząbkami czosnku"
+        "Zupa boczniakowa z ciecieżycą"
       ],
       "myRecipes": [
         {
           "name": "Zapiekanka",
-          "shortDesc": "Pyszna zapiekanka mniami mniami mniami",
-          "need": "jaja, kasza, mleko, sól, pieprz, papryka, czosnek, cebula",
-          "ingredients": "4jaja, pól litra mleka, 4 worki kaszy, 8 papryk, 4 cebule",
-          "longDesc": "Wszystko wymieszać, zapiec i gotowe"
-        },
-        {
-          "name": "ggg",
-          "shortDesc": "adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads ",
-          "need": "sas, asdad, asdsa",
-          "ingredients": "asdad, wre, sdas",
-          "longDesc": "adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads "
-        },
-        {
-          "name": "kaszanka",
-          "shortDesc": "nie wiem co mam tu napisac",
-          "need": "mąka, jajak",
-          "ingredients": "kasza 5 worków, maka 8 worków, kaszanka",
-          "longDesc": "to jest bardzo dlugi opis dania, rzeba tu szczegolowo napisac co trzeba zrobic i jak zrobic to cale smieszne danie, az sto słow ktore nie wiem czy mam, zaraz sprawdze"
-        },
-        {
-          "name": "ble ble",
-          "shortDesc": "adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads ",
-          "need": "lll, lll",
-          "ingredients": "kasza, kasza, kasza",
-          "longDesc": "adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads adads, asdasdsdasd asdadsasd asdsasdwwd asdads "
+          "shortDesc": "pyszna zapiekanka mniami mniami",
+          "need": "jaja, kasza, mąka",
+          "ingredients": "4 jaja, 2 worki kaszy, 8 paczek mąki",
+          "longDesc": "najlepsza zapiekanka na świecie, bardzo prosty przepis, wystarczy wziąć i zrobić ( połączyć składniki, posiekać i pogotować) i już gotowe :)"
         }
       ]
     },
