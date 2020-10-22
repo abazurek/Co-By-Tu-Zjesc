@@ -19,7 +19,14 @@ function AddRecipe({name, info, updateMyRec, editedRecipe}) {
 
     function checkName(name) {
         let checked = false;
-        info.myRecipes.forEach(item => item.name.toLowerCase() === name.toLowerCase() ? checked = true : false);
+        const myRecipesCopy=[...info.myRecipes];
+        if(editedRecipe){
+            const editedIndex=info.myRecipes.indexOf(editedRecipe);
+            myRecipesCopy.splice(editedIndex,1);
+
+
+        }
+        myRecipesCopy.forEach(item => item.name.toLowerCase() === name.toLowerCase() ? checked = true : false);
         return checked;
     }
 
@@ -33,7 +40,7 @@ function AddRecipe({name, info, updateMyRec, editedRecipe}) {
             }));
             return;
         }
-        if (!editedRecipe && checkName(recipe.name)) {
+        if (checkName(recipe.name)) {
             setMessage((prev) => ({
                 ...prev,
                 name: "Danie o podanej nazwie już istnieje, proszę podać inną nazwę",
@@ -65,6 +72,7 @@ function AddRecipe({name, info, updateMyRec, editedRecipe}) {
 
 
         let myRecipes;
+
 
         if(editedRecipe){
             const editedIndex=info.myRecipes.indexOf(editedRecipe);
