@@ -10,7 +10,7 @@ const newRecipe = {
 };
 
 
-function AddRecipe({name, info, updateMyRec, editedRecipe, editMyRecipe}) {
+function AddRecipe({name, info, updateMyRec, editedRecipe}) {
     let history = useHistory();
 
     const [recipe, setRecipe] = useState({...editedRecipe});
@@ -33,7 +33,7 @@ function AddRecipe({name, info, updateMyRec, editedRecipe, editMyRecipe}) {
             }));
             return;
         }
-        if (checkName(recipe.name)) {
+        if (!editedRecipe && checkName(recipe.name)) {
             setMessage((prev) => ({
                 ...prev,
                 name: "Danie o podanej nazwie już istnieje, proszę podać inną nazwę",
@@ -62,10 +62,18 @@ function AddRecipe({name, info, updateMyRec, editedRecipe, editMyRecipe}) {
             setMessage(prev => ({...prev, longDesc: "Dokładny opis dania musi zawierać co najmniej 100 znaków"}));
             return;
         } else setMessage(newRecipe);
-        const myRecipes = {"myRecipes": [...info.myRecipes, recipe]};
 
 
-        editedRecipe? editMyRecipe(info.id, info.myRecipes, info.myRecipes.indexOf(editedRecipe)) : updateMyRec(info.id, myRecipes);
+        let myRecipes;
+
+        if(editedRecipe){
+            const editedIndex=info.myRecipes.indexOf(editedRecipe);
+            info.myRecipes.splice(editedIndex,1,recipe);
+             myRecipes={"myRecipes":info.myRecipes};
+        }
+        else   myRecipes = {"myRecipes": [...info.myRecipes, recipe]};
+
+        updateMyRec(info.id, myRecipes);
 
         history.push(`/account/${name}`);
     }
