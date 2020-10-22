@@ -119,20 +119,6 @@ function App() {
 
         fetchLog();
     }
-    function editMyRecipe(id,myRecipes, index) {
-        fetch(`http://localhost:3004/log/${id}`,{
-            method:"PATCH",
-            body:JSON.stringify(myRecipes[index]),
-            headers:{
-                "Content-Type":"application/json"
-            }
-        })
-            .then(resp=>resp.json())
-            .catch(err=>console.log(err));
-
-
-        fetchLog();
-    }
 
     return (
         <Router>
@@ -152,7 +138,7 @@ function App() {
                 <Route path='/register'><Register  register={register} setRegister={setRegister} addUser={addUser} logData={logData} recipes={recipes} categories={elements}/></Route>
                 <Route path={'/account/:user'}> <Account info={info} updateFav={udpateFavourities} updateMyRec={updateMyRecipes} setEditedRecipe={setEditedRecipe}  recipes={recipes} /></Route>
                 <Route path={'/add/recipe'}>
-                    <AddRecipe name={name} info={info} updateMyRec={updateMyRecipes} editedRecipe={editedRecipe} editMyRecipe={editMyRecipe}/>
+                    <AddRecipe name={name} info={info} updateMyRec={updateMyRecipes} editedRecipe={editedRecipe} />
                 </Route>
                 <Route path='/my/:name' render={props=><MyRec info={info} elem={props}/>}/>
             </Switch>

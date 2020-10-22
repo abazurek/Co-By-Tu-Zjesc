@@ -12,7 +12,21 @@
       ],
       "myRecipes": [
         {
-          "name": "Zapiekanka",
+          "name": "Zapiekanka123",
+          "shortDesc": "pyszna zapiekanka mniami mniami ochy achy",
+          "need": "jaja, kasza, mąka, ryż",
+          "ingredients": "4 jaja, 2 worki kaszy, 8 paczek mąki",
+          "longDesc": "najlepsza zapiekanka na świecie, bardzo prosty przepis, wystarczy wziąć i zrobić ( połączyć składniki, posiekać i pogotować) i już gotowe :)"
+        },
+        {
+          "name": "Zapiekanka55989",
+          "shortDesc": "pyszna zapiekanka mniami mniami ze hohoh",
+          "need": "jaja, kasza, mąka",
+          "ingredients": "4 jaja, 2 worki kaszy, 8 paczek mąki",
+          "longDesc": "najlepsza zapiekanka na świecie, bardzo prosty przepis, wystarczy wziąć i zrobić ( połączyć składniki, posiekać i pogotować) i już gotowe :)"
+        },
+        {
+          "name": "Zapiekanka86",
           "shortDesc": "pyszna zapiekanka mniami mniami",
           "need": "jaja, kasza, mąka",
           "ingredients": "4 jaja, 2 worki kaszy, 8 paczek mąki",
