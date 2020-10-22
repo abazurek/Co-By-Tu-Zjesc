@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {useHistory} from "react-router-dom";
+import {NavLink, useHistory} from "react-router-dom";
 
 const newRecipe = {
     name: "",
@@ -155,6 +155,7 @@ function AddRecipe({name, info, updateMyRec, editedRecipe}) {
                     <span className="problems">{message.longDesc}</span>
                 </label>
                 {editedRecipe ?
+
                     <button type='submit'>Edytuj przepis</button>
                     :
                     <button type="submit">Dodaj przepis</button>
