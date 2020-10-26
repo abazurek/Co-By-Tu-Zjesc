@@ -23,7 +23,7 @@ import MyRec from "./ChoosenElements/ChooseMyRec";
 
 function App() {
 
-    const name=localStorage.getItem("name");
+    let name=localStorage.getItem("name");
     let info=null;
 
     const [recipes, setRecipes] = useState(false);
@@ -102,7 +102,6 @@ function App() {
             .then(resp=>resp.json())
             .catch(err=>console.log(err));
 
-        fetchLog();
     }
 
     function updateMyRecipes(id,myRecipes) {
@@ -116,13 +115,11 @@ function App() {
             .then(resp=>resp.json())
             .catch(err=>console.log(err));
 
-
-        fetchLog();
     }
 
     return (
         <Router>
-            <Header name={name}/>
+            <Header name={name} downloadLogData={fetchLog}/>
             <Nav recipes={recipes} categories={elements}/>
             <Switch>
                 <Route exact path="/">
