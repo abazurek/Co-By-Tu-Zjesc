@@ -7,13 +7,17 @@
       "repeatPassword": "admin",
       "email": "admin@admin.pl",
       "favourite": [
-        "Zupa grzybowa z suszonych grzybów",
-        "Muffiny z jabłkami",
-        "Curry wegetariańskio z batatami, kalafiorem i orzechami nerkowca"
+        "Zapiekanka makaronowa z pieczonym lub gotowanym kurczakiem",
+        "Zupa boczniakowa z ciecieżycą",
+        "Dorsz ze szpinakiem i chrupiącą posypką",
+        "Grzanki z avocado, łososiem wędzonym i jajkiem w koszulce",
+        "Łosoś pieczony z syropem klonowym",
+        "Grillowane filety z kurczaka z mozarellą i guacamole",
+        "Ciasteczka owsiane"
       ],
       "myRecipes": [
         {
-          "name": "Zapiekanka",
+          "name": "Zapiekanka yyy",
           "shortDesc": "pyszna zapiekanka mniami mniami zdsfgdsg",
           "need": "jaja, kasza, mąka, coś, nfgn",
           "ingredients": "4 jaja, 2 worki kaszy, 8 paczek mąki, 4 paczki czegoś",
