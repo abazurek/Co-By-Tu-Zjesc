@@ -114,16 +114,16 @@ function App() {
         })
             .then(resp=>resp.json())
             .catch(err=>console.log(err));
-
     }
+
 
     return (
         <Router>
-            <Header name={name} downloadLogData={fetchLog}/>
+            <Header/>
             <Nav recipes={recipes} categories={elements}/>
             <Switch>
                 <Route exact path="/">
-                    <MainSection  updateFav={udpateFavourities} info={info} name={name} recipes={recipes} categories={elements}/>
+                    <MainSection  updateFav={udpateFavourities} info={info} recipes={recipes} categories={elements}/>
                 </Route>
                 <Route path="/recipes/:category/:subcategory"
                        render={props => <ChooseRecipes updateFav={udpateFavourities} info={info} name={name} elem={props} recipes={recipes}/>}/>

@@ -1,14 +1,16 @@
 import React, {useState} from "react";
 
 import MainSection from "../MainSection";
+import {useHistory} from "react-router-dom";
 
 const information = {name: '', password: ''};
 
 function Login({logged, setLogged, logData, recipes, categories}) {
 
+    let history = useHistory();
+
     const [info, setInfo] = useState(information);
     const [dontLogged, setDontLogged] = useState(true);
-
 
     function submitForm(e) {
 
@@ -24,6 +26,7 @@ function Login({logged, setLogged, logData, recipes, categories}) {
         setDontLogged(false);
         setInfo(information);
         e.preventDefault();
+
     }
 
     return (<>
