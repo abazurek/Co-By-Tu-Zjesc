@@ -1,20 +1,24 @@
-import React from "react";
-import {NavLink} from "react-router-dom";
+import React,{useState, useEffect} from "react";
+import {NavLink, useHistory} from "react-router-dom";
 
 import LogOrRegister from "./LogAndRegister/LogOrRegister";
 
 
-function Header({name}) {
+function Header() {
+    const [logged, setLogged]=useState(true);
 
+    let history = useHistory();
+
+    const name=localStorage.getItem('name');
+
+    useEffect(function () {},[logged, name]);
 
    function OutLog() {
        localStorage.clear();
-       window.location.reload();
+       setLogged(false);
+       history.replace('/')
    }
 
-   function Reload() {
-       window.location.reload();
-   }
 
     return (
         <header>
@@ -22,9 +26,10 @@ function Header({name}) {
                 <h1 className='title container'> - - co by <span>tu</span> zjeść - -</h1>
             </NavLink>
                     <div className='log-or-register'>
-                        {name!==null ?
-                            <><div onClick={Reload}><NavLink to={`/account/${name}`}><span className='hello'>Cześć {name} !</span></NavLink></div>
-                            <NavLink to={'/'}><button onClick={OutLog} className='outLog'>Wyloguj się</button></NavLink> </>
+                        {logged && name ?
+                            <><div ><NavLink to={`/account/${name}`}><span className='hello'>Cześć {name} !</span></NavLink></div>
+                            <button onClick={OutLog} className='outLog'>Wyloguj się</button>
+                            </>
                             : <LogOrRegister/>}
                     </div>
 

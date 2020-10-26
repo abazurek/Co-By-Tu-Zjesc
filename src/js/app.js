@@ -23,7 +23,7 @@ import MyRec from "./ChoosenElements/ChooseMyRec";
 
 function App() {
 
-    const name=localStorage.getItem("name");
+    let name=localStorage.getItem("name");
     let info=null;
 
     const [recipes, setRecipes] = useState(false);
@@ -102,7 +102,6 @@ function App() {
             .then(resp=>resp.json())
             .catch(err=>console.log(err));
 
-        fetchLog();
     }
 
     function updateMyRecipes(id,myRecipes) {
@@ -115,18 +114,16 @@ function App() {
         })
             .then(resp=>resp.json())
             .catch(err=>console.log(err));
-
-
-        fetchLog();
     }
+
 
     return (
         <Router>
-            <Header name={name}/>
+            <Header/>
             <Nav recipes={recipes} categories={elements}/>
             <Switch>
                 <Route exact path="/">
-                    <MainSection  updateFav={udpateFavourities} info={info} name={name} recipes={recipes} categories={elements}/>
+                    <MainSection  updateFav={udpateFavourities} info={info} recipes={recipes} categories={elements}/>
                 </Route>
                 <Route path="/recipes/:category/:subcategory"
                        render={props => <ChooseRecipes updateFav={udpateFavourities} info={info} name={name} elem={props} recipes={recipes}/>}/>
