@@ -10,6 +10,7 @@ function Account({info, updateFav, updateMyRec, setEditedRecipe, recipes}) {
     const [myRec, setMyRec]=useState('');
 
 
+
     useEffect(function () {
         if (info){
             setFavRecipes(info.favourite);

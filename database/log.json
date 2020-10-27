@@ -14,7 +14,7 @@
         {
           "name": "Zapiekanka",
           "shortDesc": "pyszna zapiekanka mniami mniami zdsfgdsg",
-          "need": "jaja, kasza, mąka",
+          "need": "jaja, kasza, mąka, mleko",
           "ingredients": "4 jaja, 2 worki kaszy, 8 paczek mąki, 4 paczki ",
           "longDesc": "najlepsza zapiekanka na świecie, bardzo prosty przepis, wystarczy wziąć i zrobić ( połączyć składniki, posiekać i pogotować) i już gotowe :)"
         },
@@ -27,14 +27,14 @@
         },
         {
           "name": "przepis",
-          "need": "mąka, kasza, woda, kokos",
+          "need": "mąka, kasza, woda, kokos, mleko",
           "shortDesc": "mąka, kasza, woda mąka, kasza, woda mąka, kasza, woda",
           "ingredients": "mąka, kasza, woda",
           "longDesc": "mąka, kasza, woda mąka, kasza, woda mąka, kasza, wodamąka, kasza, woda mąka, kasza, woda mąka, kasza, wodamąka, kasza, woda mąka, kasza, woda mąka, kasza, wodamąka, kasza, woda mąka, kasza, woda mąka, kasza, woda"
         },
         {
           "name": "zapiekanka z kapustą",
-          "need": "kapusta, masło, zapiekanka",
+          "need": "kapusta, masło, zapiekanka, kasza",
           "shortDesc": "blkjs kakndsd n kandsm  amsnd  amsdn amd  mdsamnm",
           "ingredients": "kapusta, masło, kasza",
           "longDesc": "lsdnf akmsdlkmw po  laks ajsnd aksdnkwpokfd lsdnf akmsdlkmw po  laks ajsnd aksdnkwpokfd lsdnf akmsdlkmw po  laks ajsnd aksdnkwpokfd lsdnf akmsdlkmw po  laks ajsnd aksdnkwpokfd "
