@@ -85,7 +85,7 @@ function Account({info, updateFav, updateMyRec, setEditedRecipe, recipes}) {
             <div className='container my-account'>
                 <div className='account-fav'>
                     <span className='title'>Ulubione przepisy</span>
-                    { favRecipes.length !== 0 ? favRecipes.map(elem => FavRecipes(elem))
+                    {recipes && favRecipes.length !== 0 ? favRecipes.map(elem => FavRecipes(elem))
                         :
                         <span className='problems'>
                     Nie masz jeszcze żadnych ulubionych przepisów. Aby dodać przepis do ulubionych
