@@ -16,7 +16,7 @@ function Header() {
    function OutLog() {
        localStorage.clear();
        setLogged(false);
-       history.replace('/')
+       history.push('/')
    }
 
 
@@ -26,7 +26,7 @@ function Header() {
                 <h1 className='title container'> - - co by <span>tu</span> zjeść - -</h1>
             </NavLink>
                     <div className='log-or-register'>
-                        {logged && name ?
+                        { name ?
                             <><div ><NavLink to={`/account/${name}`}><span className='hello'>Cześć {name} !</span></NavLink></div>
                             <button onClick={OutLog} className='outLog'>Wyloguj się</button>
                             </>

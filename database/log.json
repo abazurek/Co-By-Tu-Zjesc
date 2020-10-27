@@ -19,18 +19,11 @@
           "longDesc": "najlepsza zapiekanka na świecie, bardzo prosty przepis, wystarczy wziąć i zrobić ( połączyć składniki, posiekać i pogotować) i już gotowe :)"
         },
         {
-          "name": "Zapiekanka9865",
+          "name": "Zapiekanka989865",
           "shortDesc": "pyszna zapiekanka mniami mniami gtrr hhh",
-          "need": "jaja, kasza, mąka, kokos, masełko",
+          "need": "jaja, kasza, mąka, kokos",
           "ingredients": "4 jaja, 2 worki kaszy, 8 paczek mąki, 4 paczki czegoś",
           "longDesc": "najlepsza zapiekanka na świecie, bardzo prosty przepis, wystarczy wziąć i zrobić ( połączyć składniki, posiekać i pogotować) i już gotowe :)"
-        },
-        {
-          "name": "przepis",
-          "need": "mąka, kasza, woda, kokos, mleko",
-          "shortDesc": "mąka, kasza, woda mąka, kasza, woda mąka, kasza, woda",
-          "ingredients": "mąka, kasza, woda",
-          "longDesc": "mąka, kasza, woda mąka, kasza, woda mąka, kasza, wodamąka, kasza, woda mąka, kasza, woda mąka, kasza, wodamąka, kasza, woda mąka, kasza, woda mąka, kasza, wodamąka, kasza, woda mąka, kasza, woda mąka, kasza, woda"
         },
         {
           "name": "zapiekanka z kapustą",
