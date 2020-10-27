@@ -101,6 +101,7 @@ function App() {
         })
             .then(resp=>resp.json())
             .catch(err=>console.log(err));
+        fetchLog();
 
     }
 
@@ -114,6 +115,8 @@ function App() {
         })
             .then(resp=>resp.json())
             .catch(err=>console.log(err));
+
+        fetchLog();
     }
 
 

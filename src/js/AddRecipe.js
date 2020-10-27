@@ -33,7 +33,7 @@ function AddRecipe({name, info, updateMyRec, editedRecipe}) {
 
     function submitForm(e) {
         e.preventDefault();
-        if (recipe.name.length < 3) {
+        if (!recipe.name ||recipe.name.length < 3) {
             setMessage((prev) => ({
                 ...prev,
                 name: "Nazwa dania nie moźe być krótsza niż 3 znaki",
@@ -96,7 +96,7 @@ function AddRecipe({name, info, updateMyRec, editedRecipe}) {
                     <span>Nazwa dania</span>
                     <input
                         type="text"
-                        value={recipe.name}
+                        value={recipe.name || ""}
                         placeholder="Wpisz nazwę dania"
                         onChange={({target}) =>
                             setRecipe((prev) => ({...prev, name: target.value}))
@@ -109,7 +109,7 @@ function AddRecipe({name, info, updateMyRec, editedRecipe}) {
                     <span>Potrzebne składniki </span>
                     <input
                         type="text"
-                        value={recipe.need}
+                        value={recipe.need || ""}
                         placeholder="Wpisz potrzebne składniki po porzecinkach np. jajka, mleko"
                         onChange={({target}) =>
                             setRecipe((prev) => ({...prev, need: target.value}))
@@ -121,7 +121,7 @@ function AddRecipe({name, info, updateMyRec, editedRecipe}) {
                     {" "}
                     <span>Krótki opis dania</span>
                     <textarea
-                        value={recipe.shortDesc}
+                        value={recipe.shortDesc || ""}
                         placeholder="Wpisz krótki opis dania"
                         onChange={({target}) =>
                             setRecipe((prev) => ({...prev, shortDesc: target.value}))
@@ -134,7 +134,7 @@ function AddRecipe({name, info, updateMyRec, editedRecipe}) {
                     <span>Składniki</span>
                     <input
                         type="text"
-                        value={recipe.ingredients}
+                        value={recipe.ingredients || ""}
                         placeholder="Wpisz dokładne ilości składników po porzecinkach np. 4 jajka, pół litra mleka"
                         onChange={({target}) =>
                             setRecipe((prev) => ({...prev, ingredients: target.value}))
@@ -146,7 +146,7 @@ function AddRecipe({name, info, updateMyRec, editedRecipe}) {
                     {" "}
                     <span> Dokładny opis opis dania</span>
                     <textarea
-                        value={recipe.longDesc}
+                        value={recipe.longDesc || ""}
                         placeholder="Wpisz dokładny opis dania"
                         onChange={({target}) =>
                             setRecipe((prev) => ({...prev, longDesc: target.value}))

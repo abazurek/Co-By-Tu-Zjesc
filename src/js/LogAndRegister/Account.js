@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState, useEffect} from "react";
 import {NavLink} from "react-router-dom";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faTrashAlt, faEdit} from '@fortawesome/free-solid-svg-icons'
@@ -6,18 +6,22 @@ import {faTrashAlt, faEdit} from '@fortawesome/free-solid-svg-icons'
 
 function Account({info, updateFav, updateMyRec, setEditedRecipe, recipes}) {
 
+    const[favRecipes, setFavRecipes]=useState('');
+    const [myRec, setMyRec]=useState('');
 
-    let fav = [];
-    let myRec = [];
-    if (info && recipes) {
-        fav = info.favourite;
-        myRec = info.myRecipes;
-    }
 
+
+    useEffect(function () {
+        if (info){
+            setFavRecipes(info.favourite);
+            setMyRec(info.myRecipes)
+        }
+
+    },[info]);
 
     const FavRecipes = (elem) => recipes.map(function (item) {
         if (item.name === elem) {
-            return (<div className='account-single-recipe-title' key={fav.indexOf(elem)}>
+            return (<div className='account-single-recipe-title' key={info.favourite.indexOf(elem)}>
                 <NavLink className='navLink ' to={`/recipe/${item.name}`}>
                     <li>{elem}</li>
                 </NavLink>
@@ -81,7 +85,7 @@ function Account({info, updateFav, updateMyRec, setEditedRecipe, recipes}) {
             <div className='container my-account'>
                 <div className='account-fav'>
                     <span className='title'>Ulubione przepisy</span>
-                    {fav.length !== 0 ? fav.map(elem => FavRecipes(elem))
+                    { favRecipes.length !== 0 ? favRecipes.map(elem => FavRecipes(elem))
                         :
                         <span className='problems'>
                     Nie masz jeszcze żadnych ulubionych przepisów. Aby dodać przepis do ulubionych
