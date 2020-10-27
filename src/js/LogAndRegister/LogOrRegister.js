@@ -5,7 +5,7 @@ function LogOrRegister() {
 
     return(
         <>
-            <NavLink className='log' to='/log' replace><span>Zaloguj się</span></NavLink>
+            <NavLink className='log' to='/log' exact replace><span>Zaloguj się</span></NavLink>
             <span className='text'>Nie masz jeszcze konta?</span>
             <NavLink className='register' to='/register'><span>Zarejestruj się</span></NavLink>
         </>
