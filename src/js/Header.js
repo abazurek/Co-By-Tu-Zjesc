@@ -1,17 +1,17 @@
-import React,{useState, useEffect} from "react";
+import React,{ useEffect} from "react";
 import {NavLink, useHistory} from "react-router-dom";
 
 import LogOrRegister from "./LogAndRegister/LogOrRegister";
 
 
-function Header() {
-    const [logged, setLogged]=useState(true);
+function Header({setLogged}) {
+
 
     let history = useHistory();
 
     const name=localStorage.getItem('name');
 
-    useEffect(function () {},[logged, name]);
+    useEffect(function () {},[name]);
 
    function OutLog() {
        localStorage.clear();

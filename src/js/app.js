@@ -122,11 +122,11 @@ function App() {
 
     return (
         <Router>
-            <Header/>
+            <Header setLogged={setLogged}/>
             <Nav recipes={recipes} categories={elements}/>
             <Switch>
                 <Route exact path="/">
-                    <MainSection  updateFav={udpateFavourities} info={info} recipes={recipes} categories={elements}/>
+                    <MainSection  updateFav={udpateFavourities} logged={logged} info={info} recipes={recipes} categories={elements}/>
                 </Route>
                 <Route path="/recipes/:category/:subcategory"
                        render={props => <ChooseRecipes updateFav={udpateFavourities} info={info} name={name} elem={props} recipes={recipes}/>}/>
@@ -134,7 +134,7 @@ function App() {
                 <Route path="/category/:category" render={props => <ChooseCategory  updateFav={udpateFavourities}  info={info} name={name} elem={props} recipes={recipes}/>}/>
                 <Route path="/search/:name" render={props => <SearchedRecipe  updateFav={udpateFavourities} info={info} elem={props} recipes={recipes}/>}/>
                 <Route path="/ingredients/:ingred" render={props => <SearchedIng  updateFav={udpateFavourities} info={info} elem={props} recipes={recipes}/>}/>
-                <Route path='/log'><Login logged={logged} setLogged={setLogged} logData={logData} recipes={recipes} categories={elements}/></Route>
+                <Route path='/log'><Login  setLogged={setLogged} logData={logData} /></Route>
                 <Route path='/register'><Register  register={register} setRegister={setRegister} addUser={addUser} logData={logData} recipes={recipes} categories={elements}/></Route>
                 <Route path={'/account/:user'}> <Account info={info} updateFav={udpateFavourities} updateMyRec={updateMyRecipes} setEditedRecipe={setEditedRecipe}  recipes={recipes} /></Route>
                 <Route path={'/add/recipe'}>

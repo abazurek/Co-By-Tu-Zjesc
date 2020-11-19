@@ -5,13 +5,13 @@ import SearchIngredients from "./SearchTitleAndRecipe/SerachIngredients";
 import RandomRecipe from "./RandomRecipe";
 import Recipes from "./Recipes";
 
-function MainSection({ updateFav, info,recipes,categories}) {
+function MainSection({ updateFav, logged, info,recipes,categories}) {
 
     const name=localStorage.getItem('name');
 
     return(
         <>
-            {name === null?
+            {!logged?
                 <span className='container information'> Zaloguj się aby dodawać przepisy do ulubionych i tworzyć własne !</span>
             : ""}
             <SearchTitle/>
