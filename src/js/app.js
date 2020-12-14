@@ -4,6 +4,9 @@ import {HashRouter as Router, Route, Switch} from "react-router-dom";
 
 import './../sass/style.scss';
 
+import {useMediaQuery} from "react-responsive";
+
+
 import Header from "./Header";
 import Nav from "./Nav";
 import MainSection from "./MainSection";
@@ -22,6 +25,24 @@ import MyRec from "./ChoosenElements/ChooseMyRec";
 
 
 function App() {
+
+    const isTablet = useMediaQuery({
+        query: '(min-device-width: 768px) and (max-device-width: 1023px)'
+    });
+    const isDesktopOrLaptop = useMediaQuery({
+        query: '(min-width:1024px) and (max-width:2000px)'
+    });
+    const isBigScreen = useMediaQuery({
+        query:'(min-device-width:2001px)'
+    });
+
+    const isExtraSmall = useMediaQuery({
+        query:'(max-width:520px)'
+    });
+
+    const isSmall = useMediaQuery({
+        query:'(min-device-width:521px) and (max-width:767px)'
+    });
 
     let name=localStorage.getItem("name");
     let info=null;
@@ -122,7 +143,7 @@ function App() {
 
     return (
         <Router>
-            <Header setLogged={setLogged}/>
+            <Header extraSmall={isExtraSmall} setLogged={setLogged}/>
             <Nav recipes={recipes} categories={elements}/>
             <Switch>
                 <Route exact path="/">

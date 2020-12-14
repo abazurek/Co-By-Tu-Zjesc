@@ -40,16 +40,28 @@ module.exports = {
         test: /\.scss$/,
         use: [
           'style-loader', // dopisz do strony css za pomocą <style/>
-          'css-loader', // odczytaj css
+          // 'css-loader', // odczytaj css
+          {
+            loader: 'css-loader',
+            options: {
+              sourceMap: true,
+            }
+          },
           {
             loader: "postcss-loader",
             options: {
               plugins: () => [
                 require("autoprefixer")() // w pliki .browserlistrc definiujemy przeglądarki
               ],
+              sourceMap: true
             },
           },
-          'sass-loader', // zamien scss -> css
+          {
+            loader: 'sass-loader',
+            options: {
+              sourceMap: true
+            }
+          }, // zamien scss -> css
         ]
       },
 
