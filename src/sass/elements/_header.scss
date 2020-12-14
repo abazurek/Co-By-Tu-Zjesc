@@ -1,14 +1,22 @@
-header{
-  display: flex;
-  a{
-    &:focus{
+header {
+  position: relative;
+
+  section {
+    display: flex;
+    align-items: center;
+  }
+
+  a {
+    &:focus {
       outline: none;
     }
   }
-  .title-link{
+
+  .title-link {
     flex: 6;
+
     .title {
-      font-size: 3em;
+      font-size: 4.5em;
       @include fontSizes(3em);
       margin: 0.5em;
       text-align: center;
@@ -24,36 +32,50 @@ header{
     }
   }
 
-  .log-or-register{
+  .fontIcon {
+    margin: 0 0.85em;
+    font-size: 1.2em;
+    color: $titleBarsColor;
+  }
+
+  .log-or-register {
     flex: 1;
     display: flex;
     flex-direction: column;
     padding: 1em;
-    font-size: 1.5em;
+    @include fontSizes(1.5em);
     line-height: 1.2em;
 
-    a, .hello{
+    a, .hello {
       text-decoration: none;
       color: black;
       font-weight: bolder;
 
-      &:hover{
-
+      &:hover {
         text-shadow: 2px 2px 5px $shadowColor;
       }
     }
   }
-  .hello{
+
+  .hello {
     font-size: 1.3em;
     line-height: 1.3em;
   }
 
-  .outLog{
+  .outLog {
     border: none;
     background: none;
     font-family: $font-base-landingPage;
-    &:hover{
+
+    &:hover {
       font-weight: bolder;
     }
+  }
+
+  .logBoxAdded {
+    position: absolute;
+    right: 0;
+    //bottom: 0;
+    background: $logBoxBackground;
   }
 }
