@@ -1,0 +1,11 @@
+@mixin fontSizes($base-font-size){
+  font-size: $base-font-size;
+  @media #{$mediaTablet} {
+    font-size: $base-font-size*1.2;
+  }
+  @media #{$mediaDesktop} {
+    font-size: $base-font-size*1.5;
+  }
+  @media #{$mediaBigScreen} {
+    font-size: $base-font-size*2;
+  }}

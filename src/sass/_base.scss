@@ -1,3 +1,4 @@
+
 html {
   max-width: 100vw;
   overflow-x: hidden;
@@ -15,10 +16,26 @@ body {
 }
 
 .container {
-  max-width: 1352px;
   width: 100%;
-  padding: 0 15px;
+  max-width: 300px;
+  padding: 0 10px;
   margin: 0 auto;
+  @media #{$mediaPhone} {
+    padding: 0 10px;
+    max-width: 450px;
+  }
+  @media #{$mediaTablet} {
+    padding: 0 20px;
+    max-width: 700px;
+  }
+  @media #{$mediaDesktop} {
+    max-width: 990px;
+    padding: 0 25px;
+  }
+  @media #{$mediaBigScreen} {
+    max-width: 1700px;
+    padding: 0 30px;
+  }
 }
 
 .navLink {
