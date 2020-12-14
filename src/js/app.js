@@ -36,8 +36,12 @@ function App() {
         query:'(min-device-width:2001px)'
     });
 
+    const isExtraSmall = useMediaQuery({
+        query:'(max-width:520px)'
+    });
+
     const isSmall = useMediaQuery({
-        query:'(max-width:767px)'
+        query:'(min-device-width:521px) and (max-width:767px)'
     });
 
     let name=localStorage.getItem("name");
@@ -139,7 +143,7 @@ function App() {
 
     return (
         <Router>
-            <Header small={isSmall} setLogged={setLogged}/>
+            <Header extraSmall={isExtraSmall} setLogged={setLogged}/>
             <Nav recipes={recipes} categories={elements}/>
             <Switch>
                 <Route exact path="/">

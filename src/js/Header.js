@@ -7,7 +7,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import LogOrRegister from "./LogAndRegister/LogOrRegister";
 
 
-function Header({small, setLogged}) {
+function Header({extraSmall, setLogged}) {
 
     const [visibleLogSection, setVisibleLogSection]=useState(false);
 
@@ -46,7 +46,7 @@ function Header({small, setLogged}) {
                     <h1 className='title container'> - - co by <span>tu</span> zjeść - -</h1>
                 </NavLink>
                 {
-                    small? <FontAwesomeIcon onClick={changeVisibleLogBox} icon={faAlignRight} className='fontIcon'/>
+                    extraSmall? <FontAwesomeIcon onClick={changeVisibleLogBox} icon={faAlignRight} className='fontIcon'/>
                         : showLogBox(name)
 
                 }
