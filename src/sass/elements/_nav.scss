@@ -4,10 +4,14 @@
 
   .nav {
     display: flex;
-    @media #{$mediaSmallPhone} {
-      flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    @media #{$mediaDesktop, $mediaBigScreen} {
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: flex-start;
     }
-    justify-content: space-evenly;
+
 
     .ulCategory {
       display: flex;
@@ -15,14 +19,9 @@
       align-items: center;
       padding: 0.5em 0;
       @include fontSizes(3.5em);
-      //font-size: 3.5em;
+
       font-weight: 500;
 
-      &:hover{
-        li{
-          display: block;
-        }
-      }
 
       a{
         color: black;
@@ -37,7 +36,6 @@
 
 
       li{
-        display: none;
         font-size: 0.5em;
         padding: 0.5em 0;
         &:focus{
