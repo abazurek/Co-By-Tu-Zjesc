@@ -144,7 +144,7 @@ function App() {
     return (
         <Router>
             <Header extraSmall={isExtraSmall} setLogged={setLogged}/>
-            <Nav recipes={recipes} categories={elements}/>
+            <Nav extraSmall={isExtraSmall} recipes={recipes} categories={elements}/>
             <Switch>
                 <Route exact path="/">
                     <MainSection  updateFav={udpateFavourities} logged={logged} info={info} recipes={recipes} categories={elements}/>

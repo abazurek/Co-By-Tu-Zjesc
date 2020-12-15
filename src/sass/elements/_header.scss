@@ -18,6 +18,9 @@ header {
     .title {
       font-size: 4.5em;
       @include fontSizes(3em);
+      @media #{$mediaBigScreen} {
+        font-size: 7em;
+      }
       margin: 0.5em;
       text-align: center;
       font-weight: bolder;

@@ -2,7 +2,7 @@ import React from "react";
 
 import Category from "./Category";
 
-function Nav({recipes, categories}) {
+function Nav({extraSmall, recipes, categories}) {
 
     return (
         <section>
