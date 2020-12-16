@@ -62,7 +62,6 @@
     align-items: center;
     @media #{ $mediaDesktop, $mediaBigScreen} {
       flex-direction: row;
-      align-items: flex-start;
     }
     width: 100%;
   }
@@ -70,8 +69,9 @@
   img {
     width: 70%;
     margin-bottom: 1.5em;
-    @media #{$mediaBigScreen} {
-      width: 600px;
+
+    @media #{$mediaDesktop} {
+      width: 500px;
     }
     @media #{$mediaBigScreen} {
       width: 900px;
@@ -116,20 +116,20 @@
     margin: 2em;
     line-height: 1.5em;
     color: $descriptionColor;
-
+    @include fontSizes(1em);
   }
 
   strong {
-    font-size: 2em;
+    @include fontSizes(2em);
     font-weight: bolder;
     line-height: 2em;
     color: $desctriptionStrongColor
   }
 
   .longDesc {
-    font-size: 1.2em;
+    @include fontSizes(1.2em);
     color: $descriptionColor;
-
+    padding-bottom: 2em;
     .prepareDesc {
       line-height: 1.5em;
     }
