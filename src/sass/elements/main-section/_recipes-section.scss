@@ -1,47 +1,54 @@
-.recipes-title{
-  font-size: 6em;
+.recipes-title {
+  @include fontSizes(6em);
   padding: 0.5em 0;
 }
 
-.category-name{
-  font-size: 3.5em;
+.category-name {
+  @include fontSizes(3.5em);
   text-align: center;
   margin: 0.5em auto 2em auto;
   font-weight: bolder;
   color: $categoryNameColor;
 }
 
-.recipes{
+.recipes {
   margin-bottom: 3em;
 }
-.recipe{
-  font-family: $font-second-recipes;
-  margin: 7em auto;
 
-  .recipe-name-block{
+.recipe {
+  font-family: $font-second-recipes;
+  margin: 4em auto;
+  @media #{$mediaDesktop, $mediaBigScreen} {
+    margin: 7em auto;
+  }
+
+  .recipe-name-block {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 1em;
-    .recipe-name{
+
+    .recipe-name {
       text-align: center;
-      font-size: 2.5em;
+      @include fontSizes(2.5em);
       font-weight: bolder;
       color: $recipeNameColor;
     }
-    .recipe-link{
-      &:hover{
+
+    .recipe-link {
+      &:hover {
         text-shadow: 2px 2px 5px $shadowColor;
       }
     }
-    .recipe-icon{
+
+    .recipe-icon {
       margin-left: 1em;
       color: $problemsColor;
     }
 
-    .addFavourite{
+    .addFavourite {
 
-      &:hover{
+      &:hover {
         font-size: 1.5em;
         cursor: pointer;
       }
@@ -49,75 +56,91 @@
   }
 
 
-  img{
-    width: 600px;
+  .recipe-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media #{ $mediaDesktop, $mediaBigScreen} {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+    width: 100%;
+  }
+
+  img {
+    width: 70%;
+    margin-bottom: 1.5em;
+    @media #{$mediaBigScreen} {
+      width: 600px;
+    }
+    @media #{$mediaBigScreen} {
+      width: 900px;
+    }
     height: auto;
     box-shadow: 10px 10px 25px $shadowColor;
   }
-  .recipe-section{
+
+  .recipe-text {
+    margin-left: 2em;
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 
+    .shortDesc {
+      @include fontSizes(1.35em);
+      color: $descriptionColor;
+      line-height: 1.2em;
     }
-    .recipe-text{
-      margin-left: 2em;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
 
-      .shortDesc{
-        font-size: 1.35em;
-        color: $descriptionColor;
-        line-height: 1.2em;
-      }
+    .shortDesc-Ingred {
+      color: $descriptionColor;
+      @include fontSizes(1.1em);
+      line-height: 1.2em;
 
-      .shortDesc-Ingred{
-        color: $descriptionColor;
-        font-size: 1.1em;
-        line-height: 1.2em;
-
-        strong{
-          color:$desctriptionStrongColor;
-          font-weight: bolder;
-        }
+      strong {
+        color: $desctriptionStrongColor;
+        font-weight: bolder;
       }
     }
+  }
 
 }
 
-.recipe-longVersion{
+.recipe-longVersion {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 3em;
 
-  ul{
+  ul {
     margin: 2em;
     line-height: 1.5em;
     color: $descriptionColor;
 
   }
-  strong{
+
+  strong {
     font-size: 2em;
     font-weight: bolder;
     line-height: 2em;
-    color:$desctriptionStrongColor
+    color: $desctriptionStrongColor
   }
 
-  .longDesc{
+  .longDesc {
     font-size: 1.2em;
     color: $descriptionColor;
 
-    .prepareDesc{
+    .prepareDesc {
       line-height: 1.5em;
     }
 
-    .longDescParagraph{
+    .longDescParagraph {
       margin: 0.5em auto;
     }
   }
 }
 
-.single-category{
+.single-category {
   margin-bottom: 0;
 }
 
