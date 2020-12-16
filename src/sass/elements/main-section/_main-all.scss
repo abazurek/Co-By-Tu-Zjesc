@@ -3,7 +3,7 @@
 @import "recipe-for-today";
 
 .information{
-  font-size: 2.5em;
+  @include fontSizes(2.5em);
   line-height: 1.2em;
   color: $problemsColor;
   padding: 1em;

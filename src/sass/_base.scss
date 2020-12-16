@@ -51,19 +51,28 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  width: 100%;
   label{
     display: flex;
     flex-direction: column;
     margin: 1em auto;
+    width: 100%;
+    align-items: center;
     span{
-      font-size: 2em;
+      @include fontSizes(2em);
     }
 
   }
 
   input, textarea {
-    width: 30em;
+    width: 95%;
+    @media #{$mediaTablet, $mediaDesktop} {
+      width: 30em;
+    }
+    @media #{$mediaBigScreen} {
+      width: 40em;
+    }
+    @include fontSizes(1em);
     border-radius: 0.25em;
     margin: 1em auto;
     text-align: center;
@@ -82,7 +91,7 @@ form {
     border: none;
     background: none;
     font-family: $font-placeholders;
-    font-size: 1.5em;
+    @include fontSizes(1.5em);
 
     &:hover {
       font-weight: bolder;
