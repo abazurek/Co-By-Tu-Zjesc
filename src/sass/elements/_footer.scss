@@ -11,14 +11,15 @@
 
     .contact{
       padding: 1.5em;
+      @include fontSizes(1em);
       a{
         &:focus{
           outline: none;
         }
         img{
-          margin-right: 1em;
-          max-width: 24px;
+          width: 1.5em;
           height: auto;
+          margin-right: 0.5em;
         }
       }
       p{
