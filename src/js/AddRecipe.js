@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { useHistory} from "react-router-dom";
+import {NavLink, useHistory} from "react-router-dom";
 
 const newRecipe = {
     name: "",
@@ -10,7 +10,10 @@ const newRecipe = {
 };
 
 
-function AddRecipe({name, info, updateMyRec, editedRecipe}) {
+function AddRecipe({name, info, updateMyRec, editedRecipe, elem}) {
+
+    const urlName={...elem}.match.params.name;
+
     let history = useHistory();
 
     const [recipe, setRecipe] = useState({...editedRecipe});
@@ -86,6 +89,10 @@ function AddRecipe({name, info, updateMyRec, editedRecipe}) {
         history.push(`/account/${name}`);
     }
 
+    function backFunction(){
+        history.push("/")
+    }
+
 
     return (
         <div className="container my-recipe">
@@ -154,14 +161,20 @@ function AddRecipe({name, info, updateMyRec, editedRecipe}) {
                     />
                     <span className="problems">{message.longDesc}</span>
                 </label>
-                {editedRecipe ?
+                <div className='buttons-box'>
+                    {editedRecipe ?
 
-                    <button type='submit'>Edytuj przepis</button>
-                    :
-                    <button type="submit">Dodaj przepis</button>
-                }
+                        <button type='submit'>Edytuj przepis</button>
+                        :
+                        <button type="submit">Dodaj przepis</button>
+                    }
+                    <NavLink to={`/account/${urlName}`}><button onClick={backFunction} className='button'>Powrót</button></NavLink>
+                </div>
+
 
             </form>
+
+
         </div>
     );
 }

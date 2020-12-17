@@ -1,7 +1,7 @@
 import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faHeart} from "@fortawesome/free-solid-svg-icons";
-import {NavLink, useHistory} from "react-router-dom";
+import { useHistory} from "react-router-dom";
 
 function ChooseRecipe({update,info,name,elem, recipes}) {
 

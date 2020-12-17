@@ -30,4 +30,11 @@
   .problems{
     font-size: 18px;
   }
+  .buttons-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+//  buttons styling included in base.scss
 }
