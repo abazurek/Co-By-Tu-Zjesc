@@ -96,7 +96,7 @@ function Account({info, updateFav, updateMyRec, setEditedRecipe, recipes}) {
                     <div className='title-box'>
                         <span className='title'>Moje przepisy</span>
                         <NavLink className='navLink' to="/add/recipe">
-                            <button>Dodaj przepis</button>
+                            <button className='button'>Dodaj przepis</button>
                         </NavLink>
                     </div>
                     {myRec.length !== 0 ? myRec.map(recipe => showMyRecipes(recipe))

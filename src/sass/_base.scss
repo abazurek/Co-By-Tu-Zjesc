@@ -104,3 +104,22 @@ form {
   font-family: $font-problems;
   color: $problemsColor;
 }
+
+.button{
+  font-family: $font-second-recipes;
+  @include fontSizes(1.2em);
+  padding: 0.6em 1em;
+  background: none;
+  color:$footerAccent;
+  border: 2px solid $descriptionColor;
+  box-shadow: 1px 1px 5px 2px $shadowColor;
+  margin-top: 1em;
+  @media #{$mediaTablet,$mediaDesktop, $mediaBigScreen} {
+    margin-left: 2em;
+    margin-top: 0;
+  }
+  &:focus{
+    box-shadow: inset 1px 1px 5px 1px $shadowColor;
+  }
+  align-items: flex-end;
+}

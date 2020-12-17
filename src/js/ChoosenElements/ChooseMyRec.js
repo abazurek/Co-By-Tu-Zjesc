@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from "react-router-dom";
 
 function MyRec({info,elem}) {
 
@@ -32,6 +33,10 @@ function MyRec({info,elem}) {
                         </div>
                     </article>
                 </div>
+                <div className='button-box'>
+                    <NavLink to={`/account/${urlName}`}><button className='button'>Powrót</button></NavLink>
+                </div>
+
             </div>
         ))
 
