@@ -10,7 +10,7 @@
 }
 
   span {
-    font-size: 4em;
+    @include fontSizes(4em);
     line-height: 1.5em;
   }
 
@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 6em;
-    width: 70%;
+    width: 90%;
     .navLink {
       &:hover {
         text-shadow: 2px 2px 5px $shadowColor;
@@ -27,7 +27,7 @@
 
     li {
       font-family: $font-second-recipes;
-      font-size: 1.7em;
+      @include fontSizes(1.7em);
       line-height: 1.5em;
       text-decoration: none;
       list-style: none;
@@ -37,33 +37,24 @@
 
   }
   .problems{
-    font-size: 1.2em;
+    @include fontSizes(1.2em);
   }
 
   .account-single-recipe-title{
     display: flex;
     align-items: center;
-
+    justify-content: space-between;
   }
   .account-myRec{
     display: flex;
     flex-direction: column;
     .title-box{
       display: flex;
+      flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
-      button{
-        font-family: $font-second-recipes;
-        font-size: 1.2em;
-        padding: 0.6em 1em;
-        background: none;
-        color:$footerAccent;
-        border: 2px solid $descriptionColor;
-        box-shadow: 1px 1px 5px 2px $shadowColor;
-        margin-left: 2em;
-        &:focus{
-          box-shadow: inset 1px 1px 5px 1px $shadowColor;
-        }
+      @media #{$mediaTablet,$mediaDesktop, $mediaBigScreen} {
+        flex-direction: row;
       }
     }
     .recipe{
@@ -71,16 +62,16 @@
     }
   }
 
-
+  //button styling is included in base.scss
 
   .trash-icon, .edit-icon{
-    margin-left: 1em;
-    font-size: 1.25em;
+    margin-left: 0.7em;
+    @include fontSizes(1.25em);
     color: $problemsColor;
 
     &:hover{
       cursor: pointer;
-      font-size: 1.35em;
+      @include fontSizes(1.35em);
     }
   }
   .edit-icon{
